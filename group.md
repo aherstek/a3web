@@ -33,3 +33,36 @@ Time-bound
   - CSS up in the next day (by Nov 11)
   - Home pages up in next week or so (By week 12: Nov 19--25)
   - Java scrip in week 13 (Nov 26-Dec 2)
+
+#########################################################################################
+
+## Laura Jaimes
+#Specific – target a specific area for improvement.
+   Task1 - Github Repository Create and add the team
+   Task2 - Github Add requested folders: Image, CSS and JS
+   Task3 - Website Services.html
+   Task4 - Website LauraProjects.html      
+#Measurable – quantify or at least suggest an indicator of progress.
+  Progress:
+    Task1 - 100%
+    Task2 - 100%
+    Task3 - 10%
+    Task4 - 10%
+#Assignable – specify who will do it.
+    Task1 - Laura Jaimes
+    Task2 - Laura Jaimes
+    Task3 - Laura Jaimes
+    Task4 - Laura Jaimes
+#Realistic – state which results can realistically be achieved, given available resources.
+    Task1 - Week 10
+    Task2 - Week 10
+    Task3 - Week 11
+    Task4 - Week 12
+#Time-related – specify when the result(s) can be achieved.
+    Task1 - Week 10
+    Task2 - Week 10
+    Task3 - Week 11
+    Task4 - Week 12
+    
+#########################################################################################
+
