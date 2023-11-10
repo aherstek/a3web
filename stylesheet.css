@@ -1,0 +1,208 @@
+body {
+  font-family: "Avantgarde", sans-serif;
+}
+
+/*layout based on https://lilysnowdenfine.com/ */
+
+/*SIDEBAR OPTION BEGIN*/
+/*sidebar based on w3schools https://www.w3schools.com/w3css/w3css_sidebar.asp*/
+.page {
+  background: #FAF1E4;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px; /*LOGO must be smaller than this, currently: 180x180px*/
+  position: fixed; 
+  top: 0; /*no margins in sidebar*/
+  left: 0;
+  background-color: #CEDEBD;
+  border-right: 5px double #3A4D39;
+  overflow: hidden; /*no horizontal scroll bar*/
+  padding-top: 0px; /*image has fair amount of padding*/
+  border: 
+}
+
+/* style of link texts*/
+.sidebar a {
+  padding: 10px;
+  text-decoration: none; /*no underline*/
+  text-align: center;
+  font-size: 25px;
+  color: #435334;
+  display: block; /*each on their own line*/
+}
+
+.sidebar a:hover {
+  color: #9EB384; /*different color when hovering*/
+}
+
+/*for sidebar img*/
+/*image is 18x0x180*/
+img.logo {
+  display: block;
+  border: none;
+}
+
+/*SIDEBAR OPTION END*/
+
+
+/*body of resume & portf. here*/
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  font-size: 16px; 
+  color: black;
+  padding: 0px 10px;
+  text-align: justify;
+}
+.project { 
+  margin-left: 200px; /* Same as the width of the sidebar */
+ }
+
+
+/*heading paragraphy formats*/
+/*all*/
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/*specific formatting*/
+h1.title {
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  }	 
+h2  {
+  font-size: 18px;
+  color: black;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+/* p.abstract {
+  font-size: 16px;
+  color: black;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+p.quote {
+  font-style: italic;
+  color: #40115e;
+}
+*/
+
+
+/* to get better visual layout for images with descriptions*/
+.desc > p { 
+  padding: 0px 10px 40px 10px;
+}
+  
+/*give images gallery-like framing*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  border: 10px solid black;
+  padding: 5px;
+}
+
+
+
+
+
+/*RESPONSIVE LAYOUT OPTION BEGIN*/
+/*TALI*/
+
+/*max width breakpoint bc started with desktop*/
+/* w3 schools*/
+
+/*NEED TO ADD ALL PAGES TO THIS*/ 
+/*Currently only showing home page responsive design*/
+
+
+/*smaller screens, like tablet*/
+/* 698px largest image width + 2*5px padding*2*10px border + 200px sidebar*/
+@media screen and (max-width: 928px) {
+  .sidebar {
+	  padding-top: 15px; 
+	  width: 100px; 
+	}
+  .sidebar a {
+	  padding: 2px;
+	  font-size: 16px; 
+	  width: 100%; 
+	  height: auto;
+	}
+  .main{
+	  margin-left: 100px; /*same width as sidebar*/
+    }
+  .logo {
+	  width:90px;
+	  height:90px;
+    }
+  img {
+	  max-width:90%; /*so img border isn't cut off in adjustments*/
+    }
+}
+
+/*tablets & large phone screens*/
+@media screen and (max-width: 720px) {
+  .sidebar {
+	  padding-top:0px;
+	  width: 100%; /*change from sidebar to top nav bar*/
+	  height: 90px;
+	  position: fixed; /*always displayed at top*/
+	  display: inline;
+	  overflow: hidden;
+	}
+  .sidebar a {
+	  display: inline;
+	  float: left;
+	  text-align: center;
+	  padding: 30px 15px 0px 15px; /*top r bottom l*/
+	  font-size: 20px;
+	  width: auto; /*100%/6*/
+	}
+  .logo { /*allow links to be inline with image*/
+	  display: inline;
+	  float: left;
+    }
+  .main {
+	  margin-left: 0px;
+	  padding-top: 90px; /*height of sidebar at top*/
+    }
+}
+/*small screens*/
+@media screen and (max-width: 630px) {
+  .sidebar a {
+	  padding: 15px 15px 0px 15px; /*top r bottom l*/
+    font-size: 16px;
+	}
+}
+/*RESPONSIVE LAYOUT OPTION END*/
+
+
+/*for fun*/
+/*I will delete if not used*/
+.hide {
+	display: none;
+}
+.imgDiv:hover + .hide { 
+	display: block;
+	font-style: italic;
+	font-size: 16px;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+} 
