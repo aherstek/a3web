@@ -1,192 +1,100 @@
-body {
-  font-family: "Avantgarde", sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+<title> Telemetry Project - Tracking Predator-Prey Relationships in the Yukon Territory </title>
+</head>
+<body>
 
-/*layout based on https://lilysnowdenfine.com/ */
+<div class="sidebar">
+  <img class="logo" src='sizecat.png' title="catamaralina">
+  <a href="#Home">Background</a>
+  <a href="#Education">Education</a>
+  <a href="#Work">Work</a>
+  <a href="#Skills">Skills</a>
+  <a href="portfolio.html" target="_blank"><i>Portfolio</i></a>
 
-/*SIDEBAR OPTION BEGIN*/
-/*sidebar based on w3schools https://www.w3schools.com/w3css/w3css_sidebar.asp*/
-.sidebar {
-  height: 100%; /*full screen sidebar*/
-  width: 200px;
-  position: fixed;
-  top: 0; /*no margins on side of page*/
-  left: 0;
-  background-color: #fdf0f1;
-  border: 5px dotted #e9a2a7;	
-  overflow-x: hidden; /*no horizontal scroll bar, but vertical if necessary*/
-  padding-top: 15px;
-}
+</div>
 
-/* style of link texts*/
-.sidebar a {
-  padding: 15px;
-  text-decoration: none; /*no underline*/
-  text-align: center;
-  font-size: 25px;
-  color: black;
-  display: block; /*each on their own line*/
-}
+<div class="resume">
+<section id ="Home">
+<h1>Spotlight Project: Wildlife Tracking using Telemetry</h1>
+  <p>Understanding Predator-Prey Relationships at Kluane Lake Research Station, Yukon Territory</p>
+  <p>Currently living in a quiet neigborhood aka. by a cemetary, she attends online classes with varying success. Wish her luck. Regularly she goes for hikes, annually dissappearing somewhere in the Appalachions for a bit more adventure. When she has time to kill, she works on trying & perfecting recipes or learning ASL and Japanese. You can usually find her reading a depressing book otherwise known as world history.</p>
+  <p class="quote">"'Andie and XXX Colsulting's extensive knowledge and expertise in radio telemetry, wireless GPS loggers, digital circuitry and Iridium satellite tracking - they have become an integral/ monumental aspect of our research' - Dr. XXX"</p>
+</section>
 
-.sidebar a:hover {
-  color: #014421; /*different color when hovering*/
-}
+<section id="Education">
+  <div class="imgDiv">
+    <h1>Our Telemetry Services</h1>
+  </div>
+  <div class="hide">
+    <p class="quote"><b>XXX Consulting has over 20 years of domestic and internatinal telemetry and GPS tracking experience.</p>
+  </div>
 
-/*for sidebar img*/
-/*logo template from canva @createdbymisia */
-img.logo {
-  display: block;
-  border: none;
-}
+  <ul>
+	<li>XXX Colsulting's portfolio includes satellite remote sensing, wildlife detection and monitoring:
+	  <ul>
+	    <li>Providing support for agriculture, engineering and forestry sectors </li>
+	    <li>Providing data for many applications including precision mappping, land use classification and wildlife conservation </li>
+	    <li>xxx</li>
+	    <li>xxx</li>
+	    <li>xxx</li>
+	  </ul> 
+	</li>	
+	<li>XXX Consulting's staff is experienced in:
+	  <ul>
+	    <li>PCI Geomatica (Catalyst), ESRI programs and many other supportive 2D and 3D softwares</li>
+	    <li>Working with large datasets by utilizing AI and machine learning for many projects</li>
+	  </ul>
+	</li>
+  </ul>	
+</section>
 
-/*SIDEBAR OPTION END*/
+<section id = "Work">
+  <div class="imgDiv">
+    <h1>Work</h1>
+  </div>
+  <div class="hide">
+    <p class="quote">Work smarter, not harder.</p>
+  </div>
+  
+  <ul>
+    <li>Chocolatier, Shippper & Reciever, G.Y. (Apr 2021-Aug 2023)
+	<ul>
+	  <li>Chocolatier:  Following recipe.  Paying attention to detail and surroundings.  Time management.  Working with a team to get all steps in chocolate process finished in efficient manner. </li>
+	  <li>Shipper & Reciever:  Paying attention to order & customer details.  Carefully packaging.  Keeping organized.  Working with Sales & Customer Service on special order requests/shipments</li>
+	  <li>Working in dynamic team setting.  Taking on additional tasks and projects as time permitted.</li>
+	  <li>Recipe development:  Experimented with favors.  Worked on balancing and refining recipe.  Produced and packaged final product for sale.</li>
+	</ul>
+    </li>
+    <li>Lead hand, R.N. Landscaping (May 2017- Aug 2021)
+	<ul>
+	  <li>Landscape maintenance:  General lawn maintenance (rider, pushmower, trimmer).  Mulching.  Leaf cleanup.  Pruning.  etc.</li>
+	  <li>Landscape construction:  Prepping for and laying patio stones.  Tree removal.  Deck building. etc.</li>
+	  <li>Dividing up tasks among team. Working independently and taking initiative after tasks are finished. Interacting with clients to ensure concerns & additional requests are addressed.</li>
+	</ul>
+    </li>
+  </ul>
+</section>
 
+<section id = "Skills">
+  <div class="imgDiv">
+    <h1>Skills</h1>
+  </div>
+  <div class="hide">
+    <p class="quote">"Jack-of-all-trades is a master of none, but oftentime better than a master of one."</p> 
+  </div>
+  <ul>
+    <li><i>Languages</i>:  MATLAB, Python, Fortran. Basic understanding of CSS, HTML.</li>
+    <li><i>Programs</i>:  Catalyst/PCI Geomatica, ArcGIS Pro</li>
+    <li><i>Other</i>:  Technical report writing. Baking & cooking (will bring food). Can lift 50+lbs. </li>
+    <li><i>Soft Skills</i>:  Working efficiently and properly.  Taking initiative.  Adapting to constantly changing work environments.</li>
+  </ul>
+</section>
 
-/*body of resume & portf. here*/
-.resume {
-  margin-left: 200px; /* Same as the width of the sidebar */
-  font-size: 16px; 
-  color: black;
-  padding: 0px 10px;
-  text-align: justify;
-}
-
- .portfolio {
-  margin-left: 200px; /*same as sidebar width*/
-  font-style: italic;
-  font-size: 14px;  
-  color: black;
-  padding: 0px 10px;
-  text-align: center;
- }
-
-/*heading paragraphy formats*/
-h1 {
-  font-size: 24px;
-  font-weight: normal;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-}
-
-/*specific formatting used only in portfolio*/
-.title {
-  font-size: 40px;
-  font-style: italic;
-  text-align: center;
-  color: #e9a2a7;
-  }	 
-h2  {
-  font-size: 18px;
-  color: black;
-  font-style: normal;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-p.abstract {
-  font-size: 16px;
-  color: black;
-  font-style: normal;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-}
-
-/* to get better visual layout for images with descriptions*/
-.desc > p { 
-  padding: 0px 10px 40px 10px;
-}
-
-/*give images gallery-like framing*/
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  border: 10px solid black;
-  padding: 5px;
-
-}
-
-p.quote {
-  font-style: italic;
-  color: #e9a2a7;
-}
-/*for fun*/
-.hide {
-	display: none;
-}
-.imgDiv:hover + .hide { 
-	display: block;
-	font-style: italic;
-	font-size: 16px;
-	color: black;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-} 
-
-
-/*RESPONSIVE LAYOUT OPTION BEGIN*/
-/*max width breakpoint bc started with desktop*/
-/* w3 schools*/
-/*smaller screens, like tablet*/
-/* 698px largest image width + 2*5px padding*2*10px border + 200px sidebar*/
-@media screen and (max-width: 928px) {
-  .sidebar {
-	  padding-top: 15px; 
-	  width: 100px; 
-	}
-  .sidebar a {
-	  padding: 2px;
-	  font-size: 16px; 
-	  width: 100%; 
-	  height: auto;
-	}
-  .resume, .portfolio {
-	  margin-left: 100px; /*same width as sidebar*/
-    }
-  .logo {
-	  width:90px;
-	  height:90px;
-    }
-  img {
-	  max-width:90%; /*so img border isn't cut off in adjustments*/
-    }
-}
-
-/*tablets & large phone screens*/
-@media screen and (max-width: 720px) {
-  .sidebar {
-	  padding-top:0px;
-	  width: 100%; /*change from sidebar to top nav bar*/
-	  height: 90px;
-	  position: fixed; /*always displayed at top*/
-	  display: inline;
-	  overflow: hidden;
-	}
-  .sidebar a {
-	  display: inline;
-	  float: left;
-	  text-align: center;
-	  padding: 30px 15px 0px 15px; /*top r bottom l*/
-	  font-size: 20px;
-	  width: auto; /*100%/6*/
-	}
-  .logo { /*allow links to be inline with image*/
-	  display: inline;
-	  float: left;
-    }
-  .resume, .portfolio {
-	  margin-left: 0px;
-	  padding-top: 90px; /*height of sidebar at top*/
-    }
-}
-/*small screens*/
-@media screen and (max-width: 630px) {
-  .sidebar a {
-	  padding: 15px 15px 0px 15px; /*top r bottom l*/
-	}
-}
-/*RESPONSIVE LAYOUT OPTION END*/
+</div> <!--  for div class="main" -->
+   
+</body>
+</html> 
