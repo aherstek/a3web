@@ -65,4 +65,26 @@ Time-bound
     Task4 - Week 12
     
 #########################################################################################
+# Andie Updated Nov 12 #
+#Specific
+- Altering and expanding Tali's personal website into a professional and detailed GIS consulting webpage
+- Incorporating skills learned through GEOM101 (ex. JavaScript)
+- My deliverables: 'People' and 'Project' pages
 
+#Measureable
+- Cohesiveness between pages, mimics a real consulting firm in regards to aesthetic, tone of writing, overall look/professionalism
+
+#Achievable
+- Building on top of Tali's framework by incorporating a new CSS style to overall webpages
+- Redesigning nav bar and adding responsive designs in both text and graphics
+
+#Relevant
+- Using HTML/CSS skills appropriately to easily guide user (or mock 'client') through our website with ease
+    - Easy to follow, view, read etc - being accessible for wide audience and appealing with no errors in code to disrupt viewers experience
+
+#TimeBound
+- End of Week 11 - CSS ideas have been thoroughly discussed and worked on
+- End of Week 12 - "People" page is running and worked on, as well as my "Project" page - provided feedback by group members
+- End of Week 13 - "Base" website is complete and error free, time to build on this with more complex / stylized items
+
+#########################################################################################
