@@ -1,0 +1,23 @@
+/* laura css neeeded in Services */
+body {
+    margin: 0;
+    font-family: Century Gothic;
+}
+
+.slideshow-container {
+    max-width: 2000px;
+    width: 100%; 
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+}
+
+
