@@ -236,6 +236,56 @@ img {
 /* ----------------------------------- */
 /* andie's section for "People" page starts */
 
+/* adding bulleted section */
+
+h2 { color: #057f5f;
+     width: 150px;
+     font-size: 18px;
+     padding-left: 20px;
+     padding-top: 12px;
+     font-weight:700;
+     font-family: 'Courier New', serif;
+}
+
+h2, { margin-top: 5px }
+
+.key:first-child { margin-left: 0 }
+.key { margin: 0 10px;
+       position: relative;
+}
+/* the before selector inserts something in front of the content of the next element, 
+https://www.w3schools.com/cssref/sel_before.php in this case, i wanted to use a symbol to divide the interests, instead of a dash like i had initially. i chose
+it's position to be absolute so it would stick beside the word accompanying it and not move around. for the size
+and position, i trialled and errored until i found something that looked okay.
+
+(oct 19 - i am finding on some browsers my symbol works and  others it doesn't, but do not have time to make changes and it shows up on my 2 computers well )*/
+.key::before { content: '◆';
+               position: absolute;
+               left: -15px;
+               color: #555;
+               font-size: 12pt;
+}
+/* this is to put a space before the first word in this section */
+.key:first-child::before { content: '' }
+/* used this section class to create a cohesive border and padding throughout, so i could then combine classes that will all match, even if their style changes. */
+.section { border-bottom: 1px solid #ddd;
+           padding: 10px 0 15px;
+}
+/* as described above, using last child to give no border to the last element in the class - i don't know if it worked as i intended though? */
+.section:last-child { border: none }
+/* this class is for my text sections of certain classes, determining the look of the text in regards to size, height, margin, etc */
+.section-text { width: 80%;
+                font-size: 18px;
+                line-height: 24px;
+                margin: 10px 0 10px;
+                padding: 0 10px;
+
+
+.row:after { clear: both }
+.col { float: left }
+.col-right { float: right }
+      
+
 
 
 
