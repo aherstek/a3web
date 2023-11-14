@@ -237,7 +237,7 @@ img {
 /* andie's section for "People" page starts */
 
 
-/* Center child elements */
+/* Center child elements 
 .website-counter {
   display: flex;
   justify-content: center;
@@ -245,7 +245,7 @@ img {
   flex-direction: column;
 }
 
-/* Styles for website counter container */
+styles for website counter container 
 .website-counter {
   background-color: #ff4957;
   height: 50px;
@@ -257,7 +257,7 @@ img {
   margin-top: 10px;
 }
 
-/* Styles for reset button */
+Styles for reset button 
 #reset {
   margin-top: 20px;
   background-color: #008cba;
@@ -268,7 +268,7 @@ img {
   border: 0;
 }
 
-
+*/
 
 
 /* andie's section for "People" page ends */
