@@ -3,18 +3,31 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="stylesheet.css">
+<script src="js/script.js"> </script>
 <title> Meet the ARTL team </title>
 </head>
 <body>
 
 <div class="sidebar">
-  <img class="logo" src='ARTL.png' title="ARTL">
-  <a href="index.html" target="_self">HOME</a>
-  <a href="service.html" target="_blank">Services</a>
-  <a href="#Skills">Projects</a> <!-- Going to make this a drop down browser. But can work on your project page for now.... -->
-  <a href="people.html" target="_blank">People</a>
-  <a href="contact.html" target="_blank">Contact</a>
-</div>
+	<img class="logo" src='ARTL.png' title="ARTL">
+	<a href="index.html" target="_self">HOME</a>
+	<a href="services.html" target="_blank">Services</a>
+	
+	<a>
+		<button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
+		Projects <!-- Going to make this a drop down browser. But can work on your project page for now.... -->
+		</button>
+	</a>
+	<div id="projects" class="container"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
+		<a href="andie.html" target="_blank">Andie</a>
+		<a href="laura.html" target="_blank">Laura</a>
+		<a href="ragab.html" target="_blank">Ragab</a>
+		<a href="tali.html" target="_self">Tali</a>
+	</div>
+	
+	<a href="people.html" target="_blank">People</a>
+	<a href="contact.html" target="_blank">Contact</a>
+	</div>
 
 </div>
 
