@@ -18,21 +18,23 @@ Specific
   - Tali Project: Create page, add content
 
 Measureable
-  - Website looks ok
+  - Website looks ok (professional & consistent design)
   - Website has home page
-  - Website has T Project Page
+  - Website has Home Page and personal Project Page
 
 Achievable
   - Set up webpage framework by CSS, including responsive design and add pages for website content.
+  - Continue building on responsive design. 
 
 Relevant: Why?
   - Make the pages cohesive for easy user experience
   - Make pages on desktop and mobile for a wider audience and nicer user experience
 
 Time-bound
-  - CSS up in the next day (by Nov 11)
+  - CSS up in the next day (by Nov 11). Completed. 
+  - Add website page template that includes common themes (Nov 14)
   - Home pages up in next week or so (By week 12: Nov 19--25)
-  - Java scrip in week 13 (Nov 26-Dec 2)
+  - Java script & website responsive design for week 13 (Nov 26-Dec 2)
 
 #########################################################################################
 
