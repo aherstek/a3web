@@ -32,7 +32,34 @@ body {
   display: block; /*each on their own line*/
 }
 
-.sidebar a:hover {
+/*Drop down container*/
+.container {
+  display: none;
+  background-color: #40513B;
+  padding-left: 10px;
+  position: absolute;
+  width: 100%;
+ /* z-index: 1; display ontop of other page elements*/
+}
+
+.container a {
+  text-decoration: none; /*no underline*/
+  text-align: center;
+  font-size: 25px;
+  color: #9EB384;
+  display: block; /*each on their own line*/
+}
+
+.dropdown_button {
+  background: none; /*makes the button in html the same as the other options*/
+  text-decoration: none; /*no underline*/
+  text-align: center;
+  font-size: 25px;
+  color: #435334;
+  border: none;
+}
+
+.sidebar a:hover, .dropdown_button:hover {
   color: #9EB384; /*different color when hovering*/
 }
 
