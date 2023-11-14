@@ -7,17 +7,30 @@
 </head>
 <body>
 
+<!--Add in sidebar-->
 <div class="sidebar">
-  <img class="logo" src='sizecat.png' title="catamaralina">
-  <a href="#Home">Background</a>
-  <a href="#Education">Education</a>
-  <a href="#Work">Work</a>
-  <a href="#Skills">Skills</a>
-  <a href="portfolio.html" target="_blank"><i>Portfolio</i></a>
-
+	<img class="logo" src='ARTL.png' title="ARTL">
+	<a href="index.html" target="_self">HOME</a>
+	<a href="services.html" target="_blank">Services</a>
+	
+	<a>
+		<button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
+		Projects 
+		</button>
+	</a>
+	<div id="projects" class="container"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
+		<a href="telemetryprojects.html" target="_blank">Telemetry</a>
+		<a href="geologyprojects.html" target="_blank">Geology</a>
+		<a href="ragab.html" target="_blank">Ragab</a>
+		<a href="esseprojects.html" target="_self">Earth&Space</a>
+	</div>
+	
+	<a href="people.html" target="_blank">People</a>
+	<a href="contact.html" target="_blank">Contact</a>
 </div>
+<!--END SIDEBAR-->	
 
-<div class="resume">
+<div class="project">
 <section id ="Home">
 <h1>Spotlight Project: Wildlife Tracking using Telemetry</h1>
   <p>Understanding Predator-Prey Relationships at Kluane Lake Research Station, Yukon Territory</p>
@@ -94,7 +107,7 @@
   </ul>	
 </section>
 
-</div> <!--  for div class="main" -->
+</div> <!--  for div class="project" -->
    
 </body>
 </html> 
