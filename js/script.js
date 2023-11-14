@@ -43,7 +43,7 @@ function show_container() {
     }
   }
 /* -----Andie-----------Nov14 */
-/* Trialling JS website visitor counter */
+/* Trialling JS and creating a website visitor counter... not quite done yet lol 
 
 var counterContainer = document.querySelector(".website-counter");
 var resetButton = document.querySelector("#reset");
@@ -66,5 +66,5 @@ resetButton.addEventListener("click", () => {
   counterContainer.innerHTML = visitCount;
 });
 
-/* Trialling JS website visitor counter */
-  /* -----Andie-----------Nov14 */
+Trialling JS website visitor counter 
+-----Andie-----------Nov14 */
