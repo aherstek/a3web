@@ -73,7 +73,7 @@ img.logo {
 /*SIDEBAR OPTION END*/
 
 
-/*body of resume & portf. here*/
+/*body of main pages and project page here*/
 .main {
   margin-left: 200px; /* Same as the width of the sidebar */
   font-size: 16px; 
@@ -142,8 +142,22 @@ img {
   padding: 5px;
 }
 
+/*LAURA WEBPAGE SPECIFIC*/
+/* NEEDED IN SERVICES */
+
+.slideshow-container {
+  max-width: 2000px;
+  width: 100%; 
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
 
 
+/*END LAURA PAGE SPECIFICS*/
 
 
 /*RESPONSIVE LAYOUT OPTION BEGIN*/
