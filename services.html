@@ -1,73 +1,88 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-  <link rel="stylesheet" href="stylesheet.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script defer src="js/script.js"></script>
-  <title> ARTL: GIS Consulting Services</title>
-</head>
-
-<body>
-
-<!--Add in sidebar-->
-<div class="sidebar">
-	<img class="logo" src='ARTL.png' title="ARTL">
-	<a href="index.html" target="_self">HOME</a>
-	<a href="services.html" target="_blank">Services</a>
-	
-	<a>
-		<button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
-		Projects 
-		</button>
-	</a>
-	<div id="projects" class="container"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
-		<a href="telemetryprojects.html" target="_blank">Telemetry</a>
-		<a href="geologyprojects.html" target="_blank">Geology</a>
-		<a href="ragab.html" target="_blank">Ragab</a>
-		<a href="esseprojects.html" target="_self">Earth&Space</a>
-	</div>
-	
-	<a href="people.html" target="_blank">People</a>
-	<a href="contact.html" target="_blank">Contact</a>
-</div>
-<!--END SIDEBAR-->	
 
 <!-- -----------------
 - Owner : Laura Jaimes
 - Date  : Nov 10 (v1)
 - From  : 
 ------------------- -->
-<div class="project">
 
-<div class="slideshow-container">
-        <div class="mySlides fade">
-            <img src="image/Lauimage1.jpg" alt="Image 1">
-		<!-- Photo taken from https://www.colombiaenmapas.gov.co/?fbclid=IwAR2HxbtlZ7xuOghn1ABC2G6PbTfVIFAwCqpmzWvWWZInLT1CI9iVbAJOYuo# -->
-        </div>
-        <div class="mySlides fade">
-            <img src="image/Lauimage2.jpg" alt="Image 2">
-		<!-- Photo taken from Google Earth Pro Canon del Chicamocha Colombia -->
-        </div>
-		<div class="mySlides fade">
-            <img src="image/Lauimage3.jpg" alt="Image 3">
-		<!-- Photo taken from https://www.colombiaenmapas.gov.co/?fbclid=IwAR2HxbtlZ7xuOghn1ABC2G6PbTfVIFAwCqpmzWvWWZInLT1CI9iVbAJOYuo# -->
-        </div>
-        <!-- One slide image per service -->
-    </div>
-<h1 Class= "Title1" >Services</h1>
-<!-- Section about services based in the project background each member of the team  -->
-   <h2>Geological Services</h2>
-   <p> Our GIS consulting company provides comprehensive geological services, specializing in geological engineering and geomorphological mapping. We leverage advanced technologies and skilled geologists to conduct detailed surveys for projects such as dam construction in Surata. Our expertise extends to assessing natural hazards in areas like Bolivar and Cienaga Zapatosa, contributing valuable insights to environmental management. Whether it's understanding the Earth's composition, studying geological features, or supporting construction projects, our geological services ensure informed decision-making.</p>
-   <h2>Geophysical Solutions</h2>
-   <p>Our geophysical services utilize cutting-edge technology to study the Earth's subsurface and physical properties. Through methods like seismic surveys, gravity measurements, and electromagnetic studies, our geophysicists provide crucial data for industries ranging from energy exploration to environmental monitoring. Our geophysical solutions contribute to resource exploration, seismic hazard assessment, and informed decision-making in diverse sectors. We employ advanced geophysical techniques to uncover valuable information about the Earth's interior, supporting a wide range of applications</p>
-   <h2>Telemetry and Wildlife Tracking</h2>
-   <p>As part of our geospatial offerings, we specialize in telemetry services, particularly in wildlife tracking. Using state-of-the-art technology, including GPS tracking, Iridium satellite tracking, and digital circuitry, we monitor and collect data remotely from inaccessible locations. Our telemetry services play a vital role in wildlife research, allowing for the study of animal movements, migration patterns, and ecological interactions. Whether it's for ecological research, conservation efforts, or environmental monitoring, our telemetry services provide real-time data transmission and analysis for informed decision-making.</p>
-<!--*** End Owner: Laura Jaimes *** -->
+<html lang="en-US">
+<head>
+	<!-- source of css file css/stylesheet.css -->
+	  <link rel="stylesheet" href="css/stylesheet.css">
+	<!-- UTF-8 character encoding -->
+	  <meta charset="UTF-8">
+	<!-- Responsive -->  
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- source of css javascript file js/script.js -->
+	  <script defer src="js/script.js"></script>
+	 
+	<title> ARTL: GIS Consulting Services</title>
+</head>
 
-</div>
+<body class="page">
+	<!--Start sidebar from Tali index.html -->
+	<div class="sidebar">
+		<img class="logo" src='ARTL.png' title="ARTL">
+		<a href="index.html" target="_self">HOME</a>
+		<a href="services.html" target="_blank">Services</a>
+		
+		<a>
+			<button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
+			Projects 
+			</button>
+		</a>
+		<div id="projects" class="container"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
+			<a href="telemetryprojects.html" target="_blank">Telemetry</a>
+			<a href="geologyprojects.html" target="_blank">Geology</a>
+			<a href="ragab.html" target="_blank">Ragab</a>
+			<a href="esseprojects.html" target="_self">Earth&Space</a>
+		</div>
+		
+		<a href="people.html" target="_blank">People</a>
+		<a href="contact.html" target="_blank">Contact</a>
+		</div>
+	<!-- end sidebar-->	
+
+	<!-- start dive main for content -->
+	<div class="main">
+	<!-- start slide image idea taken from https://www.pequenin.com.co/ -->
+		<div class="slideshow-container">
+		<!-- slide 1 -->
+				<div class="mySlides fade">
+					<img src="image/Lauimage1.jpg" alt="Image 1">
+				<!-- Image taken from https://www.colombiaenmapas.gov.co/?fbclid=IwAR2HxbtlZ7xuOghn1ABC2G6PbTfVIFAwCqpmzWvWWZInLT1CI9iVbAJOYuo# -->
+				<!-- Image edited using www.resizepixel.com/resize-image/-->
+				</div>
+		<!-- slide 2 -->
+				<div class="mySlides fade">
+					<img src="image/Lauimage2.jpg" alt="Image 2">
+				<!-- Photo taken from Google Earth Pro Canon del Chicamocha Colombia -->
+				<!-- Image edited using www.resizepixel.com/resize-image/-->       
+				</div>
+		<!-- slide 3 -->
+				<div class="mySlides fade">
+					<img src="image/Lauimage3.jpg" alt="Image 3">
+				<!-- Photo taken from https://www.colombiaenmapas.gov.co/?fbclid=IwAR2HxbtlZ7xuOghn1ABC2G6PbTfVIFAwCqpmzWvWWZInLT1CI9iVbAJOYuo# -->
+				<!-- Image edited using www.resizepixel.com/resize-image/-->
+				</div>
+				<!-- One slide image per service -->
+	<!-- end slide image idea taken from https://www.pequenin.com.co/ -->
+			
+		<h1>Services</h1>
+		<!-- Section about services based in the project background each member of the team  -->
+		   <h2>Geological Services</h2>
+		   <p> Our GIS consulting company provides comprehensive geological services, specializing in geological engineering and geomorphological mapping. We leverage advanced technologies and skilled geologists to conduct detailed surveys for projects such as dam construction in Surata. Our expertise extends to assessing natural hazards in areas like Bolivar and Cienaga Zapatosa, contributing valuable insights to environmental management. Whether it's understanding the Earth's composition, studying geological features, or supporting construction projects, our geological services ensure informed decision-making.</p>
+		   <h2>Geophysical Solutions</h2>
+		   <p>Our geophysical services utilize cutting-edge technology to study the Earth's subsurface and physical properties. Through methods like seismic surveys, gravity measurements, and electromagnetic studies, our geophysicists provide crucial data for industries ranging from energy exploration to environmental monitoring. Our geophysical solutions contribute to resource exploration, seismic hazard assessment, and informed decision-making in diverse sectors. We employ advanced geophysical techniques to uncover valuable information about the Earth's interior, supporting a wide range of applications</p>
+		   <h2>Telemetry and Wildlife Tracking</h2>
+		   <p>As part of our geospatial offerings, we specialize in telemetry services, particularly in wildlife tracking. Using state-of-the-art technology, including GPS tracking, Iridium satellite tracking, and digital circuitry, we monitor and collect data remotely from inaccessible locations. Our telemetry services play a vital role in wildlife research, allowing for the study of animal movements, migration patterns, and ecological interactions. Whether it's for ecological research, conservation efforts, or environmental monitoring, our telemetry services provide real-time data transmission and analysis for informed decision-making.</p>
+	</div> 
+	<!-- end dive main for content -->
+		
 </body>
 </html> 
+<!--*** End Owner: Laura Jaimes *** -->
 
 <!-- Photo taken from https://sigeom.mines.gouv.qc.ca/signet/images/PictoGeophysique.jpg -->
 <!-- Photo taken from https://sigeom.mines.gouv.qc.ca/signet/images/PictoDonneesVectoServiceWeb.jpg -->
