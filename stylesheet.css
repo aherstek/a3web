@@ -141,6 +141,27 @@ footer {
   color: #40513B
 }
 
+/* splitting screen in half */
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #FAF0E6;
+}
+
+.right {
+  right: 0;
+  background-color: #40513B;
+}
+
 /* Andie Nov 15 person page CSS */
 
 
