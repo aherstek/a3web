@@ -111,6 +111,15 @@ h2  {
   text-align: center;
 }
 
+/* adding footer Andie Nov 15 */
+
+footer {
+  margin: 20px;
+  padding: 20px;
+  background-color: #D3D3D3;
+}
+/* adding footer Andie Nov 15 */
+
 /* Andie Nov 15 person page CSS */
 .person { 
   font-size: 16px;
