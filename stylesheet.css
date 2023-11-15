@@ -119,10 +119,15 @@ h2  {
 }
 
 .quoteitalics {
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
-  font-family: "Avantgarde", sans-serif;
-  color: white
+  font-family: "Courier New", sans-serif;
+  color: #40513B
+}
+
+.external-link {
+  font-size: 16px;
+  color: #40513B
 }
 
 /* Andie Nov 15 person page CSS */
