@@ -164,22 +164,68 @@ img {
   padding: 5px;
 }
 
-/*LAURA WEBPAGE SPECIFIC*/
-/* NEEDED IN SERVICES */
-
+/******************** START SERVICES PAGE ********************/
+/******************** Edited by Laura ********************/
+/* Banner Start */
 .slideshow-container {
-  max-width: 2000px;
-  width: 100%; 
-  position: relative;
-  margin: auto;
+    max-width: 2000px;
+    width: 100%; 
+    position: relative;
+    margin: auto;
 }
 
 .mySlides {
-  display: none;
+    display: none;
 }
 
+img {
+    width: 100%; 
+    height: auto; 
+}
+/* Banner end */
+/******************** END SERVICES PAGE ********************/
 
-/*END LAURA PAGE SPECIFICS*/
+/******************** START GEOLOGY PAGE ********************/
+/******************** Edited by Laura ********************/
+/* Table Start PUBLICATION */
+table {
+  background-color: #40513B;
+  border-collapse: collapse;
+}
+th {
+  border: 1px #435334;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold
+}
+td {
+  border: 1px #435334;
+  padding: 8px;
+  text-align: justify;
+}
+tr:hover {
+  background-color:  #9EB384;
+}
+/* Table end PUBLICATION */
+/* Link start PUBLICATION */
+a {
+  color: #435334;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #435334;
+  background-color: #9EB384;
+  border: 2px solid #435334;
+}
+a.link {
+  font-size: 150%;
+}
+/* Link end PUBLICATION */
+
+/******************** END GEOLOGY PAGE ********************/
 
 
 /*RESPONSIVE LAYOUT OPTION BEGIN*/
