@@ -9,32 +9,37 @@
 
 
 ##Tali
-Updated: 2023, Nov 10
+Updated: 2023, Nov 16
 
 Specific
   - CSS, website framework: Change personal website settings for more professional look, add other page links
-  - Responsive design: java button --> last thing
+  - Responsive design: java button --> if there is time. 
   - Home page: create page, add content
   - Tali Project: Create page, add content
 
 Measureable
+  - All website pages are linked to sidebar
   - Website looks ok (professional & consistent design)
-  - Website has home page
   - Website has Home Page and personal Project Page
+  - Website has responsive design at different screen sizes.
 
 Achievable
   - Set up webpage framework by CSS, including responsive design and add pages for website content.
+  - Add content to personal pages. 
   - Continue building on responsive design. 
 
 Relevant: Why?
   - Make the pages cohesive for easy user experience
+  - Have information on pages that are relevant for the client to read
   - Make pages on desktop and mobile for a wider audience and nicer user experience
 
 Time-bound
   - CSS up in the next day (by Nov 11). Completed. 
+  - Connect website page links as people create them (ASAP)
   - Add website page template that includes common themes (Nov 14)
-  - Home pages up in next week or so (By week 12: Nov 19--25)
-  - Java script & website responsive design for week 13 (Nov 26-Dec 2)
+  - Home pages up by Nov 23 (aim for Nov 19) (By week 12: Nov 19--25)
+  - Get website responsive design for week 13 (Nov 26-Dec 2)
+  - Final review (consistent layout, no website errors, overall edit) - week 13
 
 #########################################################################################
 
