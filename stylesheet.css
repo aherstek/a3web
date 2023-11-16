@@ -126,11 +126,14 @@ footer {
 .person { 
   font-size: 16px;
   font-family: "Avantgarde", sans-serif;
+  margin-left: 210 px;
   color: #40513B
+
 }
 
 .background {
-  color: #FAF0E6;
+  color:black;
+  margin-left: 210 px;
 }
 
 .quoteitalics {
