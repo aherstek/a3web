@@ -144,7 +144,7 @@ footer {
 /* splitting screen in half */
 
 .split {
-  height: 100%;
+  height: auto;
   width: 50%;
   position: fixed;
   overflow-x: hidden;
@@ -152,7 +152,7 @@ footer {
 }
 
 .left {
-  margin-left: 200px;
+  margin-left: 210px;
   left: 0;
   background-color: #FAF0E6;
 }
