@@ -69,7 +69,7 @@ Time-bound
 
     
 #########################################################################################
-# Andie Updated Nov 12 #
+# Andie Updated Nov 16 #
 #Specific
 - Altering and expanding Tali's personal website into a professional and detailed GIS consulting webpage
 - Incorporating skills learned through GEOM101 (ex. JavaScript)
@@ -82,17 +82,19 @@ Time-bound
 - Building on top of Tali's framework by incorporating a new CSS style to overall webpages
 - Redesigning nav bar and adding responsive designs in both text and graphics
 - Adding cohesive footer across all pages
-- Adding visitor counter using JS to home page or contact page (Working on - as of Dec 15)
+- Adding visitor counter using JS to home page or contact page (Working on - as of Dec 16)
 - Adding JS graphics to images on People page
 - Adding JS graphic to Names and titles of staff (Done - Nov 13)
+- Creating split screen effect for People page - half text/half images (working on - as of Dec 16)
 
 #Relevant
 - Using HTML/CSS skills appropriately to easily guide user (or mock 'client') through our website with ease
     - Easy to follow, view, read etc - being accessible for wide audience and appealing with no errors in code to disrupt viewers experience
 
 #TimeBound
-- End of Week 11 - CSS ideas have been thoroughly discussed and worked on, start implementing JS sections, write text section for my Project page, gather info from other group members for People page - complete (Nov 15)
-- End of Week 12 - "People" page is running and worked on, as well as my "Project" page - provided feedback by group members, begin to work together on CSS especially to create unified look 
+- End of Week 11 - CSS ideas have been thoroughly discussed and worked on, start implementing small JS sections, write text section for my Project page, source images for Project page (personal images), gather educational info from other group members for People page -->  completed Nov 15)
+- End of Week 12 - "People" page is running and worked on thoroughly, as well as my "Project" page
+-   - provided feedback by group members, begin to work together on CSS especially to create unified look (colour palette, etc)
 - End of Week 13 - "Base" website is complete and error free, time to build on this with more complex / stylized items
 
 #########################################################################################
