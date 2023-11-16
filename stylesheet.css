@@ -150,35 +150,17 @@ footer {
 
 /* --------------------------splitting screen in half */
 
-.split {
-  height: auto;
-  width: 50%;
-  position: fixed;
-  padding-top: 20px;
-  overflow: auto;
+
+.columns4 {
+  float: left;
+  width: 25%;
 }
 
-.left {
-  margin-left: 210px;
-  left: 0;
-  background-color: #FAF0E6;
-}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 
-.right {
-  right: 0;
-  background-color: #40513B;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.centered img {
-  width: 150 px
 }
 
 /* ------------------------Andie end Nov 15 person page CSS */
