@@ -232,6 +232,8 @@ img {
 img.laura {
     width: 100%; 
     height: auto; 
+    border: none;
+    padding: none;
 }
 /* Banner end */
 /******************** END SERVICES PAGE ********************/
