@@ -91,7 +91,7 @@ Time-bound
 - Adding visitor counter using JS to home page or contact page (Working on - as of Dec 16)
 - Adding JS graphics to images on People page
 - Adding JS graphic to Names and titles of staff (Done - Nov 13)
-- Creating split screen effect for People page - half text/half images (working on - as of Dec 16)
+- Creating columns/split screen effect for People page - (50% done, working on - as of Dec 16)
 
 #Relevant
 - Using HTML/CSS skills appropriately to easily guide user (or mock 'client') through our website with ease
