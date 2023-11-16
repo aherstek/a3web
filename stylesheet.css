@@ -162,6 +162,18 @@ footer {
   background-color: #40513B;
 }
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150 px
+}
+
 /* Andie Nov 15 person page CSS */
 
 
