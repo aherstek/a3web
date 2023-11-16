@@ -148,6 +148,7 @@ footer {
   width: 50%;
   position: fixed;
   padding-top: 20px;
+  overflow: auto;
 }
 
 .left {
