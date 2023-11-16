@@ -111,7 +111,7 @@ h2  {
   text-align: center;
 }
 
-/* adding footer Andie Nov 15 */
+/* -----------------------adding footer Andie Nov 15 */
 
 footer {
   font-size: 10px;
@@ -120,13 +120,17 @@ footer {
   background-color: #CEDEBD;
 }
 
-/* adding footer Andie Nov 15 */
+/* -----------------------adding footer Andie Nov 15 */
 
-/* Andie Nov 15 person page CSS */
+/* ------------------------Andie Nov 15 person page CSS */
 .person { 
   font-size: 16px;
   font-family: "Avantgarde", sans-serif;
   color: #40513B
+}
+
+.background {
+  color: #FAF0E6;
 }
 
 .quoteitalics {
@@ -141,7 +145,7 @@ footer {
   color: #40513B
 }
 
-/* splitting screen in half */
+/* --------------------------splitting screen in half */
 
 .split {
   height: auto;
@@ -174,7 +178,7 @@ footer {
   width: 150 px
 }
 
-/* Andie Nov 15 person page CSS */
+/* ------------------------Andie end Nov 15 person page CSS */
 
 
 
@@ -360,7 +364,7 @@ a.link {
 } 
 
 /* ----------------------------------- */
-/* andie's section for "People" page starts */
+/* andie's section for trialling stuff starts */
 
 
 /* Center child elements 
@@ -397,6 +401,6 @@ Styles for reset button
 */
 
 
-/* andie's section for "People" page ends */
+/* andie's section for trialling ends */
 
 /* ----------------------------------- */
