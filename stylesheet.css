@@ -133,7 +133,9 @@ footer {
 
 .background {
   color:black;
-  margin-left: 20 px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 .quoteitalics {
@@ -154,6 +156,9 @@ footer {
 .columns4 {
   float: left;
   width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 .row:after {
