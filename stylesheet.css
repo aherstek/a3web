@@ -229,7 +229,7 @@ img {
     display: none;
 }
 
-img {
+img.laura {
     width: 100%; 
     height: auto; 
 }
