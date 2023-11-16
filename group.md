@@ -73,7 +73,8 @@ Time-bound
 #Specific
 - Altering and expanding Tali's personal website into a professional and detailed GIS consulting webpage
 - Incorporating skills learned through GEOM101 (ex. JavaScript)
-- My deliverables: 'People' and 'Project' pages, as well as adding small elements to pages throughout to create cohesion 
+- My deliverables: oversee 'People' and 'Project: Telemetry' pages, as well as adding small elements to pages throughout to create cohesion
+    - adding elements of JS, footer to all pages, visitor counter and images
 
 #Measureable
 - Cohesiveness between pages, mimics a real consulting firm in regards to aesthetic, tone of writing, overall look/professionalism
@@ -92,9 +93,11 @@ Time-bound
     - Easy to follow, view, read etc - being accessible for wide audience and appealing with no errors in code to disrupt viewers experience
 
 #TimeBound
-- End of Week 11 - CSS ideas have been thoroughly discussed and worked on, start implementing small JS sections, write text section for my Project page, source images for Project page (personal images), gather educational info from other group members for People page -->  completed Nov 15)
+- End of Week 11 - CSS ideas have been thoroughly discussed and worked on, start implementing small JS sections, write text section for my Project page, source images for Project page (personal images), gather educational info from other group members for People page -->  completed Nov 15
 - End of Week 12 - "People" page is running and worked on thoroughly, as well as my "Project" page
 -   - provided feedback by group members, begin to work together on CSS especially to create unified look (colour palette, etc)
-- End of Week 13 - "Base" website is complete and error free, time to build on this with more complex / stylized items
+- End of Week 13 - "Base" website is complete and error free, allowing time to build on this with more complex / stylized items if desired
+  - website looks as though one user made it, all pages follow same font, colour palette, size, interface layout, etc
+  - Week 14: Ready to hand in!
 
 #########################################################################################
