@@ -115,7 +115,7 @@ h2  {
 
 footer {
   font-size: 10px;
-  margin-left: 210px;
+  margin: 20px;
   padding: 20px;
   background-color: #CEDEBD;
 }
@@ -126,7 +126,7 @@ footer {
 .person { 
   font-size: 16px;
   font-family: "Avantgarde", sans-serif;
-  margin-left: 210 px;
+  margin-left: 20 px;
   color: #40513B
 
 }
