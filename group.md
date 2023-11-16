@@ -73,7 +73,7 @@ Time-bound
 #Specific
 - Altering and expanding Tali's personal website into a professional and detailed GIS consulting webpage
 - Incorporating skills learned through GEOM101 (ex. JavaScript)
-- My deliverables: 'People' and 'Project' pages
+- My deliverables: 'People' and 'Project' pages, as well as adding small elements to pages throughout to create cohesion 
 
 #Measureable
 - Cohesiveness between pages, mimics a real consulting firm in regards to aesthetic, tone of writing, overall look/professionalism
@@ -81,14 +81,18 @@ Time-bound
 #Achievable
 - Building on top of Tali's framework by incorporating a new CSS style to overall webpages
 - Redesigning nav bar and adding responsive designs in both text and graphics
+- Adding cohesive footer across all pages
+- Adding visitor counter using JS to home page or contact page (Working on - as of Dec 15)
+- Adding JS graphics to images on People page
+- Adding JS graphic to Names and titles of staff (Done - Nov 13)
 
 #Relevant
 - Using HTML/CSS skills appropriately to easily guide user (or mock 'client') through our website with ease
     - Easy to follow, view, read etc - being accessible for wide audience and appealing with no errors in code to disrupt viewers experience
 
 #TimeBound
-- End of Week 11 - CSS ideas have been thoroughly discussed and worked on
-- End of Week 12 - "People" page is running and worked on, as well as my "Project" page - provided feedback by group members
+- End of Week 11 - CSS ideas have been thoroughly discussed and worked on, start implementing JS sections, write text section for my Project page, gather info from other group members for People page - complete (Nov 15)
+- End of Week 12 - "People" page is running and worked on, as well as my "Project" page - provided feedback by group members, begin to work together on CSS especially to create unified look 
 - End of Week 13 - "Base" website is complete and error free, time to build on this with more complex / stylized items
 
 #########################################################################################
