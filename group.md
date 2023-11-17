@@ -113,11 +113,12 @@ Final Updated: 2023, Nov 16
 
 #Specific
 
-•	Creating a personal project page showcasing a GIS project and skills.
+•	Creating a personal project page showcasing a GIS project and skills. 
 
 •	Creating a contact page for client inquiries and team information.
 
-•	Cooperating with my teams to ensure design consistency and enhance the overall website appearance.
+•	Cooperating with my teams to ensure design consistency and enhance the website's appearance.
+
 
 #Measurable
 
@@ -125,31 +126,36 @@ Final Updated: 2023, Nov 16
 
 •	Personal project page efficiently highlights GIS knowledge and skills.
 
-•	The contact page makes it easy to know about contact information and team profiles.
+•	The contact page clearly illustrates contact information.
 
 #Achievable
 
 •	Using HTML and CSS to design both pages and ensuring they are aligning with the overall website design.
 
-•	Collaborate with team members to improve the design and content.
+•	Collaborate with team members to improve the entire design and content.
 
 #Relevant
 
-•	Personal project page demonstrates your unique skills and contributions to the field of GIS, enhancing your professional profile.
+•	The personal project page shows my unique skills and contributions to the field of GIS. 
 
-•	Group contact page serves as a central point for client engagement, essential for business development.
+•	Group contact page serves as a central point for client engagement.
 
-•	Working in tandem with the team ensures a cohesive and user-friendly website experience.
+•	Working with the team to ensure a cohesive and user-friendly website experience.
 
 #Time-bound
 
-•	Draft design for one page at least completed by (November 16, 2023).
+•	Draft design for one page by (November 16, 2023). Finished
 
-•	Collaborative review and incorporation of team feedback by (Date).
+•	Gathering feedback and suggestions from team members, either through meetings or code comments. (week 12 ).
 
-•	Finalize and launch both pages by (week 13).
+•	Continuing to enhance the design based on team feedback and design developments, ensuring everything remains consistent 
+ (weeks 12 and 13).
 
-•	I will keep improving things as we go, based on the team's feedback and any new design changes they make, I will adjust 
-  my work to keep everything consistent(November 16,2023)
+•	Finalize and launch my pages, while working with the team to keep the design consistent by (week 13).
+
+
+•	validate the entire website to ensure that is ready for submission (week 14).
+
+
 
 
