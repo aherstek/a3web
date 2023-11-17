@@ -1,6 +1,6 @@
 #group.md
 
-#SMART requirements for each group member
+#SMART requirements for each group member 
 : Specific
 /Measureable
 /Achievable
@@ -131,12 +131,14 @@ Final Updated: 2023, Nov 16
 #Relevant
 
 •	Personal project page demonstrates your unique skills and contributions to the field of GIS, enhancing your professional profile.
+
 •	Group contact page serves as a central point for client engagement, essential for business development.
+
 •	Working in tandem with the team ensures a cohesive and user-friendly website experience.
 
 #Time-bound
 
-•	Draft designs for both pages completed by (November 16, 2023).
+•	Draft design for one page at least completed by (November 16, 2023).
 •	Collaborative review and incorporation of team feedback by (Date).
 •	Finalize and launch both pages by (week 13).
 •	I will keep improving things as we go, based on the team's feedback and any new design changes they make, I will adjust 
