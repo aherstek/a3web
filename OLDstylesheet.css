@@ -77,6 +77,7 @@ body {
   font-size: 25px;
   color: #9EB384;
   display: block; /*each on their own line*/
+  z-index: 1;
 }
 
 .dropdown_button {
@@ -255,6 +256,7 @@ img {
     margin: none; /*changed from auto*/
     left:0px;
     right:0px;
+    z-index: 0;
 }
 
 .mySlides {
@@ -293,18 +295,19 @@ tr:hover {
   background-color:  #9EB384;
 }
 /* Table end PUBLICATION */
-/* Link start PUBLICATION */
-a {
+/* Link start PUBLICATION *
+/*CHANGE TO CLASSES OR ID FOR LAURA PAGE*/
+/* a {
   color: #435334;
   text-decoration: none;
-  font-weight: bold;
+ font-weight: bold;
   transition: color 0.3s;
-}
-a:hover {
+} */
+/* a:hover {
   color: #435334;
   background-color: #9EB384;
   border: 2px solid #435334;
-}
+} */
 a.link {
   font-size: 150%;
 }
