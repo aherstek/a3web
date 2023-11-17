@@ -157,8 +157,8 @@ footer {
 
 .row:after {
   content: "";
-  display: table;
-  clear: both;
+  display: table-row;
+  clear: none;
 
 }
 
