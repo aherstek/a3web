@@ -120,7 +120,6 @@ Final Updated: 2023, Nov 16
 •	Cooperating with my teams to ensure design consistency and enhance the website's appearance.
 
 
-
 #Measurable
 
 •	Our website displays a professional and consistent design.
@@ -147,11 +146,13 @@ Final Updated: 2023, Nov 16
 
 •	Draft design for one page by (November 16, 2023). Finished
 
-•	Gathering feedback and suggestions from team members, either through meetings or code comments. (week 12 & week13).
+•	Gathering feedback and suggestions from team members, either through meetings or code comments. (week 12 ).
+
+•	Continuing to enhance the design based on team feedback and design developments, ensuring everything remains consistent 
+ (weeks 12 and 13).
 
 •	Finalize and launch my pages, while working with the team to keep the design consistent by (week 13).
 
-•	continuing to improve, based on team feedback and design developments, to keep everything consistent(November 16, 2023)
 
 •	validate the entire website to ensure that is ready for submission (week 14).
 
