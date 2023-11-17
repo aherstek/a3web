@@ -119,7 +119,7 @@ Final Updated: 2023, Nov 16
 
 •	Cooperating with my teams to ensure design consistency and enhance the website's appearance.
 
-•	Cooperating with my teams to ensure design consistency and enhance the website's appearance.
+
 
 #Measurable
 
