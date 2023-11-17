@@ -15,7 +15,7 @@ function showSlides() {
     }
     
     slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 2000); // Change 2000 to the number of milliseconds you desire between each image change
+    setTimeout(showSlides, 3000); // Change 2000 to the number of milliseconds you desire between each image change
 }
 
 document.addEventListener("DOMContentLoaded", showSlides);
