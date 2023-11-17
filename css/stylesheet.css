@@ -1,1 +1,400 @@
+body {
+  font-family: "Avantgarde", sans-serif;
+}
 
+/*layout based on https://lilysnowdenfine.com/ */
+
+/*SIDEBAR OPTION BEGIN*/
+/*sidebar based on w3schools https://www.w3schools.com/w3css/w3css_sidebar.asp*/
+.page {
+  background: #EEF2E6;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px; /*LOGO must be smaller than this, currently: 180x180px*/
+  position: fixed; 
+  top: 0; /*no margins in sidebar*/
+  left: 0;
+  background-color: #CEDEBD;
+  border-right: 5px double #3A4D39;
+  overflow: hidden; /*no horizontal scroll bar*/
+  padding-top: 0px; /*image has fair amount of padding*/
+}
+
+/* style of link texts*/
+.sidebar a {
+  padding: 10px;
+  text-decoration: none; /*no underline*/
+  text-align: center;
+  font-size: 25px;
+  color: #435334;
+  display: block; /*each on their own line*/
+}
+
+/*Drop down container*/
+.container {
+  display: none;
+  background-color: #40513B;
+  padding-left: 10px;
+  position: absolute;
+  width: 100%;
+ /* z-index: 1; display ontop of other page elements*/
+}
+
+.container a {
+  text-decoration: none; /*no underline*/
+  text-align: center;
+  font-size: 25px;
+  color: #9EB384;
+  display: block; /*each on their own line*/
+}
+
+.dropdown_button {
+  background: none; /*makes the button in html the same as the other options*/
+  text-decoration: none; /*no underline*/
+  text-align: center;
+  font-size: 25px;
+  color: #435334;
+  border: none;
+}
+
+.sidebar a:hover, .dropdown_button:hover {
+  color: #9EB384; /*different color when hovering*/
+}
+
+/*for sidebar img*/
+/*image is 18x0x180*/
+img.logo {
+  display: block;
+  border: none;
+}
+
+/*SIDEBAR OPTION END*/
+
+
+/*body of main pages and project page here*/
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  font-size: 16px; 
+  color: black;
+  padding: 0px 10px;
+  text-align: justify;
+}
+.project { 
+  margin-left: 200px; /* Same as the width of the sidebar */
+ }
+
+
+/*heading paragraphy formats*/
+/*all*/
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/*specific formatting*/
+h1.title {
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  }	 
+h2  {
+  font-size: 18px;
+  color: black;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* -----------------------adding footer Andie Nov 15 */
+
+footer {
+  font-size: 10px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #CEDEBD;
+}
+
+/* -----------------------adding footer Andie Nov 15 */
+
+/* ------------------------Andie Nov 15 person page CSS */
+.person { 
+  font-size: 16px;
+  font-family: "Avantgarde", sans-serif;
+  margin-left: 20 px;
+  color: #40513B
+
+}
+
+
+.quoteitalics {
+  font-size: 14px;
+  font-style: italic;
+  font-family: "Courier New", sans-serif;
+  color: #40513B
+}
+
+.external-link {
+  font-size: 16px;
+  color: #40513B
+}
+
+/* --------------------------splitting screen in half */
+
+
+.columns1 {
+  float: left;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.columns2 {
+  float: left;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.row:after {
+  content: "";
+  display: table-row;
+  clear: none;
+
+}
+
+/* ------------------------Andie end Nov 15 person page CSS */
+
+
+
+/* p.abstract {
+  font-size: 16px;
+  color: black;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+p.quote {
+  font-style: italic;
+  color: #40115e;
+}
+*/
+
+
+/* to get better visual layout for images with descriptions*/
+.desc > p { 
+  padding: 0px 10px 40px 10px;
+}
+  
+/*give images gallery-like framing*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  border: 10px solid black;
+  padding: 5px;
+}
+
+/******************** START SERVICES PAGE ********************/
+/******************** Edited by Laura ********************/
+/* Banner Start */
+.slideshow-container {
+    max-width: 2000px;
+    width: 100%; 
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img.laura {
+    width: 100%; 
+    height: auto; 
+    border: none;
+    padding: none;
+}
+/* Banner end */
+/******************** END SERVICES PAGE ********************/
+
+/******************** START GEOLOGY PAGE ********************/
+/******************** Edited by Laura ********************/
+/* Table Start PUBLICATION */
+table {
+  background-color: #40513B;
+  border-collapse: collapse;
+}
+th {
+  border: 1px #435334;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold
+}
+td {
+  border: 1px #435334;
+  padding: 8px;
+  text-align: justify;
+}
+tr:hover {
+  background-color:  #9EB384;
+}
+/* Table end PUBLICATION */
+/* Link start PUBLICATION */
+a {
+  color: #435334;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #435334;
+  background-color: #9EB384;
+  border: 2px solid #435334;
+}
+a.link {
+  font-size: 150%;
+}
+/* Link end PUBLICATION */
+
+/******************** END GEOLOGY PAGE ********************/
+
+
+/*RESPONSIVE LAYOUT OPTION BEGIN*/
+/*TALI*/
+
+/*max width breakpoint bc started with desktop*/
+/* w3 schools*/
+
+/*NEED TO ADD ALL PAGES TO THIS*/ 
+/*Currently only showing home page responsive design*/
+
+
+/*smaller screens, like tablet*/
+/* 698px largest image width + 2*5px padding*2*10px border + 200px sidebar*/
+@media screen and (max-width: 928px) {
+  .sidebar {
+	  padding-top: 15px; 
+	  width: 100px; 
+	}
+  .sidebar a {
+	  padding: 2px;
+	  font-size: 16px; 
+	  width: 100%; 
+	  height: auto;
+	}
+  .main{
+	  margin-left: 100px; /*same width as sidebar*/
+    }
+  .logo {
+	  width:90px;
+	  height:90px;
+    }
+  img {
+	  max-width:90%; /*so img border isn't cut off in adjustments*/
+    }
+}
+
+/*tablets & large phone screens*/
+@media screen and (max-width: 720px) {
+  .sidebar {
+	  padding-top:0px;
+	  width: 100%; /*change from sidebar to top nav bar*/
+	  height: 90px;
+	  position: fixed; /*always displayed at top*/
+	  display: inline;
+	  overflow: hidden;
+	}
+  .sidebar a {
+	  display: inline;
+	  float: left;
+	  text-align: center;
+	  padding: 30px 15px 0px 15px; /*top r bottom l*/
+	  font-size: 20px;
+	  width: auto; /*100%/6*/
+	}
+  .logo { /*allow links to be inline with image*/
+	  display: inline;
+	  float: left;
+    }
+  .main {
+	  margin-left: 0px;
+	  padding-top: 90px; /*height of sidebar at top*/
+    }
+}
+/*small screens*/
+@media screen and (max-width: 630px) {
+  .sidebar a {
+	  padding: 15px 15px 0px 15px; /*top r bottom l*/
+    font-size: 16px;
+	}
+}
+/*RESPONSIVE LAYOUT OPTION END*/
+
+
+/*for fun*/
+/*I will delete if not used*/
+.hide {
+	display: none;
+}
+.imgDiv:hover + .hide { 
+	display: block;
+	font-style: italic;
+	font-size: 16px;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+} 
+
+/* ----------------------------------- */
+/* andie's section for trialling stuff starts */
+
+
+/* Center child elements 
+.website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+styles for website counter container 
+.website-counter {
+  background-color: #ff4957;
+  height: 50px;
+  width: 80px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+Styles for reset button 
+#reset {
+  margin-top: 20px;
+  background-color: #008cba;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 20px;
+  color: white;
+  border: 0;
+}
+
+*/
+
+
+/* andie's section for trialling ends */
+
+/* ----------------------------------- */
