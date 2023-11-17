@@ -14,10 +14,6 @@ body {
 /*W2 schools*/
 .header {
 /*  padding: 60px;*/
-  text-align: center;
-  background: #01311b;
-  color: white;
-  font-size: 30px;
   left: 0px;
   right: 0px;
 }
@@ -50,7 +46,7 @@ body {
 }
 
 /* style of link texts*/
-.sidebar a {
+.sidebar a, .topbar a {
   /*padding: 10px;   SIDEBAR*/
   padding: 20px 20px 0px 15px; /*TOPNAV*/
   float: left; /*TOPNAV*/
@@ -318,9 +314,9 @@ tr:hover {
   background-color: #9EB384;
   border: 2px solid #435334;
 } */
-a.link {
+/* a.link {
   font-size: 150%;
-}
+} */
 /* Link end PUBLICATION */
 
 /******************** END GEOLOGY PAGE ********************/
