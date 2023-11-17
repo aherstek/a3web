@@ -20,6 +20,7 @@ body {
   border-right: 5px double #3A4D39;
   overflow: hidden; /*no horizontal scroll bar*/
   padding-top: 0px; /*image has fair amount of padding*/
+  z-index: 1; /*give importance to sidenav over other elements
 }
 
 .topbar {
@@ -32,16 +33,20 @@ body {
   border-right: 5px double #3A4D39;
   overflow: hidden; /*no horizontal scroll bar*/
   padding-top: 0px; /*image has fair amount of padding*/
+  z-index: 1;
 }
 
 /* style of link texts*/
 .sidebar a {
-  padding: 10px;
+  /*padding: 10px;   SIDEBAR*/
+  padding: 14px, 16px; /*TOPNAV*/
+  float: left; /*TOPNAV*/
   text-decoration: none; /*no underline*/
   text-align: center;
   font-size: 25px;
   color: #435334;
   display: block; /*each on their own line*/
+  z-index: 1;
 }
 
 /*Drop down container*/
@@ -80,7 +85,8 @@ body {
 img.logo {
   display: inline;
   border: none;
-  max-height: 50%;
+  height: 90px; /*RESIZE IMAGE LATER*/
+  width: 90px;
 }
 
 /*SIDEBAR OPTION END*/
@@ -131,6 +137,12 @@ footer {
   margin: 20px;
   padding: 20px;
   background-color: #CEDEBD;
+  /*tali addition*/
+  position: fixed;
+  bottom: 0; /*opposite of the sidenav*/
+  left: 0; /*same as the sidenav*/
+  width: 100%; /*span full page?*/
+  text-align: center;
 }
 
 /* -----------------------adding footer Andie Nov 15 */
@@ -231,7 +243,7 @@ img {
     display: none;
 }
 
-img.laura {
+img.banner {
     width: 100%; 
     height: auto; 
     border: none;
