@@ -7,16 +7,10 @@ body {
 /*SIDEBAR OPTION BEGIN*/
 /*sidebar based on w3schools https://www.w3schools.com/w3css/w3css_sidebar.asp*/
 .page {
-  background: #EEF2E6;
+  /*background: #EEF2E6;*/
+  background: white;
 }
 
-/* Header/Logo Title */
-/*W2 schools*/
-.header {
-/*  padding: 60px;*/
-  left: 0px;
-  right: 0px;
-}
 
 
 .sidebar {
@@ -47,8 +41,8 @@ body {
 
 /* style of link texts*/
 .sidebar a, .topbar a {
-  /*padding: 10px;   SIDEBAR*/
-  padding: 20px 20px 0px 15px; /*TOPNAV*/
+  padding: 10px;  /* SIDEBAR*/
+ /* padding: 20px 20px 0px 15px; /*TOPNAV*/
   float: left; /*TOPNAV*/
   text-decoration: none; /*no underline*/
   text-align: center;
