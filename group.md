@@ -85,8 +85,8 @@ Time-bound
 - Cohesiveness between pages, mimics a real consulting firm in regards to aesthetic, tone of writing, overall look/professionalism
 
 #Achievable
-- Building on top of Tali's framework by incorporating a new CSS style to overall webpages
-- Redesigning nav bar and adding responsive designs in both text and graphics
+- Building on top of Tali's framework by incorporating a new CSS style to all webpages
+- Redesigning layout and adding responsive designs in both text and graphics
 - Adding cohesive footer across all pages
 - Adding visitor counter using JS to home page or contact page (Working on - as of Dec 16)
 - Adding JS graphics to images on People page
