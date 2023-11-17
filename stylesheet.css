@@ -22,6 +22,18 @@ body {
   padding-top: 0px; /*image has fair amount of padding*/
 }
 
+.topbar {
+  height: 100px;
+  width: 100%; /*LOGO must be smaller than this, currently: 180x180px*/
+  position: fixed; 
+  top: 0; /*no margins in sidebar*/
+  left: 0;
+  background-color: #CEDEBD;
+  border-right: 5px double #3A4D39;
+  overflow: hidden; /*no horizontal scroll bar*/
+  padding-top: 0px; /*image has fair amount of padding*/
+}
+
 /* style of link texts*/
 .sidebar a {
   padding: 10px;
