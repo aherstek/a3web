@@ -13,11 +13,13 @@ body {
 /* Header/Logo Title */
 /*W2 schools*/
 .header {
-  padding: 60px;
+/*  padding: 60px;*/
   text-align: center;
   background: #01311b;
   color: white;
   font-size: 30px;
+  left: 0px;
+  right: 0px;
 }
 
 
