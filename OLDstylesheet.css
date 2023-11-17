@@ -9,9 +9,6 @@ body {
 .page {
   /*background: #EEF2E6;*/
   background: white;
-  left:0px;
-  right:0px;
-  bottom:0px;
 }
 
 
@@ -29,24 +26,9 @@ body {
   z-index: 1; /*give importance to sidenav over other elements*/
 }
 
-.topbar {
-  height: 100px;
-  width: 100%; /*LOGO must be smaller than this, currently: 180x180px*/
-  position: fixed; 
-  top: 0; /*no margins in sidebar*/
-  left: 0;
-  background-color: #CEDEBD;
-  border-right: 5px double #3A4D39;
-  overflow: hidden; /*no horizontal scroll bar*/
-  padding-top: 0px; /*image has fair amount of padding*/
-  z-index: 1;
-}
-
 /* style of link texts*/
-.sidebar a, .topbar a {
-  padding: 20px;  /* SIDEBAR*/
- /* padding: 20px 20px 0px 15px; /*TOPNAV*/
-  float: left; /*TOPNAV*/
+.sidebar a{
+  padding: 20px;  
   text-decoration: none; /*no underline*/
   text-align: center;
   font-size: 25px;
@@ -61,8 +43,7 @@ body {
   background-color: #40513B;
   padding-left: 10px;
   position: absolute;
- /* width: relative;  sidenav*/
-  min-width: 100px;
+  width: 100%; 
  /* z-index: 1; display ontop of other page elements*/
 }
 
@@ -72,7 +53,6 @@ body {
   font-size: 25px;
   color: #9EB384;
   display: block; /*each on their own line*/
-  z-index: 1;
 }
 
 .dropdown_button {
@@ -91,10 +71,8 @@ body {
 /*for sidebar img*/
 /*image is 18x0x180*/
 img.logo {
-  display: inline;
+  display: block;
   border: none;
-  height: 90px; /*RESIZE IMAGE LATER*/
-  width: 90px;
 }
 
 /*SIDEBAR OPTION END*/
@@ -116,14 +94,6 @@ img.logo {
   text-align: justify;
  }
 
- .topnavpage {
-    font-size: 18px; 
-    color: black;
-    left:0px;
-    right:0px;
-    top:100px; /*same as topnav*/
-    text-align: justify;
- }
 
 /*heading paragraphy formats*/
 /*all*/
@@ -254,24 +224,21 @@ img {
 /******************** Edited by Laura ********************/
 /* Banner Start */
 .slideshow-container {
-    max-width: 2000px;
-    /*width: 100%; */
-    position: relative;
-    margin: none; /*changed from auto*/
-    left:0px;
-    right:0px;
-    z-index: 0;
+  max-width: 2000px;
+  width: 100%; 
+  position: relative;
+  margin: auto;
 }
 
 .mySlides {
-    display: none;
+  display: none;
 }
 
 img.banner {
-    width:100%; 
-    border: none;
-    padding: none;
-    z-index: 0; /*Goes behind everything*/
+  width: 100%; 
+  height: auto; 
+  border: none;
+  padding: none;
 }
 /* Banner end */
 /******************** END SERVICES PAGE ********************/
