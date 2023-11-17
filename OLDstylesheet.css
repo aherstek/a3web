@@ -253,6 +253,8 @@ img {
     /*width: 100%; */
     position: relative;
     margin: none; /*changed from auto*/
+    left:0px;
+    right:0px;
 }
 
 .mySlides {
