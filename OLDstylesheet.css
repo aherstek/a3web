@@ -50,7 +50,7 @@ body {
 /* style of link texts*/
 .sidebar a {
   /*padding: 10px;   SIDEBAR*/
-  padding: 14px, 16px; /*TOPNAV*/
+  padding: 20px 20px 0px 15px; /*TOPNAV*/
   float: left; /*TOPNAV*/
   text-decoration: none; /*no underline*/
   text-align: center;
