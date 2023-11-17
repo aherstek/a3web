@@ -78,8 +78,9 @@ body {
 /*for sidebar img*/
 /*image is 18x0x180*/
 img.logo {
-  display: block;
+  display: inline;
   border: none;
+  max-height: 50%;
 }
 
 /*SIDEBAR OPTION END*/
