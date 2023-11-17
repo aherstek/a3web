@@ -10,6 +10,17 @@ body {
   background: #EEF2E6;
 }
 
+/* Header/Logo Title */
+/*W2 schools*/
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #01311b;
+  color: white;
+  font-size: 30px;
+}
+
+
 .sidebar {
   height: 100%;
   width: 200px; /*LOGO must be smaller than this, currently: 180x180px*/
@@ -55,7 +66,8 @@ body {
   background-color: #40513B;
   padding-left: 10px;
   position: absolute;
-  width: 100%;
+ /* width: relative;  sidenav*/
+  min-width: 100px;
  /* z-index: 1; display ontop of other page elements*/
 }
 
@@ -102,6 +114,10 @@ img.logo {
 }
 .project { 
   margin-left: 200px; /* Same as the width of the sidebar */
+  font-size: 16px; 
+  color: black;
+  padding: 0px 10px;
+  text-align: justify;
  }
 
 
@@ -234,9 +250,9 @@ img {
 /* Banner Start */
 .slideshow-container {
     max-width: 2000px;
-    width: 100%; 
+    /*width: 100%; */
     position: relative;
-    margin: auto;
+    margin: none; /*changed from auto*/
 }
 
 .mySlides {
@@ -244,10 +260,10 @@ img {
 }
 
 img.banner {
-    width: 100%; 
-    height: auto; 
+    width:100%; 
     border: none;
     padding: none;
+    z-index: 0; /*Goes behind everything*/
 }
 /* Banner end */
 /******************** END SERVICES PAGE ********************/
