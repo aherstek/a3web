@@ -106,3 +106,33 @@ Time-bound
   - Week 14: Ready to hand in!
 
 #########################################################################################
+
+#Ragab
+Final Updated: 2023, Nov 16
+
+#Specific
+•	Creating a personal project page showcasing a GIS project and skills.
+•	Creating a contact page for client inquiries and team information.
+•	Cooperating with my teams to ensure design consistency and enhance the overall website appearance.
+
+#Measurable
+•	Our website displays a professional and consistent design.
+•	Personal project page efficiently highlights GIS knowledge and skills.
+•	The contact page makes it easy to know about contact information and team profiles.
+
+#Achievable
+•	Using HTML and CSS to design both pages and ensuring they are aligning with the overall website design.
+•	Collaborate with team members to improve the design and content.
+
+#Relevant
+•	Personal project page demonstrates your unique skills and contributions to the field of GIS, enhancing your professional profile.
+•	Group contact page serves as a central point for client engagement, essential for business development.
+•	Working in tandem with the team ensures a cohesive and user-friendly website experience.
+
+#Time-bound
+•	Draft designs for both pages completed by (November 16, 2023).
+•	Collaborative review and incorporation of team feedback by (Date).
+•	Finalize and launch both pages by (week 13).
+•	I will keep improving things as we go, based on the team's feedback and any new design changes they make, I will adjust my work to keep everything consistent(November 16,2023)
+
+
