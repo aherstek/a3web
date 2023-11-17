@@ -147,9 +147,17 @@ footer {
 /* --------------------------splitting screen in half */
 
 
-.columns4 {
+.columns1 {
   float: left;
-  width: 25%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.columns2 {
+  float: left;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
