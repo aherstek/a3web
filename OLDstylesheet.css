@@ -9,9 +9,9 @@ body {
 .page {
   /*background: #EEF2E6;*/
   background: white;
-  left:0;
-  right:0;
-  bottom:0;
+  left:0px;
+  right:0px;
+  bottom:0px;
 }
 
 
@@ -46,7 +46,7 @@ body {
 .sidebar a, .topbar a {
   padding: 20px;  /* SIDEBAR*/
  /* padding: 20px 20px 0px 15px; /*TOPNAV*/
-  float: right; /*TOPNAV*/
+  float: left; /*TOPNAV*/
   text-decoration: none; /*no underline*/
   text-align: center;
   font-size: 25px;
@@ -117,7 +117,7 @@ img.logo {
  }
 
  .topnavpage {
-    font-size: 16px; 
+    font-size: 18px; 
     color: black;
     left:0px;
     right:0px;
@@ -158,11 +158,12 @@ footer {
   padding: 20px;
   background-color: #CEDEBD;
   /*tali addition*/
-  position: fixed;
+  /*position: fixed;*/
   bottom: 0; /*opposite of the sidenav*/
   left: 0; /*same as the sidenav*/
   width: 100%; /*span full page?*/
   text-align: center;
+  padding-bottom: 0px;
 }
 
 /* -----------------------adding footer Andie Nov 15 */
