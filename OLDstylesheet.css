@@ -97,7 +97,9 @@ img.logo {
   text-align: justify;
 }
 
-
+/* ::-webkit-scrollbar, ::-webkit-scrollbar-track{
+  z-index: -1;
+} */
 
 /*HEADING PARAGRAPH FORMAT*/
 /*all*/
