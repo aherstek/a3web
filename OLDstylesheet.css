@@ -372,16 +372,17 @@ tr:hover {
   footer {
       padding: none;
     }
+
 }
 /*small screens*/
 @media screen and (max-width: 630px) {
   .sidebar a, .dropdown_button {
 	  padding: 15px 15px 0px 15px; /*top r bottom l*/
     font-size: 20px;
-  .topnav {
-    padding-bottom;0: 
   }
-	}
+  .topnav {
+    padding-bottom:0; 
+  }
 }
 /*RESPONSIVE LAYOUT OPTION END*/
 
