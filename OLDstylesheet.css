@@ -302,13 +302,23 @@ tr:hover {
 	  padding-top: 15px; 
 	  width: 100px; 
 	}
-  .sidebar a {
+  .sidebar a, .dropdown_button {  /*same as droppdown, dropdown_button*/
 	  padding: 2px;
 	  font-size: 16px; 
 	  width: 100%; 
 	  height: auto;
 	}
-  .main{
+  .dropdown_content a {
+    font-size: 12px;
+  }
+
+  .topnav a {
+    float: right;
+    font-size: 16px;
+    padding: 12px 14px;
+  }
+
+  .content{
 	  margin-left: 100px; /*same width as sidebar*/
     }
   .logo {
@@ -329,8 +339,9 @@ tr:hover {
 	  position: fixed; /*always displayed at top*/
 	  display: inline;
 	  overflow: hidden;
+    border-bottom: double rgb(0, 44, 0) 5px;
 	}
-  .sidebar a {
+  .sidebar a, .dropdown_button {
 	  display: inline;
 	  float: left;
 	  text-align: center;
@@ -342,14 +353,23 @@ tr:hover {
 	  display: inline;
 	  float: left;
     }
-  .main {
+  .topnav {
+    position: relative;
+    padding-top: 90px;
+    z-index: 0;
+    position: relative;
+  }
+  .content {
 	  margin-left: 0px;
 	  padding-top: 90px; /*height of sidebar at top*/
+    }
+  footer {
+      padding: 10px;
     }
 }
 /*small screens*/
 @media screen and (max-width: 630px) {
-  .sidebar a {
+  .sidebar a, .dropdown_button {
 	  padding: 15px 15px 0px 15px; /*top r bottom l*/
     font-size: 16px;
 	}
