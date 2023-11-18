@@ -43,34 +43,88 @@ Time-bound
 
 #########################################################################################
 
-# Laura Jaimes #
-- **Updated:** 2023-Nov-15
-- **Specific – target a specific area for improvement:**
-  - /Task1 - Github Repository Create and add the team
-  - /Task2 - Github Add requested folders: Image, CSS, and JS
-  - /Task3 - Website Services.html
-  - /Task4 - Website LauraProjects.html      
-- **Measurable – quantify or at least suggest an indicator of progress:**
-  - **Progress:**
-    - Task1 - 100%
-    - Task2 - 100%
-    - Task3 - 10%
-    - Task4 - 10%
-- **Assignable – specify who will do it:**
-  - /Task1 - Laura Jaimes
-  - /Task2 - Laura Jaimes
-  - /Task3 - Laura Jaimes
-  - /Task4 - Laura Jaimes
-- **Realistic – state which results can realistically be achieved, given available resources:**
-  - /Task1 - Week 10
-  - /Task2 - Week 10
-  - /Task3 - Week 12
-  - /Task4 - Week 12
-- **Time-related – specify when the result(s) can be achieved:**
-  - /Task1 - Week 10
-  - /Task2 - Week 10
-  - /Task3 - Week 11
-  - /Task4 - Week 12
+## Laura's Website Development Tasks
+
+### Specific
+
+1. **Create A3web Repository:**
+   - Oversee and address any issues related to the repository.
+   - *(Week 10 - Completed)*
+
+2. **Folder Structure:**
+   - Add required folders: Image, CSS, and JS.
+   - *(Week 10 - Completed)*
+
+3. **Page Development:**
+   - Oversee Services.html and geologyprojects.html.
+   - *(In Progress)*
+
+4. **Layout Completion:**
+   - Ensure completion of layouts for Services and Geology project pages.
+   - *(Week 11 - Completed)*
+
+5. **Master Template:**
+   - Assist in creating a master template.
+   - Add JS slideshow image feature for Services pages.
+   - *(Week 11 - Completed)*
+
+### Measurable
+
+6. **Repository Status:**
+   - Ensure the repository is error-free and up and running.
+   - Verify that all folders are correctly set up and connected.
+   - *(Week 10 - Completed)*
+
+7. **Page Functionality:**
+   - Confirm that Services and Geology project pages are operational.
+   - *(Week 11 - Completed)*
+
+### Achievable
+
+8. **Week 12: Planning:**
+   - Outline a detailed plan for Week 12 tasks.
+   - *(Week 12 - In Progress)*
+
+9. **Week 13: Template Development:**
+   - Actively participate in template development.
+   - *(Week 13 - Planned)*
+
+10. **Week 14: Finalization:**
+    - Contribute to the finalization of the website.
+    - Ensure all elements are polished and functional.
+    - *(Week 14 - Planned)*
+
+### Relevant
+
+11. **Ongoing Oversight:**
+    - Continuously monitor the development process.
+    - Address any emerging issues promptly.
+
+### Timebound
+
+12. **Week 10: Initial Setup:**
+    - Repository is up and running with no errors.
+    - All required folders (Image, CSS, JS) are established and connected.
+    - *(Done)*
+
+13. **Week 11: Layout Completion and Template Kickoff:**
+    - Complete layouts for Services and Geology project pages.
+    - Assist in creating the master template, integrating the JS slideshow feature, and migrating CSS files.
+    - *(Done)*
+
+14. **Week 12: Planning Phase:**
+    - Develop a detailed plan for the upcoming tasks.
+    - *(In Progress)*
+
+15. **Week 13: Template Development:**
+    - Actively contribute to the development of the website template.
+    - *(Planned)*
+
+16. **Week 14: Final Website:**
+    - Collaborate to ensure the finalization of the website.
+    - Confirm all elements are polished and fully functional.
+    - *(Planned)*
+
 
     
 #########################################################################################
