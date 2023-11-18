@@ -1,101 +1,105 @@
 body {
   font-family: "Avantgarde", sans-serif;
+  margin: 0px;
+  overflow-x: hidden;
 }
 
 /*layout based on https://lilysnowdenfine.com/ */
-
 /*SIDEBAR OPTION BEGIN*/
 /*sidebar based on w3schools https://www.w3schools.com/w3css/w3css_sidebar.asp*/
-.page {
-  /*background: #EEF2E6;*/
-  background: white;
-}
-
-
 
 .sidebar {
   height: 100%;
-  width: 200px; /*LOGO must be smaller than this, currently: 180x180px*/
-  position: fixed; 
-  top: 0; /*no margins in sidebar*/
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
   background-color: #CEDEBD;
-  border-right: 5px double #3A4D39;
-  overflow: hidden; /*no horizontal scroll bar*/
-  padding-top: 0px; /*image has fair amount of padding*/
-  z-index: 1; /*give importance to sidenav over other elements*/
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-right: double rgb(0, 44, 0) 5px;
 }
 
 /* style of link texts*/
-.sidebar a{
-  padding: 20px;  
-  text-decoration: none; /*no underline*/
-  text-align: center;
+.sidebar a, .dropdown_button {
+  padding: 10px;
+  text-decoration: none;
   font-size: 25px;
-  color: #435334;
-  display: block; /*each on their own line*/
-  z-index: 1;
-}
-
-/*Drop down container*/
-.container {
-  display: none;
-  background-color: #40513B;
-  padding-left: 10px;
-  position: absolute;
-  width: 100%; 
- /* z-index: 1; display ontop of other page elements*/
-}
-
-.container a {
-  text-decoration: none; /*no underline*/
+  color: #000000;
+  display: block;
+  background: none;
+  width: 100%;
   text-align: center;
-  font-size: 25px;
-  color: #9EB384;
-  display: block; /*each on their own line*/
-}
-
-.dropdown_button {
-  background: none; /*makes the button in html the same as the other options*/
-  text-decoration: none; /*no underline*/
-  text-align: center;
-  font-size: 25px;
-  color: #435334;
+  cursor: pointer;
+  outline: none;
   border: none;
 }
 
+/*Drop down container*/
+.dropdown_content { /*styles the dropdown box*/
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+.dropdown_content a { /*styles dropdown words*/
+  float: none;
+  color: #CEDEBD;;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
 .sidebar a:hover, .dropdown_button:hover {
-  color: #9EB384; /*different color when hovering*/
+  color: #385c0d; /*different color when hovering*/
 }
 
 /*for sidebar img*/
-/*image is 18x0x180*/
+/*image is 180x180*/
 img.logo {
   display: block;
   border: none;
 }
 
-/*SIDEBAR OPTION END*/
 
 
-/*body of main pages and project page here*/
-.main {
+/*TOPNAV*/
+.topnav {
+  background-color:#CEDEBD;
+  overflow: hidden;
+  width:100%;
+  position: fixed;
+}
+
+
+.topnav a {
+  float: right;
+  font-size: 20px; /*same as droppdown, dropdown_button*/
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+/*MAIN CONTENT DIV*/
+.content {
   margin-left: 200px; /* Same as the width of the sidebar */
   font-size: 16px; 
   color: black;
   padding: 0px 10px;
   text-align: justify;
 }
-.project { 
-  margin-left: 200px; /* Same as the width of the sidebar */
-  font-size: 16px; 
-  color: black;
-  padding: 0px 10px;
-  text-align: justify;
- }
 
 
-/*heading paragraphy formats*/
+
+/*HEADING PARAGRAPH FORMAT*/
 /*all*/
 h1 {
   font-size: 24px;
@@ -111,20 +115,16 @@ h1.title {
   font-style: italic;
   text-align: center;
   }	 
-h2  {
-  font-size: 18px;
-  color: black;
-  font-style: normal;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
+
+
+
+
 
 /* -----------------------adding footer Andie Nov 15 */
-
+/*FOOTER*/
 footer {
   font-size: 10px;
-  margin: 20px;
+  margin: 0px;
   padding: 20px;
   background-color: #CEDEBD;
   /*tali addition*/
@@ -133,7 +133,6 @@ footer {
   left: 0; /*same as the sidenav*/
   width: 100%; /*span full page?*/
   text-align: center;
-  padding-bottom: 0px;
 }
 
 /* -----------------------adding footer Andie Nov 15 */
@@ -227,7 +226,6 @@ img {
   max-width: 2000px;
   width: 100%; 
   position: relative;
-  margin: auto;
 }
 
 .mySlides {
