@@ -317,10 +317,15 @@ tr:hover {
     font-size: 16px;
     padding: 12px 14px;
   }
-
+  
+  .banner, .slideshow-container {
+    max-width:100%;
+    left:0;
+  }
   .content{
 	  margin-left: 100px; /*same width as sidebar*/
-    }
+  }
+
   .logo {
 	  width:90px;
 	  height:90px;
@@ -360,12 +365,14 @@ tr:hover {
     position: relative;
   }
   .content {
-	  margin-left: 0px;
-	  padding-top: 90px; /*height of sidebar at top*/
+	  margin-top: 90px;
+    margin-left: 0px;
+	  padding: none; /*height of sidebar at top*/
     }
   footer {
       padding: 10px;
     }
+
 }
 /*small screens*/
 @media screen and (max-width: 630px) {
