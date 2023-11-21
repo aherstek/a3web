@@ -141,7 +141,8 @@ h2  {
 
 footer {
   font-size: 10px;
-  margin: 0px; /*change from 20px to 0px as it 'sticks' it to the bottom of the page with no space inbetween-T*/
+  text-align: center;
+  margin: 0 auto; /*change from 20px to 0px as it 'sticks' it to the bottom of the page with no space inbetween-T*/
   padding: 50px 15%;
   background-color: #CEDEBD;
   /*T addition*/
@@ -149,7 +150,7 @@ footer {
   bottom: 0; /*opposite of the sidenav*/
   left: 0; /*same as the sidenav*/
   /*width: 100%; span full page?*/
-  text-align: center;
+  
   display: flex;
 }
 
