@@ -198,6 +198,16 @@ form button{
   font-size: 12px;
   cursor: pointer;
 }
+
+.socials{
+  margin-top: 30px;
+}
+
+.socials i{
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
 /* -----------------------adding footer Andie Nov 15 */
 
 /* ------------------------Andie Nov 15 person page CSS */
