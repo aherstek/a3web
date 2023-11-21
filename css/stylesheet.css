@@ -1,66 +1,73 @@
+/*Page styling*/
 body {
   font-family: "Avantgarde", sans-serif;
+  margin: 0px; 
+  overflow-x: hidden;
 }
 
 /*layout based on https://lilysnowdenfine.com/ */
 
+/*NOTE .page WILL BE REMOVED IF WE DON'T WANT A BACKGROUND */
+.page {
+  background: #ffffff;
+}
+
+
+
 /*SIDEBAR OPTION BEGIN*/
 /*sidebar based on w3schools https://www.w3schools.com/w3css/w3css_sidebar.asp*/
-.page {
-  background: #EEF2E6;
-}
+
 
 .sidebar {
   height: 100%;
-  width: 200px; /*LOGO must be smaller than this, currently: 180x180px*/
-  position: fixed; 
-  top: 0; /*no margins in sidebar*/
+  width: 200px;
+  position: fixed;
+  z-index: 2; /*needs to be main/top content*/
+  top: 0;
   left: 0;
   background-color: #CEDEBD;
-  border-right: 5px double #3A4D39;
-  overflow: hidden; /*no horizontal scroll bar*/
-  padding-top: 0px; /*image has fair amount of padding*/
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-right: double rgb(0, 44, 0) 5px;
 }
-
 /* style of link texts*/
-.sidebar a {
+.sidebar a, .dropdown_button {
   padding: 10px;
   text-decoration: none; /*no underline*/
-  text-align: center;
   font-size: 25px;
-  color: #435334;
-  display: block; /*each on their own line*/
-}
-
-/*Drop down container*/
-.container {
-  display: none;
-  background-color: #40513B;
-  padding-left: 10px;
-  position: absolute;
+  color: #000000;
+  display: block;/*each on their own line*/
+  background: none;
   width: 100%;
- /* z-index: 1; display ontop of other page elements*/
-}
-
-.container a {
-  text-decoration: none; /*no underline*/
   text-align: center;
-  font-size: 25px;
-  color: #9EB384;
-  display: block; /*each on their own line*/
-}
-
-.dropdown_button {
-  background: none; /*makes the button in html the same as the other options*/
-  text-decoration: none; /*no underline*/
-  text-align: center;
-  font-size: 25px;
-  color: #435334;
+  cursor: pointer;
+  outline: none;
   border: none;
 }
 
+
+
+/*DROP DOWN CONTAINER*/
+.dropdown_content { /*styles the dropdown box*/
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+.dropdown_content a { /*styles dropdown words*/
+  float: none;
+  color: #CEDEBD;;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
 .sidebar a:hover, .dropdown_button:hover {
-  color: #9EB384; /*different color when hovering*/
+  color: #385c0d; /*different color when hovering*/
 }
 
 /*for sidebar img*/
@@ -70,23 +77,42 @@ img.logo {
   border: none;
 }
 
-/*SIDEBAR OPTION END*/
 
 
-/*body of main pages and project page here*/
-.main {
+/*TOPNAV*//*For personal page id links*/
+.topnav {
+  background-color:#CEDEBD;
+  overflow: hidden;
+  width:100%;
+  position: fixed;
+  top: 0;
+  z-index: 1; /*needs to be above banner, but below sidebar*/
+}
+
+.topnav a {
+  float: right;
+  font-size: 20px; /*same as droppdown, dropdown_button*/
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+
+/*BODY OF MAIN PAGE HERE*/
+/* !!!! PLEASE NOTE I REMOVED .main AND .project AND ARE NOW .content -T*/
+.content {
   margin-left: 200px; /* Same as the width of the sidebar */
   font-size: 16px; 
   color: black;
   padding: 0px 10px;
   text-align: justify;
 }
-.project { 
-  margin-left: 200px; /* Same as the width of the sidebar */
- }
 
 
-/*heading paragraphy formats*/
+/*HEADING PARAGRAPH FORMATS*/
 /*all*/
 h1 {
   font-size: 24px;
@@ -115,9 +141,15 @@ h2  {
 
 footer {
   font-size: 10px;
-  margin: 20px;
+  margin: 0px; /*change from 20px to 0px as it 'sticks' it to the bottom of the page with no space inbetween-T*/
   padding: 20px;
   background-color: #CEDEBD;
+  /*T addition*/
+  /*position: fixed;*/
+  bottom: 0; /*opposite of the sidenav*/
+  left: 0; /*same as the sidenav*/
+  width: 100%; /*span full page?*/
+  text-align: center;
 }
 
 /* -----------------------adding footer Andie Nov 15 */
@@ -163,11 +195,7 @@ p.quote {
 */
 
 
-/* to get better visual layout for images with descriptions*/
-.desc > p { 
-  padding: 0px 10px 40px 10px;
-}
-  
+/* IMAGE FORMATTING*/
 /*give images gallery-like framing*/
 img {
   display: block;
@@ -178,14 +206,50 @@ img {
   padding: 5px;
 }
 
+
+
+/*FROM W3 https://www.w3schools.com/howto/howto_css_image_overlay_title.asp*/
+/*BANNER OVERLAY*/
+.overlay_container {
+  position: relative;
+  width: 100%;
+  max-width:2040px;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute; 
+  top: 0;
+  bottom: 0; 
+  margin-top: 50px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay_container:hover .overlay {
+  opacity: 1;
+}
+
+
+
 /******************** START BANNER ********************/
 /******************** Edited by Laura ********************/
 /* Banner Start */
 .slideshow-container {
     max-width: 2000px;
     width: 100%; 
+    height: auto; /* Make container responsive? -T*/
+    top:0; /*REmove if does nothing. trying to align overlay -T*/
     position: relative;
-    margin: auto;
+    /*Removed_  margin: auto  _Makes the image have indent at side of page.  -T*/
 }
 
 .mySlides {
@@ -195,8 +259,8 @@ img {
 img.banner {
     width: 100%; 
     height: auto; 
-    border: none;
-    padding: none;
+    border: 0;;
+    padding: 0;; /*changed none to 0 as it makes a difference*/
 }
 /* Banner end */
 /******************** END BANNER ********************/
@@ -233,13 +297,16 @@ tr:hover {
 }
 /* Table end PUBLICATION */
 /* Link start PUBLICATION */
-a {
+
+
+/*LAURA I added a class to a so it doesn't change the page link formattings -T*/
+a.publication {
   color: #435334;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
 }
-a:hover {
+a.publication:hover {
   color: #435334;
   background-color: #9EB384;
   border: 2px solid #435334;
@@ -269,15 +336,34 @@ a.link {
 	  padding-top: 15px; 
 	  width: 100px; 
 	}
-  .sidebar a {
+  .sidebar a, .dropdown_button {  /*same as droppdown, dropdown_button*/
 	  padding: 2px;
 	  font-size: 16px; 
 	  width: 100%; 
 	  height: auto;
 	}
-  .main{
+  .dropdown_content a {
+    font-size: 12px;
+  }
+
+  .topnav a {
+    float: right;
+    font-size: 16px;
+    padding: 12px 14px;
+  }
+
+  .banner, .slideshow-container {
+    max-width:100%;
+    left:0;
+    padding:0;
+  }
+  .overlay {
+    font-size: 18px;
+  }
+  .content{
 	  margin-left: 100px; /*same width as sidebar*/
-    }
+  }
+
   .logo {
 	  width:90px;
 	  height:90px;
@@ -296,8 +382,9 @@ a.link {
 	  position: fixed; /*always displayed at top*/
 	  display: inline;
 	  overflow: hidden;
+    border-bottom: double rgb(0, 44, 0) 5px;
 	}
-  .sidebar a {
+  .sidebar a, .dropdown_button {
 	  display: inline;
 	  float: left;
 	  text-align: center;
@@ -309,17 +396,36 @@ a.link {
 	  display: inline;
 	  float: left;
     }
-  .main {
-	  margin-left: 0px;
-	  padding-top: 90px; /*height of sidebar at top*/
+  .topnav {
+    position: relative;
+    padding-top: 90px;
+    z-index: 0;
+    position: relative;
+  }
+  .slideshow-container, .banner{
+    width:100%;
+    left: 0;
+    padding: 0;
+  }
+  .content {
+    margin-top: 0px; /*Due to z-index, has changed. -T*/
+    margin-left: 0px;
+	  padding: 1px; /*height of sidebar at top*/
+  }
+  footer {
+      padding: none;
     }
+
 }
 /*small screens*/
 @media screen and (max-width: 630px) {
-  .sidebar a {
+  .sidebar a, .dropdown_button {
 	  padding: 15px 15px 0px 15px; /*top r bottom l*/
-    font-size: 16px;
-	}
+    font-size: 20px;
+  }
+  .topnav {
+    padding-bottom:0; 
+  }
 }
 /*RESPONSIVE LAYOUT OPTION END*/
 
