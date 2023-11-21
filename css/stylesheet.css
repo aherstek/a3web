@@ -142,7 +142,7 @@ h2  {
 footer {
   font-size: 10px;
   margin: 0px; /*change from 20px to 0px as it 'sticks' it to the bottom of the page with no space inbetween-T*/
-  padding: 100px 15%;
+  padding: 50px 15%;
   background-color: #CEDEBD;
   /*T addition*/
   /*position: fixed;*/
