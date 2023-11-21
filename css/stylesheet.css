@@ -148,7 +148,7 @@ footer {
   /*position: fixed;*/
   bottom: 0; /*opposite of the sidenav*/
   left: 0; /*same as the sidenav*/
-  width: 100%; /*span full page?*/
+  /*width: 100%; span full page?*/
   text-align: center;
   display: flex;
 }
@@ -164,7 +164,7 @@ footer {
     color: white;
     margin-bottom: 10px;
  }
- 
+
  .col-2{
   flex-grow: 2;
  }
