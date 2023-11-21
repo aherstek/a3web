@@ -1,118 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="stylesheet.css">
-<title> Telemetry Project - Tracking Predator-Prey Relationships in the Yukon Territory </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script defer src="js/script.js"> </script>
+  <title> ARTL: GIS Consulting - Telemetry Project </title>
 </head>
-<body>
 
-<!--Add in sidebar-->
+
+<body>
+<!--Should be same across webpages-->
+<!--SIDEBAR IS FOR LINKS-->
 <div class="sidebar">
 	<img class="logo" src='image/ARTL.png' title="ARTL">
 	<a href="index.html" target="_self">HOME</a>
 	<a href="services.html" target="_blank">Services</a>
-	
-	<a>
+
+	<div class="dropdown">
 		<button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
-		Projects 
+			Projects 
 		</button>
-	</a>
-	<div id="projects" class="container"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
-		<a href="telemetryprojects.html" target="_blank">Telemetry</a>
-		<a href="geologyprojects.html" target="_blank">Geology</a>
-		<a href="geophysics.html" target="_blank">geophysics</a>
-		<a href="esseprojects.html" target="_self">Earth&Space</a>
-	</div>
-	
+		
+		<div id="projects" class="dropdown_content"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
+			<a href="telemetryprojects.html" target="_blank">Telemetry</a>
+			<a href="geologyprojects.html" target="_blank">Geology</a>
+			<a href="geophysics.html" target="_blank">Geophysics</a>
+			<a href="esseprojects.html" target="_blank">Earth&Space</a>
+		</div>
+	</div> <!--div for class=dropdown-->
+
 	<a href="people.html" target="_blank">People</a>
 	<a href="contact.html" target="_blank">Contact</a>
 </div>
-<!--END SIDEBAR-->	
+<!--END SIDEBAR-->
 
-<div class="project">
-<section id ="Home">
-<h1>Spotlight Project: Wildlife Tracking using Telemetry</h1>
-  <p>Understanding Predator-Prey Relationships at Kluane Lake Research Station, Yukon Territory</p>
-  <p>Using GIS tracking, satellite imagery and ground control surveys, KLRS and ARTL determined predation rates of snowshoe hare from predators such as Canada Lynx and coyote.</p>
-  <p class="quote">"'Andie and ARTL: GIS Consulting Services's extensive knowledge and expertise in radio telemetry, wireless GPS loggers, digital circuitry and Iridium satellite tracking - they have become an integral/ monumental aspect of our research' - Dr. XXX"</p>
-</section>
-
-<section id = "Work">
-  <div class="imgDiv">
-    <h1>Work</h1>
-  </div>
-  <div class="hide">
-    <p class="quote">Work smarter, not harder.</p>
-  </div>
-  
-  <ul>
-    <li>Chocolatier, Shippper & Reciever, G.Y. (Apr 2021-Aug 2023)
-	<ul>
-	  <li>Chocolatier:  Following recipe.  Paying attention to detail and surroundings.  Time management.  Working with a team to get all steps in chocolate process finished in efficient manner. </li>
-	  <li>Shipper & Reciever:  Paying attention to order & customer details.  Carefully packaging.  Keeping organized.  Working with Sales & Customer Service on special order requests/shipments</li>
-	  <li>Working in dynamic team setting.  Taking on additional tasks and projects as time permitted.</li>
-	  <li>Recipe development:  Experimented with favors.  Worked on balancing and refining recipe.  Produced and packaged final product for sale.</li>
-	</ul>
-    </li>
-    <li>Lead hand, R.N. Landscaping (May 2017- Aug 2021)
-	<ul>
-	  <li>Landscape maintenance:  General lawn maintenance (rider, pushmower, trimmer).  Mulching.  Leaf cleanup.  Pruning.  etc.</li>
-	  <li>Landscape construction:  Prepping for and laying patio stones.  Tree removal.  Deck building. etc.</li>
-	  <li>Dividing up tasks among team. Working independently and taking initiative after tasks are finished. Interacting with clients to ensure concerns & additional requests are addressed.</li>
-	</ul>
-    </li>
-  </ul>
-</section>
-
-<section id = "Skills">
-  <div class="imgDiv">
-    <h1>Skills</h1>
-  </div>
-  <div class="hide">
-    <p class="quote">"Jack-of-all-trades is a master of none, but oftentime better than a master of one."</p> 
-  </div>
-  <ul>
-    <li><i>Languages</i>:  MATLAB, Python, Fortran. Basic understanding of CSS, HTML.</li>
-    <li><i>Programs</i>:  Catalyst/PCI Geomatica, ArcGIS Pro</li>
-    <li><i>Other</i>:  Technical report writing. Baking & cooking (will bring food). Can lift 50+lbs. </li>
-    <li><i>Soft Skills</i>:  Working efficiently and properly.  Taking initiative.  Adapting to constantly changing work environments.</li>
-  </ul>
-</section>
+<!--TOP NAV FOR IN-PAGE DIRECT LINKS-->
+<div class="topnav">
+    <a href="#Telemetry">Radio Telemetry</a>
+    <a href="#Tracking">Wildlife Tracking</a>
+    <a href="#Iridium">Iridium Satellites</a>
+    <a href="#Digital">Digital Circuitry</a>
+</div>
+<!--END TOPBAR-->
 	
-<section id="Education">
-  <div class="imgDiv">
-    <h1>Our Telemetry Services</h1>
-  </div>
-  <div class="hide">
-    <p class="quote"><b>ARTL: GIS Consulting Services has over 20 years of domestic and internatinal telemetry and GPS tracking experience.</p>
-  </div>
 
-  <ul>
-	<li>XXX Colsulting's portfolio includes satellite remote sensing, wildlife detection and monitoring:
-	  <ul>
-	    <li>Providing support for agriculture, engineering and forestry sectors </li>
-	    <li>Providing data for many applications including precision mappping, land use classification and wildlife conservation </li>
-	    <li>xxx</li>
-	    <li>xxx</li>
-	    <li>xxx</li>
-	  </ul> 
-	</li>	
-	<li>ARTL: GIS Consulting Services's staff is experienced in:
-	  <ul>
-	    <li>PCI Geomatica (Catalyst), ESRI programs and many other supportive 2D and 3D softwares</li>
-	    <li>Working with large datasets by utilizing AI and machine learning for many projects</li>
-	  </ul>
-	</li>
-  </ul>	
+<!--BANNER-->
+<div class="overlay_container">
+	<img class="banner" src="image/Lauimage2.jpg" alt="Image 2"> 
+	<div class="overlay">PAGE TITLE: Welcome to ARTL can anyone read this????</div>
+</div>   
+<!--END BANNER-->
+
+<div class="content"> <!--Start of page body class="content"-->
+<section id ="Mission">
+<h1>Mission</h1>
+ <p> body body body body body body body body
+	more bodybody body body body body body body body body body body body bodybody body body body body body 
+	body body body body body body bodybody body body body body body body body body body body body bodybody body body body 
+	body body body body body body body body bodybody body body body body body body body body body body body bodybody body body 
+	body body body body body body body body body bodybody body body body body body body body body body body body bodybody body 
+	body body body body body body body body body body bodybody body body body body body body body body body body body bodybody 
+	body body body body body body body body body body body bodybody body body body body body body body body body body body body
+	body body body body body body body body body body body body bodybody body body body body body body body body body body body body </p>
 </section>
 
+<section id ="Vision">
+	<h1>Vision</h1>
+	 <p> more  more bodybody body body body body body body body body body body body bodybody body body body body body 
+		body body body body body body bodybody body body body body body body body body body body body bodybody body body body 
+		body body body body body body body body bodybody body body body body body body body body body body body bodybody body body 
+		body body body body body body body body body bodybody body body body body body body body body body body body bodybody body 
+		body body body body body body body body body body bodybody body body body body body body body body body body body bodybody 
+		body body body body body body body body body body body bodybody body body body body body body body body body body body body
+		body body body body body body body body body body body body bodybody body body body body body body body body body body body body
+		body body body body body body body body body body body body body </p>
+</section>
 
-<footer> <!-- Andie Nov 15 adding footer -->
-	<p>© 2023 by ARTL GIS Consulting. All rights reserved.</p>
-</footer>
+<section id ="Goals">
+	<h1>Goals</h1>
+	 <p> more bodybody body body body body body body body body body body body bodybody body body body body body 
+		body body body body body body bodybody body body body body body body body body body body body bodybody body body body 
+		body body body body body body body body bodybody body body body body body body body body body body body bodybody body body 
+		body body body body body body body body body bodybody body body body body body body body body body body body bodybody body 
+		body body body body body body body body body body bodybody body body body body body body body body body body body bodybody 
+		body body body body body body body body body body body bodybody body body body body body body body body body body body body
+		body body body body body body body body body body body body bodybody body body body body body body body body body body body body </p>
+</section>
 
-</div> <!--  for div class="project" -->
-   
+<section id ="Values">
+	<h1>Values</h1>
+	 <p> more bodybody body body body body body body body body body body body bodybody body body body body body 
+		body body body body body body bodybody body body body body body body body body body body body bodybody body body body 
+		body body body body body body body body bodybody body body body body body body body body body body body bodybody body body 
+		body body body body body body body body body bodybody body body body body body body body body body body body bodybody body 
+		body body body body body body body body body body bodybody body body body body body body body body body body body bodybody 
+		body body body body body body body body body body body bodybody body body body body body body body body body body body body
+		body body body body body body body body body body body body bodybody body body body body body body body body body body body body </p>
+</section>
+
+</div> <!--div for content PAGE-->
+
+<!-- FOOTER across all pages, will be designed to be more stylized later-->
+<footer> 
+<p>© 2023 by ARTL GIS Consulting. All rights reserved.</p> 
+</footer> 
+<!-- END FOOTER -->
 </body>
 </html> 
