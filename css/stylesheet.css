@@ -148,7 +148,7 @@ footer {
   /*T addition*/
   /*position: fixed;*/
   bottom: 0; /*opposite of the sidenav*/
-  left: 100; /*same as the sidenav*/
+  left:300px; /*same as the sidenav*/
   width: 100%; /*span full page?*/
   display: flex;
 }
