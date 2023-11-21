@@ -153,6 +153,28 @@ footer {
 }
 
 
+ footer.div{
+  text-align: center;
+
+ }
+ .col-2{
+  flex-grow: 2;
+ }
+
+ footer.div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+ }
+
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px
+}
+
+
 /* -----------------------adding footer Andie Nov 15 */
 
 /* ------------------------Andie Nov 15 person page CSS */
