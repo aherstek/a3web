@@ -156,8 +156,15 @@ footer {
 
  footer.div{
   text-align: center;
-
  }
+
+  .col-1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+ }
+ 
  .col-2{
   flex-grow: 2;
  }
@@ -170,13 +177,6 @@ footer {
   color: #40513B;
  }
 
-.col-1 a{
-  display: block;
-  text-decoration: none;
-  color: white;
-  margin-bottom: 10px;
-  
-}
 
 form input{
   width: 325px;
