@@ -144,32 +144,6 @@ footer {
   color: #40513B
 }
 
-/* --------------------------splitting screen in half */
-
-
-.columns1 {
-  float: left;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-}
-
-.columns2 {
-  float: left;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-}
-
-.row:after {
-  content: "";
-  display: table-row;
-  clear: none;
-
-}
-
 /* ------------------------Andie end Nov 15 person page CSS */
 
 
