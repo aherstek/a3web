@@ -150,6 +150,7 @@ footer {
   left: 0; /*same as the sidenav*/
   width: 100%; /*span full page?*/
   text-align: center;
+  display: flex;
 }
 
 
@@ -194,6 +195,11 @@ form button{
   font-size: 15px;
   cursor: pointer;
 }
+
+.external-link {
+  font-size: 10px;
+  color: #40513B
+}
 /* -----------------------adding footer Andie Nov 15 */
 
 /* ------------------------Andie Nov 15 person page CSS */
@@ -213,10 +219,7 @@ form button{
   color: #40513B
 }
 
-.external-link {
-  font-size: 10px;
-  color: #40513B
-}
+
 
 /* ------------------------Andie end Nov 15 person page CSS */
 
