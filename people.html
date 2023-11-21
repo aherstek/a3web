@@ -1,205 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="stylesheet.css">
-	<script defer src="js/script.js"> </script>
-	<title> Meet the ARTL team </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="OLDstylesheet.css">
+  <script defer src="js/script.js"> </script>
+  <title> ARTL: GIS Consulting </title>
 </head>
-<body class="page">
 
-<!--Add in sidebar-->
+
+<body>
+<!--Should be same across webpages-->
+<!--SIDEBAR IS FOR LINKS-->
 <div class="sidebar">
 	<img class="logo" src='image/ARTL.png' title="ARTL">
 	<a href="index.html" target="_self">HOME</a>
 	<a href="services.html" target="_blank">Services</a>
-	
-	<a>
+
+	<div class="dropdown">
 		<button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
-		Projects 
+			Projects 
 		</button>
-	</a>
-	<div id="projects" class="container"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
-		<a href="telemetryprojects.html" target="_blank">Telemetry</a>
-		<a href="geologyprojects.html" target="_blank">Geology</a>
-		<a href="geophysics.html" target="_blank">Geophysics</a>
-		<a href="esseprojects.html" target="_self">Earth&Space</a>
-	</div>
-	
+		
+		<div id="projects" class="dropdown_content"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
+			<a href="telemetryprojects.html" target="_blank">Telemetry</a>
+			<a href="geologyprojects.html" target="_blank">Geology</a>
+			<a href="geophysics.html" target="_blank">Geophysics</a>
+			<a href="esseprojects.html" target="_blank">Earth&Space</a>
+		</div>
+	</div> <!--div for class=dropdown-->
+
 	<a href="people.html" target="_blank">People</a>
 	<a href="contact.html" target="_blank">Contact</a>
-	</div>
-<!--END SIDEBAR-->	
-<div class="main">
-<div class="project">
-<section id ="People-Home">
-<h1>Meet the ARTL Team</h1>
-  <p>est. 2023</p>
-  <p>With founding members located across Canada, ARTL's passionate founding team is ready to assist you for all your GIS needs.</p>
-  <p class="quoteitalics">"The applications of GIS is limited only by the imagination of those who use it" - Jack Dangermond, ESRI</p>
-</section>
-
-<div class ="=row">
-<section id="Tali">
-<!-- split columns / screen and trialling JS ------ Andie Nov 14/15 -->
-
- 
-
-<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
-style="background-color:#CEDEBD;width:350px;height:10px;margin:20px;padding:20px;font-size:20px">
-Tali J.</div>
-
-<script>
-function mOver(obj) {
-  obj.innerHTML = "Lead of Atmospheric Science"
-}
-
-function mOut(obj) {
-  obj.innerHTML = "Tali J."
-}
-</script>
-<!-- trialling Java? -->
-<!--   ---------Andie-----Nov14----------------   -->
-<ul class="person">
-	<li>BScH. Earth & Atmospheric Science s. Space Science (2020), Cert. Meteorology (2020) @
-		<a href="https://lassonde.yorku.ca/esse/" class="external-link">York University</a>
-	</li>
-	<li> Areas of Interest and Expertise:
-      <ul>
-	    <li>Atmospheric dynamics, Cloud physics, Climate & climate change</li>
-	    <li>Weather forecasting, meteorology</li>
-	    <li>Space mission design & satellite dynamics</li>
-	  </ul>
-	</li>
-</ul>
 </div>
-</section>
+<!--END SIDEBAR-->
 
-<section id="Andie">
-
-<!-- trialling Java -->
-<div onmouseover="mOver1(this)" onmouseout="mOut1(this)" 
-style="background-color:#CEDEBD;width:350px;height:10px;margin:20px;padding:20px;font-size:20px">
-Andie H.</div>
-
-<script>
-function mOver1(obj) {
-  obj.innerHTML = "Lead of Remote Sensing"
-}
-
-function mOut1(obj) {
-  obj.innerHTML = "Andie H."
-}
-</script>
-<!-- trialling Java -->
-<!--   ---------Andie-----Nov14----------------   -->
-
-<ul class="person">
-	<li>BScH. Environmental Science & Ecological Restoration (2020) @
-		<a href="https://trentu.ca/" class="external-link">Trent University</a>
-	</li>
-	<li> Areas of Interest and Expertise:
-		<ul>
-			<li>Atmospheric dynamics, Cloud physics, Climate & climate change</li>
-	   		<li>Synoptic meteorology</li>
-	    	<li>Numerical Weather Prediction (Fortran) </li>
-		</ul>
-	</li>
-</ul>	
+<!--TOP NAV FOR IN-PAGE DIRECT LINKS-->
+<div class="topnav">
+    <a href="#TaliJ">Tali J.</a>
+    <a href="#AndieH">Andie H.</a>
+    <a href="#LauraJ">Laura J.</a>
+    <a href="#RagabJ">Ragab J.</a>
 </div>
-</section>
-</div>
-
-<div class ="row"
-  <section id="Laura">
+<!--END TOPBAR-->
 	
-<!-- trialling Java -->
-<div onmouseover="mOver2(this)" onmouseout="mOut2(this)" 
-style="background-color:#CEDEBD;width:350px;height:10px;margin:20px;padding:20px;font-size:20px">
-Laura J.</div>
 
-<script>
-function mOver2(obj) {
-  obj.innerHTML = "Lead of Geology"
-}
+<!--BANNER-->
+<div class="overlay_container">
+	<img class="banner" src="image/Lauimage2.jpg" alt="Image 2"> 
+	<div class="overlay">Meet our founding members</div>
+</div>   
+<!--END BANNER-->
 
-function mOut2(obj) {
-  obj.innerHTML = "Laura J."
-}
-</script>
-<!-- trialling Java -->
-<!--   ---------Andie-----Nov14----------------   -->
-
-<ul class="person">
-	<li>BSc. Geology (2014) @
-		<a href="https://uis.edu.co/en/" class="external-link">Industrial University of Santander</a>
-	</li>
-	<li>Areas of Interest and Expertise:
-		<ul>
-			<li> GIS Analysis and Mapping</li>
-			<li>Geological Consulting</li>	
-			<li>Multidisciplinary Collaboration</li>
-		</ul>
-	</li>
-</ul>	
-</div>
+<div class="content"> <!--Start of page body class="content"-->
+<section id ="TaliJ">
+<h1>Meet Tali</h1>
+ <p> body body body body body body body body
+	more bodybody body body body body body body body body body body body bodybody body body body body body 
+	body body body body body body bodybody body body body body body body body body body body body bodybody body body body 
+	body body body body body body body body bodybody body body body body body body body body body body body bodybody body body 
+	body body body body body body body body body bodybody body body body body body body body body body body body bodybody body 
+	body body body body body body body body body body bodybody body body body body body body body body body body body bodybody 
+	body body body body body body body body body body body bodybody body body body body body body body body body body body body
+	body body body body body body body body body body body body bodybody body body body body body body body body body body body body </p>
 </section>
 
-<section id="Ragab">
-
-
-<!-- trialling Java -->
-<div onmouseover="mOver3(this)" onmouseout="mOut3(this)" 
-style="background-color:#CEDEBD;width:350px;height:10px;margin:20px;padding:20px;font-size:20px">
-Ragab J.</div>
-
-<script>
-function mOver3(obj) {
-  obj.innerHTML = "Lead of ?"
-}
-
-function mOut3(obj) {
-  obj.innerHTML = "Ragab J."
-}
-</script>
-<!-- trialling Java -->
-<!--   ---------Andie-----Nov14----------------   -->
-
-<ul class="person">	
-	<li>BSc. ?
-	</li>
-	<li>Areas of Interest and Expertise:
-		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-	</li>
-</ul>	
-</div>
+<section id ="AndieH">
+	<h1>Meet Andie</h1>
+	 <p> more  more bodybody body body body body body body body body body body body bodybody body body body body body 
+		body body body body body body bodybody body body body body body body body body body body body bodybody body body body 
+		body body body body body body body body bodybody body body body body body body body body body body body bodybody body body 
+		body body body body body body body body body bodybody body body body body body body body body body body body bodybody body 
+		body body body body body body body body body body bodybody body body body body body body body body body body body bodybody 
+		body body body body body body body body body body body bodybody body body body body body body body body body body body body
+		body body body body body body body body body body body body bodybody body body body body body body body body body body body body
+		body body body body body body body body body body body body body </p>
 </section>
 
-	<!-- Andie Nov 14 - Java trial for vistor counter 
- <div>Website visit count:</div>
-    <div class="website-counter"></div>
-    <button id="reset">Reset</button>
+<section id ="LauraJ">
+	<h1>Meet Laura</h1>
+	 <p> more bodybody body body body body body body body body body body body bodybody body body body body body 
+		body body body body body body bodybody body body body body body body body body body body body bodybody body body body 
+		body body body body body body body body bodybody body body body body body body body body body body body bodybody body body 
+		body body body body body body body body body bodybody body body body body body body body body body body body bodybody body 
+		body body body body body body body body body body bodybody body body body body body body body body body body body bodybody 
+		body body body body body body body body body body body bodybody body body body body body body body body body body body body
+		body body body body body body body body body body body body bodybody body body body body body body body body body body body body </p>
+</section>
 
-	 Java trial for vistor counter -->
+<section id ="Ragab">
+	<h1>Meet Ragab</h1>
+	 <p> more bodybody body body body body body body body body body body body bodybody body body body body body 
+		body body body body body body bodybody body body body body body body body body body body body bodybody body body body 
+		body body body body body body body body bodybody body body body body body body body body body body body bodybody body body 
+		body body body body body body body body body bodybody body body body body body body body body body body body bodybody body 
+		body body body body body body body body body body bodybody body body body body body body body body body body body bodybody 
+		body body body body body body body body body body body bodybody body body body body body body body body body body body body
+		body body body body body body body body body body body body bodybody body body body body body body body body body body body body </p>
+</section>
 
-<!-- <div class ="split right">
-	<div class "centered">
-		<img src "x.png" alt=""photo of x">
-	</div>
-</div>
-	 -->
+</div> <!--div for content PAGE-->
 
-
-	</div> <!-- for div class row -->
-</div> <!--  for div class="main" -->
-
-<!-- <footer> <!-- Andie Nov 15 adding footer 
+<!-- FOOTER across all pages, will be designed to be more stylized later-->
+<footer> 
 <p>© 2023 by ARTL GIS Consulting. All rights reserved.</p> 
-</footer> -->
-   
+</footer> 
+<!-- END FOOTER -->
 </body>
 </html> 
