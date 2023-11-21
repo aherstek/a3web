@@ -166,6 +166,8 @@ footer {
   font-weight: 300;
   margin-bottom: 30px;
   letter-spacing: 1px;
+  font-size: 10px;
+  color: #40513B;
  }
 
 .col-1 a{
@@ -173,8 +175,7 @@ footer {
   text-decoration: none;
   color: white;
   margin-bottom: 10px;
-  font-size: 10px;
-  color: #40513B;
+  
 }
 
 form input{
