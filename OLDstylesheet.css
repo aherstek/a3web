@@ -12,7 +12,7 @@ body {
   height: 100%;
   width: 200px;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0;
   left: 0;
   background-color: #CEDEBD;
@@ -74,6 +74,8 @@ img.logo {
   overflow: hidden;
   width:100%;
   position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 
@@ -221,12 +223,45 @@ img {
   padding: 5px;
 }
 
+/*FROM W3 https://www.w3schools.com/howto/howto_css_image_overlay_title.asp*/
+/*BANNER OVERLAY*/
+.overlay_container {
+  position: relative;
+  width: 100%;
+  max-width:2040px;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute; 
+  top: 0;
+  bottom: 0; 
+  margin-top: 50px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay_container:hover .overlay {
+  opacity: 1;
+}
+
+
 /******************** START SERVICES PAGE ********************/
 /******************** Edited by Laura ********************/
 /* Banner Start */
 .slideshow-container {
   max-width: 2000px;
   width: 100%; 
+  height: auto; /*Make container responsive? take out if doesn't work -T*/
+  top:0; /*REmove if does nothing. trying to align overlay -T*/
   position: relative;
 }
 
@@ -237,8 +272,8 @@ img {
 img.banner {
   width: 100%; 
   height: auto; 
-  border: none;
-  padding: none;
+  border: 0;
+  padding: 0;
 }
 /* Banner end */
 /******************** END SERVICES PAGE ********************/
@@ -323,6 +358,10 @@ tr:hover {
   .banner, .slideshow-container {
     max-width:100%;
     left:0;
+    padding:0;
+  }
+  .overlay {
+    font-size: 18px;
   }
   .content{
 	  margin-left: 100px; /*same width as sidebar*/
@@ -366,11 +405,16 @@ tr:hover {
     z-index: 0;
     position: relative;
   }
+  .slideshow-container, .banner{
+    width:100%;
+    left: 0;
+    padding: 0;
+  }
   .content {
-	  margin-top: 90px;
+    margin-top: 0px; /*Due to z-index, has changed. -T*/
     margin-left: 0px;
 	  padding: 1px; /*height of sidebar at top*/
-    }
+  }
   footer {
       padding: none;
     }
