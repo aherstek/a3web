@@ -179,7 +179,7 @@ footer {
 }
 
 form input{
-  width: 400px;
+  width: 325px;
   height: 45px;
   border-radius: 4px;
   text-align: center;
@@ -192,10 +192,10 @@ form input{
 form button{
   background: transparent;
   border: 2px solid #fff;
-  color: #fff;
+  color: #40513B;
   border-radius: 30px;
   padding: 10px 30px;
-  font-size: 15px;
+  font-size: 12px;
   cursor: pointer;
 }
 /* -----------------------adding footer Andie Nov 15 */
