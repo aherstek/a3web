@@ -162,6 +162,10 @@ a.col-1{
     color: #40513B;
  }
 
+ ul.gislinks{
+    list-style-type: none;
+    color: #333;
+ }
  .col-2{
   flex-grow: 4;
  }
