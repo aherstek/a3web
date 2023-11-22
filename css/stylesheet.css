@@ -156,16 +156,17 @@ footer {
 a.col-1{
     display: block;
     text-decoration: none;
-    color: white;
     margin-bottom: 10px;
     font-size: 10px;
     color: #40513B;
  }
 
- ul.gislinks{
-    list-style-type: none;
-    color: #333;
+ a.col-1:hover{
+  color: #435334;
+  background-color: #9EB384;
+  border: 2px solid #435334;
  }
+ 
  .col-2{
   flex-grow: 4;
  }
