@@ -141,16 +141,11 @@ h2  {
 referencing https://www.youtube.com/watch?v=T5BACF2goFU, https://www.youtube.com/watch?v=YOb67OKw62s*/
 
 footer {
-  font-size: 10px;
-  text-align: center;
-  margin: 0; /*change from 20px to 0px as it 'sticks' it to the bottom of the page with no space inbetween-T*/
-  padding: 50px 15%;
-  background-color: #CEDEBD;
-  /*T addition*/
-  /*position: fixed;*/
-  bottom: 0; /*opposite of the sidenav*/
-  left:300px; /*same as the sidenav*/
-  width: 100%; /*span full page?*/
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 15%;
+  background: #333;
+  color: white;
   display: flex;
 }
 
