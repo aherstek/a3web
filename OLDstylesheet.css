@@ -1,14 +1,15 @@
-body {
+/*UPDATED NEW CSS*/
+body { 
   font-family: "Avantgarde", sans-serif;
   margin: 0px;
   overflow-x: hidden;
 }
 
 /*layout based on https://lilysnowdenfine.com/ */
-/*SIDEBAR OPTION BEGIN*/
+/*SIDEBAR OPTION BEGIN*//*UPDATED NEW CSS*/
 /*sidebar based on w3schools https://www.w3schools.com/w3css/w3css_sidebar.asp*/
 
-.sidebar {
+.sidebar { 
   height: 100%;
   width: 200px;
   position: fixed;
@@ -21,7 +22,7 @@ body {
   border-right: double rgb(0, 44, 0) 5px;
 }
 
-/* style of link texts*/
+/* style of link texts*/ /*UPDATED NEW CSS*/
 .sidebar a, .dropdown_button {
   padding: 10px;
   text-decoration: none;
@@ -36,7 +37,7 @@ body {
   border: none;
 }
 
-/*Drop down container*/
+/*Drop down container*//*UPDATED NEW CSS*/
 .dropdown_content { /*styles the dropdown box*/
   display: none;
   background-color: #262626;
@@ -208,10 +209,6 @@ p.quote {
 */
 
 
-/* to get better visual layout for images with descriptions*/
-.desc > p { 
-  padding: 0px 10px 40px 10px;
-}
   
 /*give images gallery-like framing*/
 img {
