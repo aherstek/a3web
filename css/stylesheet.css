@@ -141,9 +141,10 @@ h2  {
 referencing https://www.youtube.com/watch?v=T5BACF2goFU, https://www.youtube.com/watch?v=YOb67OKw62s*/
 
 footer {
+  text-align: center;
   margin-top: 150px;
   /* width: 100%; */
-  padding: 20px 10px 40px 40px;
+  padding: 20px 10px 40px 375px;
   background: #CEDEBD;
   color: #333;
   display: flex;
