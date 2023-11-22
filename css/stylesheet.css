@@ -149,7 +149,6 @@ footer {
   display: flex;
 }
 
-
  footer.div{
   text-align: center;
  }
@@ -164,7 +163,7 @@ footer {
  }
 
  .col-2{
-  flex-grow: 1;
+  flex-grow: 4;
  }
 
  footer.div h3{
