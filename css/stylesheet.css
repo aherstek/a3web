@@ -164,18 +164,18 @@ footer {
     text-decoration: none;
     color: white;
     margin-bottom: 10px;
+    font-size: 10px;
+    color: #40513B;
  }
 
  .col-2{
-  flex-grow: 2;
+  flex-grow: 1;
  }
 
  footer.div h3{
   font-weight: 300;
   margin-bottom: 30px;
   letter-spacing: 1px;
-  font-size: 10px;
-  color: #40513B;
  }
 
 
