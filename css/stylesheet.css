@@ -143,7 +143,7 @@ referencing https://www.youtube.com/watch?v=T5BACF2goFU, https://www.youtube.com
 footer {
   font-size: 10px;
   text-align: center;
-  margin: 0 auto; /*change from 20px to 0px as it 'sticks' it to the bottom of the page with no space inbetween-T*/
+  margin: 0; /*change from 20px to 0px as it 'sticks' it to the bottom of the page with no space inbetween-T*/
   padding: 50px 15%;
   background-color: #CEDEBD;
   /*T addition*/
