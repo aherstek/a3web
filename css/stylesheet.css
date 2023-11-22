@@ -142,7 +142,7 @@ referencing https://www.youtube.com/watch?v=T5BACF2goFU, https://www.youtube.com
 
 footer {
   margin-top: 150px;
-  width: 100%;
+  /* width: 100%; */
   padding: 10px 15%;
   background: #CEDEBD;
   color: #333;
