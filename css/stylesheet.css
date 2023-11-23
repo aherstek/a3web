@@ -139,6 +139,8 @@ h2  {
 
 /* -----------------------adding footer Andie Nov 15 
 referencing https://www.youtube.com/watch?v=T5BACF2goFU, https://www.youtube.com/watch?v=YOb67OKw62s*/
+/* Andie Nov 23: I am still working on CSS for footer but it is 80% complete */
+/* i am wanting to still tweak margins etc so the footer is better centered and font is appropriately sized/spaced */
 
 footer {
   text-align: center;
@@ -210,7 +212,8 @@ form button{
 }
 /* -----------------------adding footer Andie Nov 15 */
 
-/* ------------------------Andie Nov 15 person page CSS -- update:haven't used this yet but i intend to -A,Nov23 */
+/* ------------------------Andie Nov 15 person page CSS -- */
+/* Andie NOV 23: haven't used this yet because i need to input each person's bio i am still working on... but i intend to for certain sections of each person's bio (school attended, quote) */
 .quoteitalics {
   font-size: 14px;
   font-style: italic;
