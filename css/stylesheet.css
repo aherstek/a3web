@@ -242,12 +242,12 @@ p.quote {
 /* IMAGE FORMATTING*/
 /*give images gallery-like framing*/
 img {
-  display: block;
-  margin-left: auto;
+  display: inline;
+  margin-left: 200px;
   margin-right: auto;
   max-width: 100%;
   border: 10px solid black;
-  padding: 5px;
+  float: left;
 }
 
 
@@ -280,6 +280,14 @@ img {
 
 .overlay_container:hover .overlay {
   opacity: 1;
+}
+
+/*Specific formatting for banner image at top of each page*/
+img.banner {
+  width: 100%; 
+  height: auto; 
+  border: 0;
+  padding: 0;
 }
 
 /******************** START GEOLOGY PAGE ********************/
