@@ -166,7 +166,7 @@ a.col-1{
   background-color: #9EB384;
   border: 2px solid #435334;
  }
- 
+
  .col-2{
   flex-grow: 4;
  }
@@ -210,7 +210,7 @@ form button{
 }
 /* -----------------------adding footer Andie Nov 15 */
 
-/* ------------------------Andie Nov 15 person page CSS */
+/* ------------------------Andie Nov 15 person page CSS -- update:haven't used this yet but i intend to -A,Nov23 */
 .quoteitalics {
   font-size: 14px;
   font-style: italic;
@@ -282,41 +282,6 @@ img {
   opacity: 1;
 }
 
-
-
-/******************** START BANNER ********************/
-/******************** Edited by Laura ********************/
-/* Banner Start */
-.slideshow-container {
-    max-width: 2000px;
-    width: 100%; 
-    height: auto; /* Make container responsive? -T*/
-    top:0; /*REmove if does nothing. trying to align overlay -T*/
-    position: relative;
-    /*Removed_  margin: auto  _Makes the image have indent at side of page.  -T*/
-}
-
-.mySlides {
-    display: none;
-}
-
-img.banner {
-    width: 100%; 
-    height: auto; 
-    border: 0;;
-    padding: 0;; /*changed none to 0 as it makes a difference*/
-}
-/* Banner end */
-/******************** END BANNER ********************/
-
-
-/******************** START SERVICES PAGE ********************/
-/******************** Edited by Laura ********************/
-
-/******************** END SERVICES PAGE ********************/
-
-
-
 /******************** START GEOLOGY PAGE ********************/
 /******************** Edited by Laura ********************/
 /* Table Start PUBLICATION */
@@ -341,7 +306,6 @@ tr:hover {
 }
 /* Table end PUBLICATION */
 /* Link start PUBLICATION */
-
 
 /*LAURA I added a class to a so it doesn't change the page link formattings -T*/
 a.publication {
