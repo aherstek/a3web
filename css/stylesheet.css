@@ -475,12 +475,5 @@ a.link {
     margin-left: 250px; /* Adjust to fit the width of the sidebar */
 }
 
-.sidebar {
-    width: 250px; /* Adjust  the  width of the sidebar */
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 1000; /* 
-}
+
 
