@@ -303,12 +303,17 @@ img.banner {
 /******************** START SERVICES PAGE ********************/
 /******************** Edited by Laura ********************/
 .service-image {
-  width: 100px; 
-  height: auto; 
+  float: left; 
   margin-right: 10px; 
-  display: inline-block; 
+  margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.service-description::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 /******************** END SERVICES PAGE ********************/
 
