@@ -309,12 +309,6 @@ img.banner {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-
-.service-description::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 /******************** END SERVICES PAGE ********************/
 
 
