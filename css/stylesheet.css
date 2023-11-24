@@ -300,6 +300,18 @@ img.banner {
  /* padding: 0;*/
 }
 
+/******************** START SERVICES PAGE ********************/
+/******************** Edited by Laura ********************/
+.service-image {
+  width: 100px; 
+  height: auto; 
+  margin-right: 10px; 
+  display: inline-block; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/******************** END SERVICES PAGE ********************/
+
 
 /******************** START GEOLOGY PAGE ********************/
 /******************** Edited by Laura ********************/
