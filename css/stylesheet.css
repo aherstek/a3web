@@ -145,15 +145,16 @@ h3 {
 /* -----------------------adding footer Andie Nov 15 
 referencing https://www.youtube.com/watch?v=T5BACF2goFU, https://www.youtube.com/watch?v=YOb67OKw62s*/
 /* Andie Nov 23: I am still working on CSS for footer but it is 80% complete */
-/* i am wanting to still tweak margins etc so the footer is better centered and font is appropriately sized/spaced */
+/* i am wanting to still tweak margins etc so the footer is better centered and font is appropriately sized/spaced 
+as well as make class specific headers, instead of h3 like i am now*/
 
 footer {
   text-align: center;
   margin-top: 150px;
-  padding: 20px 10px 40px 320px;
+  padding: 20px 10px 40px 320px; /* still need to figure out */
   background: #CEDEBD;
   color: #333;
-  display: flex;
+  display: flex; /* ims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word “flex”). */
 }
 
  footer.div{
@@ -168,14 +169,15 @@ a.col-1{
     color: #40513B;
  }
 
- a.col-1:hover{
+ a.col-1:hover{ /* still working on */
   color: #435334;
   background-color: #9EB384;
   border: 2px solid #435334;
  }
 
  .col-2{
-  flex-grow: 4;
+  flex-grow: 4; /* 
+  The flex-grow property specifies how much the item will grow relative to the rest of the flexible items inside the same container. https://www.w3schools.com/cssref/css3_pr_flex-grow.php */
  }
 
  footer.div h3{
@@ -185,7 +187,7 @@ a.col-1{
  }
 
 
-form input{
+form input{ /* email form https://www.w3schools.com/css/css_form.asp */
   width: 325px;
   height: 45px;
   border-radius: 4px;
@@ -196,14 +198,14 @@ form input{
   border: none;
 }
 
-form button{
+form button{ /* practiced using https://www.w3schools.com/css/tryit.asp?filename=trycss_form_button */
   background: transparent;
   border: 2px solid #fff;
   color: #40513B;
   border-radius: 30px;
   padding: 10px 30px;
   font-size: 12px;
-  cursor: pointer;
+  cursor: pointer; /* trialled different types using https://www.w3schools.com/cssref/tryit.php?filename=trycss_cursor */
 }
 
 .socials{
