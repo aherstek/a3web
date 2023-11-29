@@ -217,8 +217,16 @@ form button{ /* practiced using https://www.w3schools.com/css/tryit.asp?filename
   margin: 10px;
   cursor: pointer;
 }
-/* -----------------------adding footer Andie Nov 15 */
+/* -----------------------END adding footer Andie Nov 15 */
 
+/* -----------------------START people pages edits Andie Nov 28 */
+
+ul.people{
+  padding: 10px
+  
+}
+
+/* -----------------------END people pages edits Andie Nov 28 */
 
 /* p.abstract {
   font-size: 16px;
