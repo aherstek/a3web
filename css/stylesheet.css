@@ -220,11 +220,17 @@ form button{ /* practiced using https://www.w3schools.com/css/tryit.asp?filename
 /* -----------------------END adding footer Andie Nov 15 */
 
 /* -----------------------START people pages edits Andie Nov 28 */
+/* ---- modified Laura's .service-image to suit the needs of the Person page, but this is Laura's CSS design for the small images */
+.service-imageperson {
+  float: left; 
+  margin-right: 0px; 
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
 ul.people{
-  padding-left: 220px;
   border: 2px solid #435334;
-
 }
 
 /* -----------------------END people pages edits Andie Nov 28 */
@@ -304,6 +310,7 @@ img.banner {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
 /******************** END SERVICES PAGE ********************/
 
 
