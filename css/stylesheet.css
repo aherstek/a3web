@@ -219,20 +219,6 @@ form button{ /* practiced using https://www.w3schools.com/css/tryit.asp?filename
 }
 /* -----------------------adding footer Andie Nov 15 */
 
-/* ------------------------Andie Nov 15 person page CSS -- */
-/* Andie NOV 23: haven't used this yet because i need to input each person's bio i am still working on... but i intend to for certain sections of each person's bio (school attended, quote) */
-.quoteitalics {
-  font-size: 14px;
-  font-style: italic;
-  font-family: "Courier New", sans-serif;
-  color: #40513B
-}
-
-
-
-/* ------------------------Andie end Nov 15 person page CSS */
-
-
 
 /* p.abstract {
   font-size: 16px;
