@@ -223,9 +223,9 @@ form button{ /* practiced using https://www.w3schools.com/css/tryit.asp?filename
 /* ---- modified Laura's .service-image to suit the needs of the Person page, but this is Laura's CSS design for the small images */
 .service-imageperson {
   float: left; 
-  margin-right: 0px; 
+  margin-right: 20px; 
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid #435334;
   border-radius: 5px;
 }
 
