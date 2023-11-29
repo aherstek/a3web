@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/stylesheet.css">
-<script defer src="js/script.js"> </script>
-<title> ARTL: GIS Consulting </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <script defer src="js/script.js"> </script>
+  <script src="https://kit.fontawesome.com/3634ce33fc.js" crossorigin="anonymous"></script> <!-- Tali, does this go in JS folder? - AH Nov 23-->
+  <title> ARTL: GIS Consulting </title>
 </head>
-<body>
 
-<!--Add in sidebar-->
+
+<body>
+<!--Should be same across webpages-->
+<!--SIDEBAR IS FOR LINKS-->
 <div class="sidebar">
 	<img class="logo" src='image/ARTL.png' title="ARTL">
-	<a href="index.html" target="_self">HOME</a>
+	<a href="index.html" target="_self">HOME</a> <!-- The target attribute specifies where to open the linked document -->
 	<a href="services.html" target="_blank">Services</a>
-	
-	<a>
-		<button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
-		Projects 
-		</button>
-	</a>
-	<div id="projects" class="container"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
-		<a href="telemetryprojects.html" target="_blank">Telemetry</a>
-		<a href="geologyprojects.html" target="_blank">Geology</a>
-		<a href="geophysics.html" target="_blank">Geophysics</a>
-		<a href="esseprojects.html" target="_self">Earth&Space</a>
-	</div>
-	
+
+	<div class="dropdown">
+		<button class="dropdown_button" onclick="show_container()"><!-- js function to show projects-->
+      Projects
+    </button>
+		
+		<div id="projects" class="dropdown_content"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
+			<a href="telemetryprojects.html" target="_blank">Telemetry</a>
+			<a href="geologyprojects.html" target="_blank">Geology</a>
+			<a href="geophysics.html" target="_blank">Geophysics</a>
+			<a href="esseprojects.html" target="_blank">Earth&Space</a>
+		</div>
+	</div> <!--div for class=dropdown-->
+
 	<a href="people.html" target="_blank">People</a>
 	<a href="contact.html" target="_blank">Contact</a>
 </div>
-<!--END SIDEBAR-->	
+<!--END SIDEBAR-->
 
 <!--TOP NAV FOR IN-PAGE DIRECT LINKS-->
 <div class="topnav">
@@ -39,42 +43,45 @@
   <a href="#IGOOS">Space Mission & Design</a>
 </div>
 <!--END TOPBAR-->
+	
 
 <!--BANNER-->
 <div class="overlay_container">
-<img class="banner" src="image/Lauimage2.jpg" alt="Image 2"> 
-<div class="overlay">PAGE TITLE: Welcome to ARTL can anyone read this???? 
-  <br> Still working on some things.... 
-  <br> :) 
-</div>
+	<img class="banner" src="image/Lauimage2.jpg" alt="Image 2"> 
+	<div class="overlay">PAGE TITLE: Welcome to ARTL... can anyone read this????</div>
 </div>   
 <!--END BANNER-->
 
-<div class="content">
+<div class="content"> <!--Start of page body class="content"-->
+<p>At ARTL, our Earth & Space department has worked on a wide range of different projects. Some of our best, and favorite projects are outlined below. </p>
 
-<section id="Nephanalysis">
+<section id ="Nephanalysis">
 <h1>Weather monitoring & prediction</h1>
-<p>Airing out some of those trees that he killed.</p>
-<img src="image/nephanalysis.jpg" alt="Nephanalysis done for May 12, 2000 at 1200Z">
+<img class="esse" src="image/nephanalysis.jpg" alt="Nephanalysis centered over Buffalo area from 2001">
+<p>Our meteorology experts have helped many companies for their weather monitoring and prediction needs. Our experts have a deep understanding of all the different components that go into forecasting and are able to tailor it to your needs.</p>
+<p>For a day-to-day basis, we use in-house meteorologists to help forecast the weather for the next day. Using a variety of satellite imagery, temperature profiles from nearby stations, moisture and vorticity analysis, they can create a comprehensive nephanalysis for you.</p>
+<p>For long term forecasting, we use numerical weather prediction to give a good sense of what to expect. This helps us take into account the changing climate which impacts our clients. The models we use focus on different variables to get a good idea of different scenarios that you can prepare for. This is helpful especially for farmers installing tiling and determining how large the tiles need to be for future changes in weather. </p>
 </section>
-
 
 <section id ="LandClassification">
   <h1>Satellite Imagery Analysis</h1>
-  <p>This project used PCI Geomatica, now Catalyst, to take satellite imagery, apply training sites, and classify the landscape.</p>
-  <img src="image/postaug2017.jpg" alt="satellite imagery of land after fire on aug 2017">
-  <img src="image/postaug2018.jpg" alt="saetllite imagery of land 1 year after fire on aug 2018">
-  </section>
-  
+  <h2>Forest fire area regrowth & monitoring</h2>
+  <img class="esse" src="image/postaug2017.jpg" alt="Satellite imagery from Aug 2017 in BC after forest fires had occurred">
+	 <p> In early 2019, one of our clients requested the monitoring of areas that had recently been hit by forest fires in BC, 2017. We used satellite imagery immediately following the fires in August 2017, and used imagery a year later in 2018. Using PCI Geomatica, we were able to classify the satellite imagery from 2017 and find all the areas that had been hit by fire. We also looked at the NDVI mapping to really see the areas where the fire was.
+     Running the same analysis on the imagery from 2018, we could then perform a change analysis to observe regrowth in the areas hit by the forest fires. We were able to see this growth just from the classification changes, but regrowth was most clearly seen in the NDVI change analysis. With this our client was able to monitor the burned areas, and with more years of satellite imagery the regrowth can be constantly monitored. </p>
+</section>
+
+
 <section id="Transit">
   <h1>2019 Transit Extension Crowdsource and Social Awareness</h1>
-  <img src="image/transit.PNG" alt="Suitability Analysis For GO Transit Expansion Outside the GTA">
+  <img class="esse" src="image/transit.PNG" alt="Suitability Analysis For GO Transit Expansion Outside the GTA">
   <p> For this project, driver statistics were the primary focus. By observing high traffic volume and high GO ridership, 5 areas of interest
     were selected to check the suitablity for a GO transit extension. Drivers with a commute over 60 minutes were given the greatest consideration.
     Suitability(%) = .25*AADT16+.2*CoC+.2*Co45+.3*Co60+.05*GOr, where AADT16 is the Annual Average Daily Traffic counts for 2016, CoC is the commute outside the census division, 
     Co45, a commute over 45 minute, and Co60 is commute over 60 minutes, all collected from the 2016 census. Finally, GOr, is the GO ridership data.
   </p>
-  <p> Using the data available, a web map was produced, found <a href="https://yorku.maps.arcgis.com/apps/webappviewer/index.html?id=7a4742eb8d5e40f2acbd6a7d077cb9c7" alt="GO Extension Suitablility Analysis" target="_blank">here</a>.
+  <p> Using the data available, a web map was produced, found 
+    <a href="https://yorku.maps.arcgis.com/apps/webappviewer/index.html?id=7a4742eb8d5e40f2acbd6a7d077cb9c7" alt="GO Extension Suitablility Analysis" target="_blank">here</a>.
     Looking at the results, Bowmanville, Uxbidge, and Orangeville all have fairly similar suitability. 
     Next time, more complete results may be generated by placing more focus on these 3 towns and adding more suitability conditions, 
     such as traffic farther into the commute of those commuting for >60 minutes, or adding collision or truck traffic. 
@@ -86,27 +93,58 @@
     helps take into consideration the commuters ideal trip. </p>
 </section>
 
-<section id="IGOOS">
-  <h1>Mission Level Phase 0 Proposal</h1>
-  <h2> Io Geothermal Orbital Observation Satellite</h2>
-  <p> PLACEHOLDER FOR SOME DELIGHTFUL DIAGRAMS</p>
-  <p> can I link a .pdf into this? that would be nice</p>
-  <p>Jupiter is a dynamic place, and though many satellites have already observed Jupiter and its
-    surrounding moons, even more in depth observations can be done. This is what IGOOS aims to
-    accomplish. By taking detailed observations of Io - as well as Jupiter's magnetic and
-    gravitational fields that extend to Io's orbit - these physical processes can be analyzed. This
-    analysis can help further our understanding of the effect that Jupiter has on its moons, and the
-    dynamics that go on around Jupiter in its orbit around the sun. Since volcanoes are so well
-    studied on Earth, that background information and software can be applied to Io's volcanic
-    activity to help aid in the analysis.</p>
+<section id ="IGOOS">
+  <h1>Io Geothermal Orbital Observation Satellite (IGOOS)</h1>
+  <p>In September 2019, our department started on a space mission design. This has been one of our longest and most intense projects. Our client came to use with the desire to send a science mission to Io, on of Jupiter’s Galilean moons. With the client we worked out a mission overview: really nailing down the need, objectives, architecture, and operation concepts. With all these in place we set forth a preliminary mission schedule, outlining the different phases. Right now we are in Phase C, and are working on the critical design review (CDR), started on Nov 20, 2023, with the team and client. After this review the testing and verification can start in late January.</p>
+  <h2>About the Mission</h2>
+  <p>Jupiter is a dynamic place, and though many satellites have already observed Jupiter and its surrounding moons, even more in depth observations can be done. This is what IGOOS aims to accomplish. By taking detailed observations of Io - as well as Jupiter's magnetic and gravitational fields that extend to Io’s orbit - these physical processes can be analyzed. This analysis can help further our understanding of the effect that Jupiter has on its moons, and the dynamics that go on around Jupiter in its orbit around the sun. Since volcanoes are so well studied on Earth, that background information and software can be applied to Io’s volcanic activity to help aid in the analysis. </p>
+  <p>The primary objective for the IGOOS mission is for the collection of scientific data from Io to observe its volcanic activity. This data will be analyzed by a neural network on board for areas of volcanic interest. This analysis as well as observation data will also be transmitted back to Earth for scientist stakeholders to then create a model of tidal forces and a map of volcanic activity. </p>
+  <p>The secondary objectives are to investigate the effect of Jupiter's magnetic and gravitational field on Io. This will help with understanding the processes that are occurring on Io and around Jupiter. </p>
+  <p>Specific instrumentation used in this mission are Visible and Infrared Mapping Spectrometer (VIMS), Synthetic Aperture Radar Imager (SAR), Electrostatic Gravity Gradiometer (GRAV), and Dual Technique Magnetometer (MAG) measurements. IR data is used to quantify heat radiation and ash clouds. Synthetic Aperture Radar (SAR) is used for quantifying surface deformation and detecting areas of potential lava flow. The gravity and magnetic data will primarily be investigating the effects of Jupiter on Io, however, there is research that gravity and magnetic changes can be seen  due  to  the  changes  in  subsurface  mass  in  active  volcanoes.</p>
+  
+	<h2>A brief look into the scientific instrumentation</h2>
+	<p>In the study that was completed, the mission science was the focus. Multiple data types were evaluated to determine what type of data would be collected by the scientific payload. The main objective of the IGOOS mission science payload is to obtain locations and observations of volcanic activity on the Galilean moon, Io. Secondary objectives are to determine the forces acting behind the located volcanic activity. </p>
+  <p>Data maps are the best way to solve this problem, to locate volcanic activity on Io from a remote sensing perspective without ground measurements. Due to the beginning stage of the design process and theoretical nature of the problem, cost was assumed negligible due to the range of possible solutions. The solution data was to have at least one high resolution data type, preferably from the electromagnetic (EM) spectrum. This constraint was since it is easier to visually see and confirm processes occurring on a surface rather than detecting magnetic fields and needing to assume that it is volcanic activity without confirmation. In addition, due to the deep space nature of the IGOOS mission, it would be best to have the data collected with med-low power instrumentation. </p>
+  <p>Around Earth, there are many different instrumentations that have been previously sent into orbit for observations, are currently in a mission, or are planned for a future mission. Each solution already has instrumentation that is on an active or planned satellite mission. Instrument selection was based on how closely it then fulfilled the mission goal for the specific alternative. The reasoning behind a current or future mission instrumentation is so that the technology would be compatible and relevant in a future building and launch date. </p>
+  <p>After outlining different variables for success, we were able to set up various weighting and criterion tables for each proposed science instrumentation. Then, after completing the analysis of different data types, the main goals of the instrument, their specifications, and the final decision matrices were filled out and evaluated. The best recommended alternative to fit the mission needs were EM data, and more specifically the IR and MW data alternatives which fulfilled the high-resolution selection criteria. With data fusion techniques, the image data can be combined to create a high-resolution image containing the data that is needed. </p>
+  <p>There were many significant trade studies that came out of this, the most interesting one was looking at a riskier option, and looking into having a neural network or automated detection system aboard the satellite that could determine and monitor volcanic activity based on the received data and make data maps to send back to the scientists for research. This would limit the need for scientists to send pointing instructions to the satellite for closer observations. </p>
+  <p>You can read the full version <a href="Jonker Mission Science Trade Study.pdf" alt="IGOOS Science Mission Trade study" target="_blank">here</a>.</p>
 </section>
 
+</div> <!--div for content PAGE-->
 
-</div> <!--  for div class="content" -->
-
-<footer> <!-- Andie Nov 15 adding footer -->
-  <p>© 2023 by ARTL GIS Consulting. All rights reserved.</p>
-</footer>
-
+<!-- Andie Nov 23 DONE - FOOTER across all pages, i still want to make minor CSS changes (ex. margins)
+as well as change the h3 class to a specific class for footer headings -->
+<footer> 
+	<div class col-1">
+	<h3>INTERESTED IN GIS?</h3>
+		<p><a href="https://flemingcollege.ca/">Fleming College</a></p>
+		<p><a href="https://www.esri.ca/en-ca/home">ESRI Canada</a></p>
+		<p><a href="https://gogeomatics.ca/">GoGeomatics</a><p>
+	</div>
+	<div class col-2">
+		<h3>JOIN OUR NEWSLETTER</h3>
+	<form>
+		<input type="email" placeholder="Your email address" required>
+		<br>
+		<button type="submit">Subscribe now!</button>
+	</form>
+	</div>
+	<div class col-3">
+		<h3>GET IN TOUCH</h3>
+	<p>100 First Avenue, Toronto, Ontario, M5V 3L9</p>
+	<p>416-555-5893</p>
+	<p>contact@artl.com</p>
+		<div class="socials">
+			<!-- icons used from https://fontawesome.com/icons -->
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-instagram"></i>
+		</div>
+	</div>
+</footer> 
+<!-- END FOOTER -->
+<!-- Andie Nov 23: I really want to add a JS "visitor" counter to show how many people visit our site, but i am still working on that to function properly...-->
+<!-- it will go here and be placed on all pages under the footer or within, i haven't decided yet -->
 </body>
 </html> 

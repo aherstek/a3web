@@ -261,7 +261,21 @@ img {
   padding: 5px;
 }
 
+img.home {
+  float: left; 
+  margin-right: 10px; 
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
+img.esse {
+  float: left; 
+  margin-right: 10px; 
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 /*FROM W3 https://www.w3schools.com/howto/howto_css_image_overlay_title.asp*/
 /*BANNER OVERLAY*/
 .overlay_container {
