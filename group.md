@@ -35,11 +35,11 @@ Relevant: Why?
 
 Time-bound
   - CSS up in the next day (by Nov 11). Completed. 
-  - Connect website page links as people create them (ASAP)
-  - Add website page template that includes common themes (Nov 19)
-  - Home pages up by Nov 23 (aim for Nov 19) (By week 12: Nov 19--25)
-  - Get website responsive design for week 13 (Nov 26-Dec 2)
-  - Final review (consistent layout, no website errors, overall edit) - week 13
+  - Connect website page links as people create them (ASAP).  Completed.
+  - Add website page template that includes common themes (Nov 19). Completed.
+  - Home pages up by Nov 23 (aim for Nov 19) (By week 12: Nov 19--25) Finish end of Wk 13. 
+  - Get website responsive design for week 13 (Nov 26-Dec 2) Completed Nov 19 - check again in Wk13/14
+  - Final review (consistent layout, no website errors, overall edit) - week 13/14
 
 #########################################################################################
 
