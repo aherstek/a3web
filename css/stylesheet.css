@@ -4,7 +4,10 @@
   From: layout based on https://lilysnowdenfine.com/ 
 ------------------*/  
 
-/*Page styling*/
+/*PAGE STYLING
+  -----
+  Date: Nov 19 (v1)
+  -----*/
 body {
   font-family: "Avantgarde", sans-serif;
   margin: 0px; 
@@ -452,6 +455,9 @@ a.link {
   img {
 	  max-width:90%; /*so img border isn't cut off in adjustments*/
     }
+  footer {
+    padding: 20px 10px 10px 120px;
+  }
 }
 
 
@@ -510,8 +516,8 @@ a.link {
 	  padding: 1px; /*height of sidebar at top*/
   }
   footer {
-      padding: none;
-    }
+    padding: 10px 10px 10px 20px;
+  }
 
 }
 
