@@ -53,6 +53,11 @@ body {
   border: none;
 }
 
+/* active page link*/
+a:active {
+  color: #be680b
+}
+
 /*sidebar image*/
 /*image is 18x0x180*/
 img.logo {
