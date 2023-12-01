@@ -376,7 +376,9 @@ tr:hover {
 }
 
 /*tablets & large phone screens*/
-@media screen and (max-width: 720px) {
+
+/*-----760-----*/
+@media screen and (max-width: 760px) {
   .sidebar {
 	  padding-top:0px;
 	  width: 100%; /*change from sidebar to top nav bar*/
@@ -390,7 +392,7 @@ tr:hover {
 	  display: inline;
 	  float: left;
 	  text-align: center;
-	  padding: 30px 15px 0px 15px; /*top r bottom l*/
+	  padding: 30px 20px 0px 20px; /*top r bottom l*/
 	  font-size: 20px;
 	  width: auto; /*100%/6*/
 	}
@@ -402,7 +404,37 @@ tr:hover {
     position: relative;
     padding-top: 90px;
     z-index: 0;
+  }
+  /*Changing the dropdown to work for topnav*/
+  .dropdown { /*styles the dropdown box*/
+    float: left;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .dropdown, .dropdown_button {
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  } 
+  .dropdown_content {
+    display: none;
     position: relative;
+    background-color: #262626;
+    min-width: 160px;
+    z-index: 2;
+  }
+  .dropdown_content a { /*styles dropdown words*/
+    float: none;
+    color:  #CEDEBD;
+    text-decoration: none;
+    /*display: inline;
+    text-align: center;*/
+    display: block;
+    text-align: center;
+  }
+  .overlay {
+    margin-top: 0px;
+    font-size: 22px;
+    padding-top: 25px;
   }
   .slideshow-container, .banner{
     width:100%;
@@ -415,10 +447,14 @@ tr:hover {
 	  padding: 1px; /*height of sidebar at top*/
   }
   footer {
-      padding: none;
-    }
-
+    padding: 10px 10px 10px 20px;
+  }
 }
+
+
+
+
+
 /*small screens*/
 @media screen and (max-width: 630px) {
   .sidebar a, .dropdown_button {
