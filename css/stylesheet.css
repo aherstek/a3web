@@ -164,12 +164,10 @@ h3 {
 
 /*ADD CLASS SPECIFIC H* BELOW*/
 
-
-/* -----------------------adding footer Andie Nov 15 
-referencing https://www.youtube.com/watch?v=T5BACF2goFU, https://www.youtube.com/watch?v=YOb67OKw62s*/
-/* Andie Nov 23: I am still working on CSS for footer but it is 80% complete */
-/* i am wanting to still tweak margins etc so the footer is better centered and font is appropriately sized/spaced 
-as well as make class specific headers, instead of h3 like i am now*/
+/* -----------------------FOOTER STARTS*/
+/* Owner : Andie Herstek
+Date: December 01, 2023 (v5)
+From: https://www.youtube.com/watch?v=T5BACF2goFU, https://www.youtube.com/watch?v=YOb67OKw62s*/
 
 footer {
   text-align: center;
@@ -178,6 +176,15 @@ footer {
   background: #CEDEBD;
   color: #333;
   display: flex; /* ims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word “flex”). */
+}
+
+footer-heading {
+  font-size: 18px;
+  color:rgb(2, 46, 2);
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
  footer.div{
@@ -240,15 +247,19 @@ form button{ /* practiced using https://www.w3schools.com/css/tryit.asp?filename
   margin: 10px;
   cursor: pointer;
 }
-/* -----------------------END adding footer Andie Nov 15 */
+/* End Owner: Andie Herstek*/
 
-/* -----------------------START people pages edits Andie Nov 28 */
-/* ---- modified Laura's .service-image to suit the needs of the Person page, but this is Laura's CSS design for the small images */
+/* -------------PEOPLE PAGE STARTS */
+/* Owner : Andie Herstek
+Date: December 01, 2023 (v5)
+From: https://www.w3schools.com/css/css3_border_images.asp, 
+I used Laura's Service's page .service-image HTML/CSS and edited to suit needs of People page */
 .service-imageperson {
   float: left; 
   margin-right: 20px; 
   margin-bottom: 10px;
   border: 2px solid #435334;
+  border-style: dashed;
   border-radius: 5px;
 }
 
@@ -256,7 +267,7 @@ ul.people{
   border: 2px solid #435334;
 }
 
-/* -----------------------END people pages edits Andie Nov 28 */
+/* End Owner: Andie Herstek */
 
 
 /* IMAGE FORMATTING
