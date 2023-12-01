@@ -383,14 +383,33 @@ a.link {
 
 /*RESPONSIVE LAYOUT OPTION BEGIN
   -----
-  Date: Nov 19 (v2)
+  Date: Updated Dec 1 (v2)
   From: Based on https://www.w3schools.com/html/html_responsive.asp
   -----*/
 
+  
 /*max-width breakpoint because we started with desktop*/
+/*-----1300-----*/
+@media screen and (max-width: 1300px) {
+  .overlay {
+    margin-top: 40px;
+    font-size: 30px;
+    padding-top: 30px;
+  }
+}
 
-/*smaller screens, like tablet*/
-/* 698px largest image width + 2*5px padding*2*10px border + 200px sidebar*/
+
+/*-----1020-----*/
+@media screen and (max-width: 1020px) {
+  .overlay {
+    margin-top: 30px;
+    font-size: 25px;
+    padding-top: 40px;
+  }
+}
+
+
+/*-----928-----*/
 @media screen and (max-width: 928px) {
   .sidebar {
 	  padding-top: 15px; 
@@ -411,15 +430,17 @@ a.link {
     font-size: 16px;
     padding: 12px 14px;
   }
-
+  .overlay {
+    margin-top: 30px;
+    font-size: 24px;
+    padding-top: 30px;
+  }
   .banner, .slideshow-container {
     max-width:100%;
     left:0;
     padding:0;
   }
-  .overlay {
-    font-size: 18px;
-  }
+  
   .content{
 	  margin-left: 100px; /*same width as sidebar*/
   }
@@ -433,8 +454,19 @@ a.link {
     }
 }
 
-/*tablets & large phone screens*/
-@media screen and (max-width: 720px) {
+
+/*-----810-----*/
+@media screen and (max-width: 810px) {
+  .overlay {
+    margin-top: 20px;
+    font-size: 20px;
+    padding-top: 40px;
+  }
+}
+
+
+/*-----760-----*/
+@media screen and (max-width: 760px) {
   .sidebar {
 	  padding-top:0px;
 	  width: 100%; /*change from sidebar to top nav bar*/
@@ -448,7 +480,7 @@ a.link {
 	  display: inline;
 	  float: left;
 	  text-align: center;
-	  padding: 30px 15px 0px 15px; /*top r bottom l*/
+	  padding: 30px 20px 0px 20px; /*top r bottom l*/
 	  font-size: 20px;
 	  width: auto; /*100%/6*/
 	}
@@ -461,6 +493,11 @@ a.link {
     padding-top: 90px;
     z-index: 0;
     position: relative;
+  }
+  .overlay {
+    margin-top: 0px;
+    font-size: 22px;
+    padding-top: 25px;
   }
   .slideshow-container, .banner{
     width:100%;
@@ -477,14 +514,41 @@ a.link {
     }
 
 }
-/*small screens*/
-@media screen and (max-width: 630px) {
+
+
+/*-----660-----*/
+@media screen and (max-width: 660px) {
   .sidebar a, .dropdown_button {
 	  padding: 15px 15px 0px 15px; /*top r bottom l*/
     font-size: 20px;
   }
   .topnav {
     padding-bottom:0; 
+  }
+  .overlay {
+    margin-top: 0px;
+    font-size: 20px;
+    padding-top: 15px;
+  }
+}
+
+
+/*-----570-----*/
+@media screen and (max-width: 570px) {
+  .overlay {
+    margin-top: 0px;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+}
+
+
+/*-----500-----*/
+@media screen and (max-width: 500px) {
+  .overlay {
+    margin-top: 0px;
+    font-size: 14px;
+    padding-top: 15px;
   }
 }
 /*RESPONSIVE LAYOUT OPTION END*/
