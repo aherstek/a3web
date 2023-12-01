@@ -1,3 +1,9 @@
+/*----------------
+  Owner: Tali Jonker
+  Date: Nov 19 (v2)
+  From: layout based on https://lilysnowdenfine.com/ 
+------------------*/  
+
 /*Page styling*/
 body {
   font-family: "Avantgarde", sans-serif;
@@ -5,19 +11,17 @@ body {
   overflow-x: hidden;
 }
 
-/*layout based on https://lilysnowdenfine.com/ */
 
 /*NOTE .page WILL BE REMOVED IF WE DON'T WANT A BACKGROUND */
 .page {
   background: #ffffff;
 }
 
-
-
-/*SIDEBAR OPTION BEGIN*/
-/*sidebar based on w3schools https://www.w3schools.com/w3css/w3css_sidebar.asp*/
-
-
+/*SIDEBAR OPTION BEGIN
+  -----
+  Date: Nov 19 (v2)
+  From: sidebar based on w3schools https://www.w3schools.com/w3css/w3css_sidebar.asp
+  -----*/
 .sidebar {
   height: 100%;
   width: 200px;
@@ -30,6 +34,7 @@ body {
   padding-top: 20px;
   border-right: double rgb(0, 44, 0) 5px;
 }
+
 /* style of link texts*/
 .sidebar a, .dropdown_button {
   padding: 10px;
@@ -45,9 +50,20 @@ body {
   border: none;
 }
 
+/*sidebar image*/
+/*image is 18x0x180*/
+img.logo {
+  display: block;
+  border: none;
+}
 
 
-/*DROP DOWN CONTAINER*/
+/*DROP DOWN CONTAINER
+  ------
+  Date: Nov 19
+  From: dropdown based on https://www.w3schools.com/howto/howto_js_dropdown.asp
+        https://www.geeksforgeeks.org/how-to-create-dropdown-list-using-javascript/ 
+  -----*/
 .dropdown_content { /*styles the dropdown box*/
   display: none;
   background-color: #262626;
@@ -70,18 +86,17 @@ body {
   color: #385c0d; /*different color when hovering*/
 }
 
-/*for sidebar img*/
-/*image is 18x0x180*/
-img.logo {
-  display: block;
-  border: none;
-}
 
 
 
-/*TOPNAV*//*For personal page id links*/
+
+/*TOPNAV: For personal page id links
+  -----
+  Date: Updated Nov 30 (v1)
+  From: https://www.w3schools.com/howto/howto_js_topnav.asp
+  -----*/
 .topnav {
-  background-color:#CEDEBD;
+  background-color:rgb(2, 46, 2);
   overflow: hidden;
   width:100%;
   position: fixed;
@@ -92,7 +107,7 @@ img.logo {
 .topnav a {
   float: right;
   font-size: 20px; /*same as droppdown, dropdown_button*/
-  color: white;
+  color: #CEDEBD;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -100,9 +115,10 @@ img.logo {
 
 
 
-
-/*BODY OF MAIN PAGE HERE*/
-/* !!!! PLEASE NOTE I REMOVED .main AND .project AND ARE NOW .content -T*/
+/*BODY OF MAIN PAGE HERE
+  -----
+  Date: Nov 19 (v3)
+  -----*/
 .content {
   margin-left: 200px; /* Same as the width of the sidebar */
   font-size: 16px; 
@@ -112,7 +128,11 @@ img.logo {
 }
 
 
-/*GENERAL HEADING PARAGRAPH FORMATS*/
+/*GENERAL HEADING PARAGRAPH FORMATS
+  -----
+  Date: Nov 19 (v2)
+  -----*/
+
 h1 {
   font-size: 25px;
   font-weight: normal;
@@ -235,22 +255,11 @@ ul.people{
 
 /* -----------------------END people pages edits Andie Nov 28 */
 
-/* p.abstract {
-  font-size: 16px;
-  color: black;
-  font-style: normal;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-}
-p.quote {
-  font-style: italic;
-  color: #40115e;
-}
-*/
 
-
-/* IMAGE FORMATTING*/
+/* IMAGE FORMATTING
+  -----
+  Date: Nov 30 (v2)
+  -----*/
 /*give images gallery-like framing*/
 img {
   display: block;
@@ -261,23 +270,22 @@ img {
   padding: 5px;
 }
 
-img.home {
-  float: left; 
-  margin-right: 10px; 
-  margin-bottom: 10px;
+img.block {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-img.esse {
-  float: left; 
-  margin-right: 10px; 
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-/*FROM W3 https://www.w3schools.com/howto/howto_css_image_overlay_title.asp*/
-/*BANNER OVERLAY*/
+
+
+/*BANNER OVERLAY
+  -----
+  Date: Updated Nov 30 (v1)
+  From: W3 https://www.w3schools.com/howto/howto_css_image_overlay_title.asp
+  -----*/
 .overlay_container {
   position: relative;
   width: 100%;
@@ -297,8 +305,9 @@ img.esse {
   transition: .5s ease;
   opacity:0;
   color: white;
-  font-size: 20px;
+  font-size: 36px;
   padding: 20px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -307,17 +316,16 @@ img.esse {
 }
 
 /*Specific formatting for banner image at top of each page*/
-
 img.banner {
   width: 100%; 
   height: auto; 
   border: 0;
- /* padding: 0;*/
+  padding: 0;
 }
 
 /******************** START SERVICES PAGE ********************/
 /******************** Edited by Laura ********************/
-.service-image {
+.service-image, .esse {
   float: left; 
   margin-right: 10px; 
   margin-bottom: 10px;
@@ -373,15 +381,13 @@ a.link {
 /******************** END GEOLOGY PAGE ********************/
 
 
-/*RESPONSIVE LAYOUT OPTION BEGIN*/
-/*TALI*/
+/*RESPONSIVE LAYOUT OPTION BEGIN
+  -----
+  Date: Nov 19 (v2)
+  From: Based on https://www.w3schools.com/html/html_responsive.asp
+  -----*/
 
-/*max width breakpoint bc started with desktop*/
-/* w3 schools*/
-
-/*NEED TO ADD ALL PAGES TO THIS*/ 
-/*Currently only showing home page responsive design*/
-
+/*max-width breakpoint because we started with desktop*/
 
 /*smaller screens, like tablet*/
 /* 698px largest image width + 2*5px padding*2*10px border + 200px sidebar*/
@@ -502,5 +508,4 @@ a.link {
     margin-left: 250px; /* Adjust to fit the width of the sidebar */
 }
 
-
-
+/*End owner: Tali Jonker

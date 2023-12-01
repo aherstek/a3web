@@ -1,5 +1,11 @@
+/*----------------
+  Owner: Tali Jonker
+  Date: Nov 19 (v2)
+  From: following along with https://www.geeksforgeeks.org/how-to-create-dropdown-list-using-javascript/
+        and https://www.w3schools.com/howto/howto_js_dropdown.asp
+------------------*/  
+
 /*For the drop down menu*/
-/* following along with https://www.geeksforgeeks.org/how-to-create-dropdown-list-using-javascript/ */
 function show_container() {
     var container = document.getElementById("projects"); 
     /*changing container values on click: css .container{display = none;}  */
@@ -17,7 +23,9 @@ function show_container() {
           .style.display = "block";
   
     }
-  }
+}
+
+
 /* -----Andie-----------Nov14 */
 /* Trialling JS and creating a website visitor counter... not quite done yet lol 
 

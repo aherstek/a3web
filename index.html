@@ -1,3 +1,9 @@
+<!----------
+  Owner: Tali Jonker
+  Date: Nov 30 (v2)
+  From: layout based on https://lilysnowdenfine.com/ ; https://rwdi.com/en_ca/
+  ---------->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +15,8 @@
 
 <bodY>
 <!--VS code test Andie-->
-<!--Add in sidebar-->
+
+<!--SIDEBAR IS FOR LINKS-->
 <div class="sidebar">
 	<img class="logo" src='image/ARTL.png' title="ARTL">
 	<a href="index.html" target="_self">HOME</a>
@@ -93,12 +100,42 @@
 
 
 
-</div> <!--  Ragab Jaafar | for div class="content" -->
+</div> <!-- for div class="content" -->
 
+<!-- Andie Nov 23 DONE - FOOTER across all pages, i still want to make minor CSS changes (ex. margins)
+as well as change the h3 class to a specific class for footer headings -->
 <footer> 
-	<!-- Andie Nov 15 adding footer -->
-	<p>© 2023 by ARTL GIS Consulting. All rights reserved.</p>
+	<div class col-1">
+	<h3>INTERESTED IN GIS?</h3>
+		<p><a href="https://flemingcollege.ca/">Fleming College</a></p>
+		<p><a href="https://www.esri.ca/en-ca/home">ESRI Canada</a></p>
+		<p><a href="https://gogeomatics.ca/">GoGeomatics</a><p>
+	</div>
+	<div class col-2">
+		<h3>JOIN OUR NEWSLETTER</h3>
+	<form>
+		<input type="email" placeholder="Your email address" required>
+		<br>
+		<button type="submit">Subscribe now!</button>
+	</form>
+	</div>
+	<div class col-3">
+		<h3>GET IN TOUCH</h3>
+	<p>100 First Avenue, Toronto, Ontario, M5V 3L9</p>
+	<p>416-555-5893</p>
+	<p>contact@artl.com</p>
+		<div class="socials">
+			<!-- icons used from https://fontawesome.com/icons -->
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-instagram"></i>
+		</div>
+	</div>
 </footer> 
+<!-- END FOOTER -->
+<!-- Andie Nov 23: I really want to add a JS "visitor" counter to show how many people visit our site, but i am still working on that to function properly...-->
+<!-- it will go here and be placed on all pages under the footer or within, i haven't decided yet -->
 
 </body>
 </html> 
+<!-----End Owner: Tali Jonker----->
