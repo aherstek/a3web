@@ -514,6 +514,13 @@ a.link {
     z-index: 0;
     position: relative;
   }
+  .dropdown_content a { /*styles dropdown words*/
+    float: none;
+    color:  #CEDEBD;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+  }
   .overlay {
     margin-top: 0px;
     font-size: 22px;
