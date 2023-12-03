@@ -203,6 +203,7 @@ a.col-1{
     text-decoration: none;
     font-size: 10px;
     color: #40513B;
+    margin-right: 210px;
  }
 
  .col-2{ 
@@ -211,7 +212,7 @@ a.col-1{
  }
 
  .col-3{
-  margin-left: 50px;
+  margin-left: 20px;
  }
 
  /* footer.div h3{
