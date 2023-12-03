@@ -33,12 +33,13 @@ function show_container() {
 
 
   function subscribe() {
-            // Get the email input value
+            /* Get the email input value */
            var email = document.getElementById('email-input').value;
 
-            // Perform any necessary actions (e.g., send the email to a server, display a thank you message, etc.)
+            /* Display thank you message */
             alert('Subscribed! Thank you for joining our newsletter.');
 
-            // You can also reset the form or perform other actions as needed
+            /* Reset the form */
             document.getElementById('email-input').value = '';
         }
+

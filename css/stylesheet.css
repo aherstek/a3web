@@ -249,27 +249,6 @@ a.col-1{
   cursor: pointer;
 }
 
-/* form input{ /* email form https://www.w3schools.com/css/css_form.asp */
-  width: 325px;
-  height: 45px;
-  border-radius: 4px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  outline: none;
-  border: none;
-}
-
-/* form button{ /* practiced using https://www.w3schools.com/css/tryit.asp?filename=trycss_form_button */
-  background: transparent;
-  border: 2px solid #fff;
-  color: #40513B;
-  border-radius: 30px;
-  padding: 10px 30px;
-  font-size: 12px;
-  cursor: pointer; /* trialled different types using https://www.w3schools.com/cssref/tryit.php?filename=trycss_cursor */
-} */ */
-
 .socials{
   margin-top: 30px;
 }
