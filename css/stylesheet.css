@@ -199,6 +199,7 @@ footer-heading {
 footer-columns {
   display: flex;
   justify-content: space-between;
+  flex-grow: 1;
 }
 
 footer-columns.col-1,
