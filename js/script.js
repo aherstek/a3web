@@ -30,16 +30,15 @@ function show_container() {
   Owner: Andie Herstek
   Date: Nov Dec 3 (v3)
   From: w3 schools JS */
-
-
   function subscribe() {
-            /* Get the email input value */
+            /* Get the email input */
            var email = document.getElementById('email-input').value;
 
-            /* Display thank you message */
+            /* Display thank you message! */
             alert('Subscribed! Thank you for joining our newsletter.');
 
             /* Reset the form */
             document.getElementById('email-input').value = '';
         }
 
+        /* End Owner: Andie Herstek */
