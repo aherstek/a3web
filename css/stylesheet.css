@@ -179,7 +179,8 @@ From: https://www.youtube.com/watch?v=T5BACF2goFU, https://www.youtube.com/watch
 
 footer {
   text-align: center;
-  margin-top: 150px;
+  margin-top: auto;
+  margin-left: auto;
   padding: 20px 10px 40px;
   background: #CEDEBD;
   color: #333;
