@@ -517,7 +517,6 @@ a.link {
     position: relative;
     padding-top: 90px;
     z-index: 0;
-    position: relative;
   }
   .dropdown_content a { /*styles dropdown words*/
     float: none;
