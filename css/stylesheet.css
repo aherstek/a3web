@@ -195,6 +195,12 @@ footer-heading {
   text-align: left;
 }
 
+footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
  footer.div{
   text-align: center;
  }
