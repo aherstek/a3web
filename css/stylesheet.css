@@ -199,6 +199,7 @@ footer-heading {
 
 col-1{
   margin-left: 250px;
+  padding-right: 35px;
 }
 
 a.col-1{
@@ -214,6 +215,7 @@ a.col-1{
 
  .col-3{
   margin-right: 40px;
+  padding-left: 35px;
  }
 
  #subscription-form {
