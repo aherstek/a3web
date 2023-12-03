@@ -477,7 +477,6 @@ a.link {
   footer {
     padding: 20px 10px 10px 120px;
   }
-}
 
 
 /*-----810-----*/
@@ -543,7 +542,14 @@ a.link {
   footer {
     padding: 10px 10px 10px 20px;
   }
-
+  footer-heading { /* Owner: Andie Herstek V2 Dec 3, 2023 */
+    font-size: 16px;
+  }
+  a.col-1 {
+    font-size: 12px;
+  }
+}
+/* End owner: Andie */
 }
 
 
