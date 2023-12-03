@@ -184,7 +184,7 @@ footer {
   background: #CEDEBD;
   color: #333;
   display: flex; /* ims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word “flex”). */
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
