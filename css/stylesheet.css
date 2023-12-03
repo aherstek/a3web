@@ -180,18 +180,18 @@ From: https://www.youtube.com/watch?v=T5BACF2goFU, https://www.youtube.com/watch
 footer {
   text-align: center;
   margin-top: 150px;
-  padding: 20px 10px 40px 320px; /* still need to figure out */
+  padding: 20px 10px 40px;
   background: #CEDEBD;
   color: #333;
   display: flex; /* ims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word “flex”). */
+  flex-direction: column;
+  align-items: center;
 }
 
 footer-heading {
   font-size: 18px;
   color:rgb(2, 46, 2);
   font-weight: normal;
-  margin-left: auto;
-  margin-right: auto;
   text-align: left;
 }
 
