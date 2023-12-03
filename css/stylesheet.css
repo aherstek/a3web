@@ -209,8 +209,7 @@ a.col-1{
  }
 
  .col-2{ 
-  flex-grow: 2; /* 
-  The flex-grow property specifies how much the item will grow relative to the rest of the flexible items inside the same container. https://www.w3schools.com/cssref/css3_pr_flex-grow.php */
+  flex-grow: 0;
  }
 
  .col-3{
