@@ -275,7 +275,8 @@ I used Laura's Service's page .service-image HTML/CSS and edited to suit needs o
 }
 
 .quote {
-  font-style: italic, bold;
+  font-size: 18px;
+  font-style: italic;
   font-family: 'Gill Sans';
   text-shadow: #385c0d;
 }
