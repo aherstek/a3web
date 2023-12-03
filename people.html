@@ -21,6 +21,7 @@
 		<button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
 			Projects 
 		</button>
+	</div>
 		
 		<div id="projects" class="dropdown_content"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
 			<a href="telemetryprojects.html" target="_self">Telemetry</a>
@@ -153,17 +154,17 @@ From: -->
 	</div>
 	<div class col-2">
 		<footer-heading>JOIN OUR NEWSLETTER</footer-heading>
-		<form>
-			<input type="email" placeholder="Your email address" required>
-			<br>
-			<button type="submit">Subscribe now!</button>
+		<form id="subscription-form">
+			<input type="email" id="email-input" placeholder="Enter your email">
+			<button id="subscribe-button" onclick="subscribe()">Subscribe</button>
 		</form>
+	</div>
 	</div>
 	<div class col-3">
 		<footer-heading>GET IN TOUCH</footer-heading>
-		<p> 100 First Avenue, Toronto, ON, M5V 3L9</p>
-		<p>416-555-5893</p>
-		<p>contact@artl.com</p>
+			<p> 100 First Avenue, Toronto, ON, M5V 3L9</p>
+			<p>416-555-5893</p>
+			<p>contact@artl.com</p>
 	<div class="socials">
 			<i class="fa-brands fa-facebook"></i>
 			<i class="fa-brands fa-twitter"></i>
