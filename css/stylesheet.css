@@ -224,8 +224,26 @@ a.col-1{
   letter-spacing: 1px;
  }
 
+ #subscription-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
 
-form input{ /* email form https://www.w3schools.com/css/css_form.asp */
+#email-input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+#subscribe-button {
+  padding: 8px 20px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+/* form input{ /* email form https://www.w3schools.com/css/css_form.asp */
   width: 325px;
   height: 45px;
   border-radius: 4px;
@@ -236,7 +254,7 @@ form input{ /* email form https://www.w3schools.com/css/css_form.asp */
   border: none;
 }
 
-form button{ /* practiced using https://www.w3schools.com/css/tryit.asp?filename=trycss_form_button */
+/* form button{ /* practiced using https://www.w3schools.com/css/tryit.asp?filename=trycss_form_button */
   background: transparent;
   border: 2px solid #fff;
   color: #40513B;
@@ -244,7 +262,7 @@ form button{ /* practiced using https://www.w3schools.com/css/tryit.asp?filename
   padding: 10px 30px;
   font-size: 12px;
   cursor: pointer; /* trialled different types using https://www.w3schools.com/cssref/tryit.php?filename=trycss_cursor */
-}
+} */ */
 
 .socials{
   margin-top: 30px;
@@ -271,10 +289,10 @@ I used Laura's Service's page .service-image HTML/CSS and edited to suit needs o
   border-radius: 5px;
 }
 
-ul.people{
-  border: 2px solid #435334;
-  background-color: #9EB384;
+.quote {
+text-shadow: #385c0d;
 }
+
 
 /* End Owner: Andie Herstek */
 

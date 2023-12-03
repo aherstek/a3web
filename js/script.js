@@ -26,29 +26,19 @@ function show_container() {
 }
 
 
-/* -----Andie-----------Nov14 */
-/* Trialling JS and creating a website visitor counter... not quite done yet lol 
+/* /*--FOOTER SUBSCRIBE BUTTON--------------
+  Owner: Andie Herstek
+  Date: Nov Dec 3 (v3)
+  From: w3 schools JS */
 
-var counterContainer = document.querySelector(".website-counter");
-var resetButton = document.querySelector("#reset");
-var visitCount = localStorage.getItem("page_view");
 
-// Check if page_view entry is present
-if (visitCount) {
-  visitCount = Number(visitCount) + 1;
-  localStorage.setItem("page_view", visitCount);
-} else {
-  visitCount = 1;
-  localStorage.setItem("page_view", 1);
-}
-counterContainer.innerHTML = visitCount;
+  function subscribe() {
+            // Get the email input value
+           var email = document.getElementById('email-input').value;
 
-// Adding onClick event listener
-resetButton.addEventListener("click", () => {
-  visitCount = 1;
-  localStorage.setItem("page_view", 1);
-  counterContainer.innerHTML = visitCount;
-});
+            // Perform any necessary actions (e.g., send the email to a server, display a thank you message, etc.)
+            alert('Subscribed! Thank you for joining our newsletter.');
 
-Trialling JS website visitor counter 
------Andie-----------Nov14 */
+            // You can also reset the form or perform other actions as needed
+            document.getElementById('email-input').value = '';
+        }
