@@ -198,22 +198,9 @@ footer-heading {
   justify-content: center;
 }
 
-/* footer-columns {
-  display: flex;
-  justify-content: space-between;
-  flex-grow: 1;
-} */
-
-footer-columns.col-1,
-footer-columns.col-2,
-footer-columns.col-3 {
-  margin-right: 40px; /* Adjust the value to your preference */
-}
-
 a.col-1{
     display: block;
     text-decoration: none;
-    margin-bottom: 10px;
     font-size: 10px;
     color: #40513B;
  }
@@ -229,11 +216,15 @@ a.col-1{
   The flex-grow property specifies how much the item will grow relative to the rest of the flexible items inside the same container. https://www.w3schools.com/cssref/css3_pr_flex-grow.php */
  }
 
- footer.div h3{
+ .col-3{
+  margin-left: 40px;
+ }
+
+ /* footer.div h3{
   font-weight: 300;
   margin-bottom: 30px;
   letter-spacing: 1px;
- }
+ } */
 
  #subscription-form {
   display: flex;
