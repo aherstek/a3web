@@ -139,13 +139,10 @@ Time-bound
 - Cohesiveness between pages, mimics a real consulting firm in regards to aesthetic, tone of writing, overall look/professionalism
 
 #Achievable
-- Building on top of Tali's framework by incorporating a new CSS style to all webpages
-- Redesigning layout and adding responsive designs in both text and graphics
-- Adding cohesive footer across all pages
-- Adding visitor counter using JS to home page or contact page (Working on - as of Dec 16)
-- Adding JS graphics to images on People page
-- Adding JS graphic to Names and titles of staff (Done - Nov 13)
-- Creating columns/split screen effect for People page - (50% done, working on - as of Dec 16)
+- Building on top of Tali's framework by incorporating a new CSS style to all webpages (Done - Dec 3/23)
+- Redesigning layout and adding responsive designs in both text and graphics (Done - Dec 3/23)
+- Adding cohesive footer across all pages (Done - Dec 3/23)
+- Adding visitor counter using JS to home page or contact page (Opted to not use, crowded the footer too much - Dec 3/23)
 
 #Relevant
 - Using HTML/CSS skills appropriately to easily guide user (or mock 'client') through our website with ease
@@ -155,7 +152,9 @@ Time-bound
 - End of Week 11 - CSS ideas have been thoroughly discussed and worked on, start implementing small JS sections, write text section for my Project page, source images for Project page (personal images), gather educational info from other group members for People page -->  completed Nov 15
 - End of Week 12 - "People" page is running and worked on thoroughly, as well as my "Project" page
 -   - provided feedback by group members, begin to work together on CSS especially to create unified look (colour palette, etc)
+--> Done! Nov 28/23
 - End of Week 13 - "Base" website is complete and error free, allowing time to build on this with more complex / stylized items if desired
+--> Done! Dec 3/23
   - website looks as though one user made it, all pages follow same font, colour palette, size, interface layout, etc
   - Week 14: Ready to hand in!
 
