@@ -205,12 +205,6 @@ a.col-1{
     color: #40513B;
  }
 
- a.col-1:hover{ /* still working on */
-  color: #435334;
-  background-color: #9EB384;
-  border: 2px solid #435334;
- }
-
  .col-2{ 
   flex-grow: 4; /* 
   The flex-grow property specifies how much the item will grow relative to the rest of the flexible items inside the same container. https://www.w3schools.com/cssref/css3_pr_flex-grow.php */
