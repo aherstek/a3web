@@ -198,12 +198,15 @@ footer-heading {
   justify-content: center;
 }
 
+col-1{
+  margin-right: 250px;
+}
+
 a.col-1{
     display: block;
     text-decoration: none;
     font-size: 10px;
     color: #40513B;
-    margin-right: 210px;
  }
 
  .col-2{ 
@@ -212,7 +215,7 @@ a.col-1{
  }
 
  .col-3{
-  margin-left: 20px;
+  margin-left: 40px;
  }
 
  /* footer.div h3{
