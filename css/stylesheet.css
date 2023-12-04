@@ -608,4 +608,57 @@ a.link {
     margin-left: 250px; /* Adjust to fit the width of the sidebar */
 }
 
+/* ----Contact Page ----- */
+/*Owner: Ragab Jaafar 
+  Date: Dec 01, 2023 
+  From: https://www.youtube.com/watch?v=orBQesFBkXg&t=5s
+         https://shawnmflemingc.github.io/a3web/#contact
+         https://www.peoplemetrics.com/contact
+         */
+.info-item p {
+    margin-left: 10px;
+}
+
+.icon {
+    color: #9EB384;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-group input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #9EB384;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #9EB384;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9EB384;
+}
+/* ----End Contact Page ----- */
 /*End owner: Tali Jonker
