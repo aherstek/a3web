@@ -250,11 +250,11 @@ a.col-1{
 }
 /* End Owner: Andie Herstek*/
 
-/* -------------PEOPLE PAGE STARTS */
+/* -------------PEOPLE/TELEMETRY PAGE STARTS */
 /* Owner : Andie Herstek
-Date: December 01, 2023 (v5)
+Date: December 04, 2023 (v5)
 From: https://www.w3schools.com/css/css3_border_images.asp, 
-I used Laura's Service's page .service-image HTML/CSS and edited to suit needs of People page */
+I used Laura's Service's page .service-image HTML/CSS and edited to suit needs of People/Telemetry page */
 .service-imageperson {
   float: left; 
   margin-right: 20px; 
@@ -272,8 +272,6 @@ I used Laura's Service's page .service-image HTML/CSS and edited to suit needs o
   font-family: 'Gill Sans';
   letter-spacing: 2px;
 }
-
-
 /* End Owner: Andie Herstek */
 
 
