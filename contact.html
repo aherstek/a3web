@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- -----------------
+- Owner : Ragab Jaafar
+- Date  : Nov 10 (v1)
+- From  : https://github.com/catamaralina/catamaralina.github.io
+------------------- -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <!-- link to CSS stylesheet-->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <!-- link to javascript file js/script.js -->
+    <script defer src="js/script.js"> </script>
+    <script src="https://kit.fontawesome.com/3634ce33fc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- SIDEBAR Start -->
+    <div class="sidebar">
+        <img class="logo" src='image/ARTL.png' title="ARTL">
+        <a href="index.html" target="_self">HOME</a>
+        <a href="services.html" target="_blank">Services</a>
+
+        <div class="dropdown">
+            <button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
+                Projects
+            </button>
+
+            <div id="projects" class="dropdown_content">
+                <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
+                <a href="telemetryprojects.html" target="_blank">Telemetry</a>
+                <a href="geologyprojects.html" target="_blank">Geology</a>
+                <a href="geophysics.html" target="_blank">Geophysics</a>
+                <a href="esseprojects.html" target="_blank">Earth&Space</a>
+            </div>
+        </div> <!--div for class=dropdown-->
+
+        <a href="people.html" target="_blank">People</a>
+        <a href="contact.html" target="_blank">Contact</a>
+    </div>
+    <!-- SIDEBAR End -->
+
+    <!-- TOP NAV FOR IN-PAGE DIRECT LINKS -->
+    <div class="topnav">
+        <a href="Contact us"> Contact Us </a>
+        <a href="#AquaGeo"> AquaGeo </a>
+        <a href="#EcoGeology"> EcoGeology </a>
+        <a href="#Resourceology"> Resourceology </a>
+
+    </div>
+    <!--TOP NAV End-->
+
+    <!--BANNER-->
+    <div class="overlay_container">
+        <img class="banner" src="./image/Toronto_unsplash.jpg" alt="">
+        <div class="overlay">welcome in the contacting page </div>
+    </div>
+    <!--END BANNER-->
+    <div class="content"> <!--Start of page body class="content"-->
+
+        <body>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h1>Contact us</h1>
+                    <div class="info-item">
+                        <i class="fas fa-envelope icon"></i>
+                        <p>contact@info.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone icon"></i>
+                        <p>416-555-5893</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt icon"></i>
+                        <p>100 First Avenue, Toronto, ON, M5V 3L9</p>
+                </div>
+                </div>
+                <div class="contact-form">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <input type="text" placeholder="First Name" required>
+                            <input type="text" placeholder="Last Name" required>
+                        </div>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        </body>
+</html>
+<!-- Contact Section -->
+<div class="business-hours">
+    <i class="far fa-clock"></i>
+    <h2><strong>Hours:</strong></h2>
+    <ul>
+        <li><strong>Sat:</strong> 12:00 PM – 4:00 PM</li>
+        <li><strong>Mon, Wed, Tue & Thu:</strong> 9:00 AM – 5:00 PM</li>
+        <li><strong>Fri:</strong> 8:00 AM – 4:00 PM</li>
+        <li><strong>Sun:</strong> Closed</li>
+    </ul>
+</div>
+</body>
+</html>
