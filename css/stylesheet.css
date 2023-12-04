@@ -268,14 +268,15 @@ I used Laura's Service's page .service-image HTML/CSS and edited to suit needs o
   font-size: 18px;
   color: #435334;
   font-style: italic;
-  font-weight: bold;
+  font-weight:lighter;
   font-family: 'Gill Sans';
   letter-spacing: 2px;
 }
 
 .jobtitle {
   font-style: normal;
-  background-color: #9EB384;
+  font-weight: bold;
+  background-color: #CEDEBD;
 }
 /* End Owner: Andie Herstek */
 
