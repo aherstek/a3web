@@ -19,50 +19,49 @@
 </head>
 
 <body>
+	<!-- SIDEBAR Start From Tali Layout -->
+	<div class="sidebar">
+		<img class="logo" src='image/ARTL.png' title="ARTL">
+		<a href="index.html" target="_self">HOME</a>
+		<a href="services.html" target="_self">Services</a>
 
-<!-- SIDEBAR Start -->
-<div class="sidebar">
-	<img class="logo" src='image/ARTL.png' title="ARTL">
-	<a href="index.html" target="_self">HOME</a>
-	<a href="services.html" target="_self">Services</a>
+		<div class="dropdown">
+			<button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
+				Projects 
+			</button>
+			
+			<div id="projects" class="dropdown_content"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
+				<a href="telemetryprojects.html" target="_self">Telemetry</a>
+				<a href="geologyprojects.html" target="_self">Geology</a>
+				<a href="geophysics.html" target="_self">Geophysics</a>
+				<a href="esseprojects.html" target="_self">Earth&Space</a>
+			</div>
+		</div> <!--div for class=dropdown-->
 
-	<div class="dropdown">
-		<button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
-			Projects 
-		</button>
+		<a href="people.html" target="_self">People</a>
+		<a href="contact.html" target="_self">Contact</a>
+	</div>
+	<!-- SIDEBAR End -->
+
+	<!-- TOP NAV FOR IN-PAGE DIRECT LINKS Start From Tali Layout -->
+	<div class="topnav">
+		<a href="#MapGeo"> Mapping </a>
+		<a href="#AquaGeo"> AquaGeo </a>
+		<a href="#EcoGeology"> EcoGeology </a>
+		<a href="#Resourceology"> Resourceology </a>
+		<a href="#Current"> Projectos </a>
+	</div>
+	<!-- TOP NAV End-->
+
+	<div class="marg">
+		<!--BANNER-->
+		<div class="overlay_container">
+			<img class="banner" src="image/Lauimage1.jpg" alt="Image 1"> 
+			<div class="overlay"> Geology meets innovation, and every project is a testament to our commitment</div>
+		</div>   
+		<!--END BANNER-->
 		
-		<div id="projects" class="dropdown_content"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
-			<a href="telemetryprojects.html" target="_self">Telemetry</a>
-			<a href="geologyprojects.html" target="_self">Geology</a>
-			<a href="geophysics.html" target="_self">Geophysics</a>
-			<a href="esseprojects.html" target="_self">Earth&Space</a>
-		</div>
-	</div> <!--div for class=dropdown-->
-
-	<a href="people.html" target="_self">People</a>
-	<a href="contact.html" target="_self">Contact</a>
-</div>
-<!-- SIDEBAR End -->
-
-<!-- TOP NAV FOR IN-PAGE DIRECT LINKS Start -->
-<div class="topnav">
-    <a href="#MapGeo"> Mapping </a>
-    <a href="#AquaGeo"> AquaGeo </a>
-    <a href="#EcoGeology"> EcoGeology </a>
-    <a href="#Resourceology"> Resourceology </a>
-	<a href="#Current"> Projectos </a>
-</div>
-<!-- TOP NAV End-->
-
-<div class="marg">
-	<!--BANNER-->
-	<div class="overlay_container">
-		<img class="banner" src="image/Lauimage1.jpg" alt="Image 1"> 
-		<div class="overlay"> Geology meets innovation, and every project is a testament to our commitment</div>
-	</div>   
-	<!--END BANNER-->
-	
-	<div class="content"> <!--Start of page body class="content"-->
+		<div class="content"> <!--Start of page body class="content"-->
 			<h1> Geological projects </h1>
 			<section id ="MapGeo">
 				<h2>Mapping</h2>
@@ -133,43 +132,42 @@
 					</table>
 					<!-- Table end  -->
 			</section>
-				
-				</div> <!--div for content PAGE-->
-</div>	
-<!-- FOOTER STARTS -->
-<!-- Owner : Andie Herstek
-Date: December 03, 2023 (v9)
-From: using https://www.youtube.com/watch?v=YOb67OKw62s, https://www.solodev.com/blog/web-design/adding-a-responsive-footer-to-your-website.stml
-for reference and inspiration -->
-<footer> 
-	<div class="col-1">
-	<footer-heading>INTERESTED IN GIS?</footer-heading>
-		<p><a href="https://flemingcollege.ca/" target="_blank">Fleming College</a></p>
-		<p><a href="https://www.esri.ca/en-ca/home" target="_blank">ESRI Canada</a></p>
-		<p><a href="https://gogeomatics.ca/" target="_blank">GoGeomatics</a><p>
-	</div>
-
-	<div class="col-2">
-		<footer-heading>JOIN OUR NEWSLETTER</footer-heading>
-		<form id="subscription-form">
-			<input type="email" id="email-input" placeholder="Enter your email">
-			<button id="subscribe-button" onclick="subscribe()">Subscribe</button>
-		</form>
-	</div>
-
-	<div class="col-3">
-		<footer-heading>GET IN TOUCH</footer-heading>
-	<p> 100 First Avenue, Toronto, ON, M5V 3L9</p>
-	<p>416-555-5893</p>
-	<p>contact@artl.com</p>
-		<div class="socials">
-			<i class="fa-brands fa-facebook"></i>
-			<i class="fa-brands fa-twitter"></i>
-			<i class="fa-brands fa-instagram"></i>
+					
+		</div> <!--div content end-->
+	</div>	<!--div marg end-->
+	<!-- FOOTER STARTS -->
+	<!-- Owner : Andie Herstek
+	Date: December 03, 2023 (v9)
+	From: using https://www.youtube.com/watch?v=YOb67OKw62s, https://www.solodev.com/blog/web-design/adding-a-responsive-footer-to-your-website.stml
+	for reference and inspiration -->
+	<footer> 
+		<div class="col-1">
+		<footer-heading>INTERESTED IN GIS?</footer-heading>
+			<p><a href="https://flemingcollege.ca/" target="_blank">Fleming College</a></p>
+			<p><a href="https://www.esri.ca/en-ca/home" target="_blank">ESRI Canada</a></p>
+			<p><a href="https://gogeomatics.ca/" target="_blank">GoGeomatics</a><p>
 		</div>
-	</div>
-</footer> 
-<!-- End Owner: Andie Herstek -->
+
+		<div class="col-2">
+			<footer-heading>JOIN OUR NEWSLETTER</footer-heading>
+			<form id="subscription-form">
+				<input type="email" id="email-input" placeholder="Enter your email">
+				<button id="subscribe-button" onclick="subscribe()">Subscribe</button>
+			</form>
+		</div>
+
+		<div class="col-3">
+			<footer-heading>GET IN TOUCH</footer-heading>
+		<p> 100 First Avenue, Toronto, ON, M5V 3L9</p>
+		<p>416-555-5893</p>
+		<p>contact@artl.com</p>
+			<div class="socials">
+				<i class="fa-brands fa-facebook"></i>
+				<i class="fa-brands fa-twitter"></i>
+				<i class="fa-brands fa-instagram"></i>
+			</div>
+		</div>
+	</footer> 
+	<!-- End Owner: Andie Herstek -->
 </body>
 </html> 
-<!-----End Owner: Tali Jonker----->
