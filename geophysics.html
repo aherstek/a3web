@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<!-- Owner: Ragab Jaafar | Date: Nov 15 -->
+<!-- -----------------
+- Owner : Ragab Jaafar
+- Date  : Nov 10 (v1)
+- From  : https://github.com/catamaralina/catamaralina.github.io
+------------------- -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,33 +11,50 @@
     <title>Geophysical Projects</title>
     <!-- link to CSS stylesheet-->
     <link rel="stylesheet" href="css/stylesheet.css">
-    <script src="https://kit.fontawesome.com/3634ce33fc.js" crossorigin="anonymous"></script>
 </head>
 
-<!--class=project for sidebar indent-->
-    <!-- Start sidebar from Tali index.html -->
-    <div class="sidebar">
-        <img class="logo" src='ARTL.png' title="ARTL">
-        <a href="index.html" target="_self">HOME</a>
-        <a href="services.html" target="_blank">Services</a>
+<body>
+ <!-- SIDEBAR Start -->
+<div class="sidebar">
+	<img class="logo" src='image/ARTL.png' title="ARTL">
+	<a href="index.html" target="_self">HOME</a>
+	<a href="services.html" target="_blank">Services</a>
 
-        <!-- Separate button from anchor tags -->
-        <button class="dropdown_button" onclick="show_container()">Projects</button>
+	<div class="dropdown">
+		<button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
+			Projects 
+		</button>
+		
+		<div id="projects" class="dropdown_content"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
+			<a href="telemetryprojects.html" target="_blank">Telemetry</a>
+			<a href="geologyprojects.html" target="_blank">Geology</a>
+			<a href="geophysics.html" target="_blank">Geophysics</a>
+			<a href="esseprojects.html" target="_blank">Earth&Space</a>
+		</div>
+	</div> <!--div for class=dropdown-->
 
-        <div id="projects" class="container">
-            <!-- This is the dropdown container. It is hidden until 'Projects' is clicked -->
-            <a href="telemetryprojects.html" target="_blank">Telemetry</a>
-            <a href="geologyprojects.html" target="_blank">Geology</a>
-            <a href="geophysics.html" target="_blank">Geophysics</a>
-            <a href="esseprojects.html" target="_self">Earth & Space</a>
-        </div>
+	<a href="people.html" target="_blank">People</a>
+	<a href="contact.html" target="_blank">Contact</a>
+</div>
+<!-- SIDEBAR End -->
 
-        <!-- The following two anchor tags are repeated. You may want to remove one of them. -->
-        <a href="people.html" target="_blank">People</a>
-        <a href="contact.html" target="_blank">Contact</a>
-    </div>
-    <!-- END SIDEBAR -->
+<!-- TOP NAV FOR IN-PAGE DIRECT LINKS -->
+<div class="topnav">
+    <a href="#MapGeo"> Mapping </a>
+    <a href="#AquaGeo"> AquaGeo </a>
+    <a href="#EcoGeology"> EcoGeology </a>
+    <a href="#Resourceology"> Resourceology </a>
+	
+</div>
+<!--TOP NAV End-->
 
+<!--BANNER-->
+<div class="overlay_container">
+	<img class="banner" src="" alt=""> 
+	<div class="overlay">PAGE TITLE: Welcome to ARTL can anyone read this????</div>
+    </div>   
+<!--END BANNER-->
+<div class="content"> <!--Start of page body class="content"-->
     <div class="professional-summary">
         <h1>Professional Summary</h1>
 
@@ -105,7 +126,6 @@
             structures, essential for both environmental and infrastructural planning. His approach to combining
             multiple geophysical techniques has been instrumental in providing reliable data interpretations, vital for
             the accuracy of geophysical surveys.</p>
-    </div>
 
 <!-- FOOTER STARTS -->
 <!-- Owner : Andie Herstek
