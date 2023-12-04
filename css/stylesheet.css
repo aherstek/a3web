@@ -615,8 +615,12 @@ a.link {
          https://shawnmflemingc.github.io/a3web/#contact
          https://www.peoplemetrics.com/contact
          */
-.info-item p {
-    margin-left: 10px;
+ .contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: CEDEBD;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .icon {
