@@ -272,6 +272,11 @@ I used Laura's Service's page .service-image HTML/CSS and edited to suit needs o
   font-family: 'Gill Sans';
   letter-spacing: 2px;
 }
+
+.jobtitle {
+  font-style: normal;
+  background-color: #9EB384;
+}
 /* End Owner: Andie Herstek */
 
 
