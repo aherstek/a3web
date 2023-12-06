@@ -15,11 +15,6 @@ body {
 }
 
 
-/*NOTE .page WILL BE REMOVED IF WE DON'T WANT A BACKGROUND */
-/* .page {
-  background: #ffffff;
-} */
-
 /*SIDEBAR OPTION BEGIN
   -----
   Date: Nov 19 (v2)
@@ -322,17 +317,15 @@ img.block {
   position: absolute; 
   top: 0;
   bottom: 0; 
-  margin-top: 50px;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1; 
-  width: 100%;
+  margin-top: 50px; /*estimate height of topnav*/
+  background: rgba(0, 0, 0, 0.5); /* Black see-through*/
+  width: 100%; /*full width of page/image*/
   transition: .5s ease;
   opacity:0;
   color: white;
   font-size: 36px;
   padding: 20px;
-  padding-top: 50px;
+  padding-top: 50px; /*pushing text down*/
   text-align: center;
 }
 
@@ -384,9 +377,9 @@ tr:hover {
   background-color:  #9EB384;
 }
 /* Table end PUBLICATION */
-/* Link start PUBLICATION */
 
-/*LAURA I added a class to a so it doesn't change the page link formattings -T*/
+/* Link start PUBLICATION */
+/*LAURA page link formattings*/
 a.publication {
   color: #435334;
   text-decoration: none;
@@ -459,7 +452,7 @@ a.link {
           cursor: pointer;
       }
       
-      button: hover {
+      button:hover {
           background-color: #9EB384;
       }
 
@@ -472,9 +465,7 @@ a.link {
     border: 1px solid #ccc;
     border-radius: 5px;
      /* Space between the image and the text */
-}
-      
-
+}  
 /* ----End Contact Page | Ragab Jaafar |  ----- */
 
 
@@ -483,7 +474,7 @@ a.link {
   Date: Updated Dec 1 (v2)
   From: Based on https://www.w3schools.com/html/html_responsive.asp
   -----*/
-
+  
   
 /*max-width breakpoint because we started with desktop*/
 /*-----1300-----*/
@@ -521,7 +512,6 @@ a.link {
   .dropdown_content a {
     font-size: 12px;
   }
-
   .topnav a {
     float: right;
     font-size: 16px;
@@ -537,11 +527,9 @@ a.link {
     left:0;
     padding:0;
   }
-  
   .content{
 	  margin-left: 100px; /*same width as sidebar*/
   }
-
   .logo {
 	  width:90px;
 	  height:90px;
@@ -665,24 +653,6 @@ a.link {
 }
 /*RESPONSIVE LAYOUT OPTION END*/
 
-
-/*for fun*/
-/*I will delete if not used*/
-.hide {
-	display: none;
-}
-.imgDiv:hover + .hide { 
-	display: block;
-	font-style: italic;
-	font-size: 16px;
-	color: black;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-} 
-.project {
-    margin-left: 250px; /* Adjust to fit the width of the sidebar */
-}
 
 
 /*End owner: Tali Jonker
