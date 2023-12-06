@@ -464,10 +464,10 @@ a.link {
       }
 
 .geophysics-image {
-    width: 100%; /* Adjust the image as needed */
     height: auto;
     display: block;
-    margin-right: 10px;
+    margin-right: auto; 
+    margin-left: auto;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
