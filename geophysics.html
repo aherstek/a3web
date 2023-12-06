@@ -15,37 +15,36 @@
 </head>
 
 <body>
-    <!-- SIDEBAR Start -->
-    <div class="sidebar">
-        <img class="logo" src='image/ARTL.png' title="ARTL">
-        <a href="index.html" target="_self">HOME</a>
-        <a href="services.html" target="_blank">Services</a>
+	<!--SIDEBAR IS FOR LINKS-->
+	<div class="sidebar">
+		<img class="logo" src='image/ARTL.png' title="ARTL">
+		<a href="index.html" target="_self">HOME</a>
+		<a href="services.html" target="_self">Services</a>
 
-        <div class="dropdown">
-            <button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
-                Projects
-            </button>
+		<div class="dropdown">
+			<button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
+				Projects 
+			</button>
+			
+			<div id="projects" class="dropdown_content"> <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
+				<a href="telemetryprojects.html" target="_self">Telemetry</a>
+				<a href="geologyprojects.html" target="_self">Geology</a>
+				<a href="geophysics.html" target="_self">Geophysics</a>
+				<a href="esseprojects.html" target="_self">Earth&Space</a>
+			</div>
+		</div> <!--div for class=dropdown-->
 
-            <div id="projects" class="dropdown_content">
-                <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
-                <a href="telemetryprojects.html" target="_blank">Telemetry</a>
-                <a href="geologyprojects.html" target="_blank">Geology</a>
-                <a href="geophysics.html" target="_blank">Geophysics</a>
-                <a href="esseprojects.html" target="_blank">Earth&Space</a>
-            </div>
-        </div> <!--div for class=dropdown-->
-
-        <a href="people.html" target="_blank">People</a>
-        <a href="contact.html" target="_blank">Contact</a>
-    </div>
-    <!-- SIDEBAR End -->
+		<a href="people.html" target="_self">People</a>
+		<a href="contact.html" target="_self">Contact</a>
+	</div>
+	<!-- SIDEBAR End -->
 
     <!-- TOP NAV FOR IN-PAGE DIRECT LINKS -->
     <div class="topnav">
-        <a href="#Principal projects"> Principal projects</a>
-        <a href="#Key skills"> Key skills </a>
-        <a href="#Site plan project"> Site plan project </a>
-        <a href="#MASW Survey"> MASW Survey </a>
+        <a href="#Principal-projects">Principal projects</a>
+        <a href="#Key-skills">Key skills</a>
+        <a href="#Site-plan-project">Site plan project</a>
+        <a href="#MASW-Survey">MASW Survey</a>
 
     </div>
     <!--TOP NAV End-->
@@ -65,10 +64,10 @@
                 </a>), accessed on [2023/12/06].
             </p>
         </div>
-
+    
         <div class="marg">
             <!--Start of page "content"-->
-            <section id="Principal projects">
+            <section id="Principal-projects">
                 <h1>Principal projects and areas of expertise</h1>
                 <ul>
                     <li>Subsurface Exploration: We excel in utilizing advanced techniques like seismic surveys, gravity
@@ -90,7 +89,7 @@
                 </ul>
             </section>
 
-            <section id="Key skills">
+            <section id="Key-skills">
                 <h2>Key projects and skills </h2>
                 <ul>
                     <li>Geotechnical and Structural Exploration: Worked on various projects using techniques like ERT,
@@ -100,7 +99,7 @@
                     <li>Data Analysis and Visualization: Excel, Power BI, Tableau, Python, and SQL.</li>
                 </ul>
             </section>
-            <section id="Site plan project">
+            <section id="Site-plan-project">
                 <h1>Projects Overviews</h1>
             </section>
             <section id="Survey">
@@ -123,7 +122,7 @@
                         alt="Bark Lake Traverse project: Bearings are Astronomic Assumed from Station 12 to 1">
                 </div>
             </section>
-            <section id="MASW Survey">
+            <section id="MASW-Survey">
                 <div class=marg>
                     <h2>Geophysical Study in Phelps County, Missouri</h2>
                     <p> Objective: The study aimed to image the subsurface of a study area in Phelps County,
@@ -164,7 +163,8 @@
                         the accuracy of geophysical surveys.</p>
                 </div>
             </section>
-        </div> <!--div content end-->
+        </div>
+</div> <!--div content end-->
         <!-- FOOTER STARTS -->
         <!-- Owner : Andie Herstek
 Date: December 03, 2023 (v9)
@@ -196,12 +196,13 @@ for reference and inspiration -->
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-Instagram"></i>
-                </div>
+                
+            </div>
             </div>
         </footer>
         <!-- End Owner: Andie Herstek -->
 
-</body>
+    </body>
 <!--End Owner: Ragab Jaafar-->
 
 </html>   
