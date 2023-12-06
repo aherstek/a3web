@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!-- -----------------
 - Owner : Ragab Jaafar
-- Date  : Nov 10 (v1)
-- From  : https://github.com/catamaralina/catamaralina.github.io
+- Date: Nov 10 (v1)
+- From: https://github.com/catamaralina/catamaralina.github.io
 ------------------- -->
 <html lang="en">
 
@@ -10,61 +10,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact</title>
-    <!-- link to CSS stylesheet-->
     <link rel="stylesheet" href="css/stylesheet.css">
-    <!-- link to javascript file js/script.js -->
-    <script defer src="js/script.js"> </script>
+    <script defer src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/3634ce33fc.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- SIDEBAR Start -->
     <div class="sidebar">
         <img class="logo" src='image/ARTL.png' title="ARTL">
         <a href="index.html" target="_self">HOME</a>
         <a href="services.html" target="_blank">Services</a>
 
         <div class="dropdown">
-            <button class="dropdown_button" onclick="show_container()"> <!-- js function to show projects-->
-                Projects
-            </button>
-
+            <button class="dropdown_button" onclick="show_container()">Projects</button>
             <div id="projects" class="dropdown_content">
-                <!-- this is the dropdown container. It is hidden until 'Projects' is clicked-->
                 <a href="telemetryprojects.html" target="_blank">Telemetry</a>
                 <a href="geologyprojects.html" target="_blank">Geology</a>
                 <a href="geophysics.html" target="_blank">Geophysics</a>
                 <a href="esseprojects.html" target="_blank">Earth&Space</a>
             </div>
-        </div> <!--div for class=dropdown-->
+        </div>
 
         <a href="people.html" target="_blank">People</a>
         <a href="contact.html" target="_blank">Contact</a>
     </div>
-    <!-- SIDEBAR End -->
 
-    <!-- TOP NAV FOR IN-PAGE DIRECT LINKS -->
     <div class="topnav">
-        <a href="Contact us"> Contact Us </a>
-        <a href="#">  </a>
-        <a href="#"> </a>
-        <a href="#">  </a>
-
+        <a href="#contact-section">Contact us</a>
+        <a href="#business-hours">Hours</a>
     </div>
-    <!--TOP NAV End-->
 
-    <!--BANNER-->
     <div class="overlay_container">
-        <img class="banner" src="image/Toronto_unsplash.jpg" alt="image of photo islands">
-        <div class="overlay">Welcome to the contacting page </div>
+        <img class="banner" src="image/Toronto_unsplas4.jpg" alt="Aerial view of Toronto islands">
+        <div class="overlay">Exploring Earth and Beyond: 
+              <br>Contact ARTL for Advanced Geospatial 
+               <br> and Environmental Solutions.
+        </div>
     </div>
-    <!--END BANNER-->
-    <div class="content"> <!--Start of page body class="content"-->
 
-        <!-- <body> -->
+    <div class="content">
+        <div class="marg">
             <div class="contact-container">
                 <div class="contact-info">
-                    <h1>Contact us</h1>
+                    <h1 id="contact-section">Contact us</h1>
                     <div class="info-item">
                         <i class="fas fa-envelope icon"></i>
                         <p>contact@info.com</p>
@@ -76,7 +64,7 @@
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt icon"></i>
                         <p>100 First Avenue, Toronto, ON, M5V 3L9</p>
-                </div>
+                    </div>
                 </div>
                 <div class="contact-form">
                     <form action="" method="post">
@@ -90,19 +78,28 @@
                     </form>
                 </div>
             </div>
-            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-        <!-- </body> -->
-<!-- </html> -->
-<!-- Contact Section -->
-<div class="business-hours">
-    <i class="far fa-clock"></i>
-    <h2><strong>Hours:</strong></h2>
-    <ul>
-        <li><strong>Sat:</strong> 12:00 PM – 4:00 PM</li>
-        <li><strong>Mon, Wed, Tue & Thu:</strong> 9:00 AM – 5:00 PM</li>
-        <li><strong>Fri:</strong> 8:00 AM – 4:00 PM</li>
-        <li><strong>Sun:</strong> Closed</li>
-    </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="marg">
+    <div class="business-hours">
+        <i class="far fa-clock"></i>
+        <h2 id="business-hours"><strong>Hours:</strong></h2>
+        <ul>
+            <li><strong>Sat:</strong> 12:00 PM – 4:00 PM</li>
+            <li><strong>Mon, Wed, Tue & Thu:</strong> 9:00 AM – 5:00 PM</li>
+            <li><strong>Fri:</strong> 8:00 AM – 4:00 PM</li>
+            <li><strong>Sun:</strong> Closed</li>
+        </ul>
+    </div>
 </div>
+</div>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
+
 </html>
+<!-- -------------End
+- Owner : Ragab Jaafar
+- Date: Dec 06(v5)
+- From: https://github.com/catamaralina/catamaralina.github.io
+------------------- -->
