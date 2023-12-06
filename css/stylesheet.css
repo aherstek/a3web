@@ -459,10 +459,23 @@ a.link {
           cursor: pointer;
       }
       
-      button:hover {
+      button: hover {
           background-color: #9EB384;
       }
-      /* ----End Contact Page ----- */
+
+.geophysics-image {
+    width: 100%; /* Adjust the image as needed */
+    height: auto;
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+     /* Space between the image and the text */
+}
+      
+
+/* ----End Contact Page | Ragab Jaafar |  ----- */
 
 
 /*RESPONSIVE LAYOUT OPTION BEGIN
