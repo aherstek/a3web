@@ -83,22 +83,22 @@ Time-bound
 
 8. **Week 12: Planning:**
    - Outline a detailed plan for Week 12 tasks.
-   - *(Week 12 - In Progress)*
+   - *(Week 12 - Completed)*
 
 9. **Week 13: Template Development:**
    - Actively participate in template development.
-   - *(Week 13 - Planned)*
+   - *(Week 13 - Completed)*
 
 10. **Week 14: Finalization:**
     - Contribute to the finalization of the website.
     - Ensure all elements are polished and functional.
-    - *(Week 14 - Planned)*
+    - *(Week 14 - Completed)*
 
 ### Relevant
 
 11. **Ongoing Oversight:**
     - Continuously monitor the development process.
-    - Address any emerging issues promptly.
+    - Address any emerging issues promptly - Completed.
 
 ### Timebound
 
@@ -114,16 +114,16 @@ Time-bound
 
 14. **Week 12: Planning Phase:**
     - Develop a detailed plan for the upcoming tasks.
-    - *(In Progress)*
+    - *(Completed)*
 
 15. **Week 13: Template Development:**
     - Actively contribute to the development of the website template.
-    - *(Planned)*
+    - *(Completed)*
 
 16. **Week 14: Final Website:**
     - Collaborate to ensure the finalization of the website.
     - Confirm all elements are polished and fully functional.
-    - *(Planned)*
+    - *(Completed)*
 
 
     
